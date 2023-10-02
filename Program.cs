@@ -17,7 +17,7 @@ builder.Services.AddDbContext<HotelDbContext>(o =>
 // add authozied use cookie
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
-    options.LoginPath = "/unauthozied";
+    options.LoginPath = "/login";
     options.AccessDeniedPath = "/unauthozied";
     options.ExpireTimeSpan = TimeSpan.FromDays(1);
 });

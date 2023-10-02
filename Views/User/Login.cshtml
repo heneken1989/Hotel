@@ -1,0 +1,33 @@
+﻿@model Hotel.Dtos.LoginDto
+<h1>Login</h1>
+@if (ViewData.ContainsKey("Error"))
+{
+    <p class="alert alert-warning" role="alert">@ViewData["Error"]</p>
+}
+@if (ViewData.ContainsKey("Blocked"))
+{
+    <p class="alert alert-warning" role="alert">@ViewData["Blocked"]</p>
+}
+@if (ViewData.ContainsKey("Success"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["Success"]</p>
+}
+
+@if (ViewData.ContainsKey("ErrorPassword"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["ErrorPassword"]</p>
+}
+<form asp-action="Login" asp-controller="User" method="post">
+    <div class="form-group">
+        <label for="exampleInputEmail1">User name</label>
+        <input asp-for="Email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input asp-for="Password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
