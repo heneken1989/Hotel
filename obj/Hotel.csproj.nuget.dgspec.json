@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj": {}
   },
   "projects": {
@@ -12,6 +13,33 @@
         "projectPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\",
+=======
+<<<<<<< HEAD
+    "C:\\Users\\pc\\learnC#\\Hotel\\Hotel.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pc\\learnC#\\Hotel\\Hotel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\learnC#\\Hotel\\Hotel.csproj",
+        "projectName": "Hotel",
+        "projectPath": "C:\\Users\\pc\\learnC#\\Hotel\\Hotel.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\learnC#\\Hotel\\obj\\",
+=======
+    "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj": {}
+  },
+  "projects": {
+    "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
+        "projectName": "Hotel",
+        "projectPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\",
+>>>>>>> bdbdbe9d4a4cd33e4efc11bcbfe6eefe3026b0cd
+>>>>>>> e3581440741119de798def142fb39ed350b68525
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
