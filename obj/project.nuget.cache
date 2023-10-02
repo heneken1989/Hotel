@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MmjnQNTFa8CtpmMA1mawr+BbfeY4leMe1DOvjedbnNKXyF1O5aWUzax8awAUDjj6kCjD/nVvdebuSvtiEUlZPg==",
+  "dgSpecHash": "lW4zJ/0nYqw+nMx4nNaRdrAvl2JHjtzGlMdtyjaOasCFSWNCr4EESr8TcDS0ceC/g6cMnOiM+PlGXVfwVr49Yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Hotel\\Hotel.csproj",
+  "projectFilePath": "C:\\Users\\pc\\learnC#\\Hotel\\Hotel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
