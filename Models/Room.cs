@@ -10,13 +10,16 @@ namespace Hotel.Models
 
         [ForeignKey("RoomType")]
         public int RoomTypeID { get; set; }
+        public virtual RoomType? RoomType { get; set; }
 
 
-       public ICollection<RoomProperty>? roomProperties { get; set; }
+
+        public ICollection<RoomProperty>? roomProperties { get; set; }
 
 
-        public ICollection<Image>? Images { get;}
-        public ICollection<RoomUnity>? Unities { get; }
+        public ICollection<Image>? Images { get; set; }
+        public ICollection<RoomUnity>? Unities { get; set; }
+
 
 
 

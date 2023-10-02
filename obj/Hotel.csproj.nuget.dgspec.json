@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huyhi\\Desktop\\C sharp\\Hotel\\Hotel.csproj": {}
+    "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huyhi\\Desktop\\C sharp\\Hotel\\Hotel.csproj": {
+    "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huyhi\\Desktop\\C sharp\\Hotel\\Hotel.csproj",
+        "projectUniqueName": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj",
         "projectName": "Hotel",
-        "projectPath": "C:\\Users\\huyhi\\Desktop\\C sharp\\Hotel\\Hotel.csproj",
+        "projectPath": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj",
         "packagesPath": "C:\\Users\\huyhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huyhi\\Desktop\\C sharp\\Hotel\\obj\\",
+        "outputPath": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\huyhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [

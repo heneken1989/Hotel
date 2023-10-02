@@ -6,6 +6,8 @@ namespace Hotel.Models
     public class RoomUnity : BaseEntity
     {
         public string? Name { get; set; }
+        [ForeignKey("Room")]
+        public int? RoomId { get; set; }    
 
         
     }

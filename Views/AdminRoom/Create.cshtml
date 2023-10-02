@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+@model Room
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label class="control-label">Loại Phòng</label>
+        <select asp-for="RoomTypeID" class="form-control" asp-items="ViewBag.RoomTypeId"></select>
+    </div>
+
+    <h4>Tiện Ích</h4>
+    @foreach (var unity in Model.Unities!)
+    {
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="Unities" value="@unity.Id">
+            <label class="form-check-label">@unity.Name</label>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Create Room</button>
+</form>
