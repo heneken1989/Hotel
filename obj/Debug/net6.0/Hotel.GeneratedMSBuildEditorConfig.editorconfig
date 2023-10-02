@@ -9,53 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Hotel
 build_property.RootNamespace = Hotel
-build_property.ProjectDir = C:\Users\pc\learnC#\Hotel\
+build_property.ProjectDir = c:\Users\pc\learnC#\Hotel\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pc\learnC#\Hotel
+build_property.MSBuildProjectDirectory = c:\Users\pc\learnC#\Hotel
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Home/Index.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Home/Privacy.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Room/Index.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Shared/Error.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Shared/Footer.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Shared/Header.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Shared/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/SingleRoom/Index.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/SingleRoom/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUm9vbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/_ViewImports.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/pc/learnC\#/Hotel/Views/User/unauthorize.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1bmF1dGhvcml6ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/pc/learnC\#/Hotel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/_ViewStart.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pc/learnC\#/Hotel/Views/Shared/_Layout.cshtml]
+[c:/Users/pc/learnC\#/Hotel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3yaibmce4x

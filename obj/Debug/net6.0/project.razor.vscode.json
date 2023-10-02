@@ -23739,6 +23739,16 @@
       "FilePath": "c:\\Users\\pc\\learnC#\\Hotel\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pc\\learnC#\\Hotel\\Views\\User\\Login.cshtml",
+      "TargetPath": "Views\\User\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pc\\learnC#\\Hotel\\Views\\User\\unauthorize.cshtml",
+      "TargetPath": "Views\\User\\unauthorize.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
