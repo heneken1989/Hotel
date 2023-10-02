@@ -5,19 +5,14 @@ using System.Diagnostics;
 
 namespace Hotel.Controllers
 {
-<<<<<<< HEAD
 	[AllowAnonymous]
 	public class HomeController : Controller
-=======
-    [AllowAnonymous]
-    public class HomeController : Controller
->>>>>>> e3581440741119de798def142fb39ed350b68525
     {
-       
+        private readonly ILogger<HomeController> _logger;
 
-        public HomeController()
+        public HomeController(ILogger<HomeController> logger)
         {
-     
+            _logger = logger;
         }
       
         public IActionResult Index()

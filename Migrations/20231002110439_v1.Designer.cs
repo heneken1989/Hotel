@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hotel.Migrations
 {
     [DbContext(typeof(HotelDbContext))]
-    [Migration("20231002065811_v1")]
+    [Migration("20231002110439_v1")]
     partial class v1
     {
         /// <inheritdoc />
@@ -192,7 +192,7 @@ namespace Hotel.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("RoomId")
+                    b.Property<int?>("RoomId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedDate")
@@ -259,9 +259,7 @@ namespace Hotel.Migrations
                 {
                     b.HasOne("Hotel.Models.Room", null)
                         .WithMany("Unities")
-                        .HasForeignKey("RoomId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("RoomId");
                 });
 
             modelBuilder.Entity("Hotel.Models.Room", b =>

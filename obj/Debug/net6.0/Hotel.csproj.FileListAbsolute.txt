@@ -28,7 +28,6 @@ C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\obj\Debug\net6.0\refint\Hotel.dll
 C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\obj\Debug\net6.0\Hotel.pdb
 C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
 C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\obj\Debug\net6.0\ref\Hotel.dll
-<<<<<<< HEAD
 C:\Users\pc\Hotel\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\pc\Hotel\bin\Debug\net6.0\appsettings.json
 C:\Users\pc\Hotel\bin\Debug\net6.0\Hotel.staticwebassets.runtime.json
@@ -59,99 +58,6 @@ C:\Users\pc\Hotel\obj\Debug\net6.0\refint\Hotel.dll
 C:\Users\pc\Hotel\obj\Debug\net6.0\Hotel.pdb
 C:\Users\pc\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
 C:\Users\pc\Hotel\obj\Debug\net6.0\ref\Hotel.dll
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\appsettings.json
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\Hotel.staticwebassets.runtime.json
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\Hotel.exe
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\Hotel.deps.json
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\Hotel.runtimeconfig.json
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\Hotel.dll
-C:\Users\pc\learnC#\Hotel\bin\Debug\net6.0\Hotel.pdb
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfoInputs.cache
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfo.cs
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.csproj.CoreCompileInputs.cache
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.RazorAssemblyInfo.cache
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.RazorAssemblyInfo.cs
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.build.Hotel.props
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hotel.props
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hotel.props
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\scopedcss\bundle\Hotel.styles.css
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\scopedcss\projectbundle\Hotel.bundle.scp.css
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.dll
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\refint\Hotel.dll
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.pdb
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
-C:\Users\pc\learnC#\Hotel\obj\Debug\net6.0\ref\Hotel.dll
-=======
-=======
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Azure.Core.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Azure.Identity.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Humanizer.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\Mono.TextTemplating.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.CodeDom.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Memory.Data.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Text.Encodings.Web.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Text.Json.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\obj\Debug\net6.0\Hotel.csproj.AssemblyReference.cache
-C:\Users\huyhi\Desktop\C sharp\Hotel\Hotel\obj\Debug\net6.0\Hotel.csproj.CopyComplete
->>>>>>> e3581440741119de798def142fb39ed350b68525
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\appsettings.Development.json
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\appsettings.json
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Hotel.staticwebassets.runtime.json
@@ -160,7 +66,6 @@ E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Hotel.deps.json
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Hotel.runtimeconfig.json
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Hotel.dll
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Hotel.pdb
-<<<<<<< HEAD
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfoInputs.cache
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfo.cs
@@ -184,8 +89,6 @@ E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.pdb
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\ref\Hotel.dll
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.csproj.AssemblyReference.cache
-=======
->>>>>>> e3581440741119de798def142fb39ed350b68525
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Azure.Core.dll
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Azure.Identity.dll
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\Humanizer.dll
@@ -241,34 +144,91 @@ E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 E:\CODE\dotnet2\New folder\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-<<<<<<< HEAD
 E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.csproj.CopyComplete
-=======
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.csproj.AssemblyReference.cache
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfoInputs.cache
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfo.cs
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.csproj.CoreCompileInputs.cache
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.MvcApplicationPartsAssemblyInfo.cache
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.RazorAssemblyInfo.cache
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.RazorAssemblyInfo.cs
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.build.Hotel.props
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hotel.props
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hotel.props
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets.pack.json
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets.build.json
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\staticwebassets.development.json
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\scopedcss\bundle\Hotel.styles.css
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\scopedcss\projectbundle\Hotel.bundle.scp.css
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.csproj.CopyComplete
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.dll
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\refint\Hotel.dll
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.pdb
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
-E:\CODE\dotnet2\New folder\Hotel\obj\Debug\net6.0\ref\Hotel.dll
->>>>>>> 65efe0d93039f48d0dccd3aeee73eb044cbdcf77
-C:\Users\pc\Hotel\obj\Debug\net6.0\Hotel.csproj.AssemblyReference.cache
->>>>>>> bdbdbe9d4a4cd33e4efc11bcbfe6eefe3026b0cd
->>>>>>> e3581440741119de798def142fb39ed350b68525
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.csproj.AssemblyReference.cache
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfoInputs.cache
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.AssemblyInfo.cs
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.RazorAssemblyInfo.cache
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.RazorAssemblyInfo.cs
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\refint\Hotel.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.pdb
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\appsettings.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Hotel.staticwebassets.runtime.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Hotel.exe
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Hotel.deps.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Hotel.runtimeconfig.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Hotel.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Hotel.pdb
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Humanizer.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.build.Hotel.props
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hotel.props
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hotel.props
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\scopedcss\bundle\Hotel.styles.css
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\scopedcss\projectbundle\Hotel.bundle.scp.css
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.csproj.CopyComplete
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
+C:\Users\huyhi\Desktop\C sharp\Hotel\obj\Debug\net6.0\ref\Hotel.dll
