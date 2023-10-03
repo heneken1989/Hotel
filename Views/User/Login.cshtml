@@ -1,93 +1,38 @@
 ﻿@model Hotel.Dtos.LoginDto
-
-@{
-    Layout = "";
+<h1>Login</h1>
+@if (ViewData.ContainsKey("ChangePassSuccessed"))
+{
+    <p class="alert alert-warning" role="alert">@ViewData["ChangePassSuccessed"]</p>
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Hotel</title>
-    @* link font end *@
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="~/ForntEnd/css/style.css">
-    @* link font end *@
-</head>
-<body >
-    <div >
-        <div class="container"  >
-            <div class="row" style="display:flex;justify-content:center;align-items:center;min-height:100vh;">
-                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-            <div >
+@if (ViewData.ContainsKey("Error"))
+{
+    <p class="alert alert-warning" role="alert">@ViewData["Error"]</p>
+}
+@if (ViewData.ContainsKey("Blocked"))
+{
+    <p class="alert alert-warning" role="alert">@ViewData["Blocked"]</p>
+}
+@if (ViewData.ContainsKey("Success"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["Success"]</p>
+}
 
-        @if (ViewData.ContainsKey("ChangePassSuccessed"))
-        {
-            <p class="alert alert-warning" role="alert" >ChangePassSuccessed</p>
-        }
+@if (ViewData.ContainsKey("ErrorPassword"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["ErrorPassword"]</p>
+}
+<form asp-action="Login" asp-controller="User" method="post">
+    <div class="form-group">
+        <label for="exampleInputEmail1">User name</label>
+        <input asp-for="Email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input asp-for="Password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
 
-        @if (ViewData.ContainsKey("Error"))
-        {
-            <p class="alert alert-warning" role="alert">@ViewData["Error"]</p>
-        }
-        @if (ViewData.ContainsKey("Blocked"))
-        {
-            <p class="alert alert-warning" role="alert">@ViewData["Blocked"]</p>
-        }
-        @if (ViewData.ContainsKey("Success"))
-        {
-            <p class="alert alert-success" role="alert">@ViewData["Success"]</p>
-        }
-
-        @if (ViewData.ContainsKey("ErrorPassword"))
-        {
-            <p class="alert alert-success" role="alert">@ViewData["ErrorPassword"]</p>
-        }
-           </div>
-                    <div class="card border-0 shadow rounded-3 my-5">
-                        <div class="card-body p-4 p-sm-5">
-                            <h5 class="card-title text-center mb-5 fw-light fs-5">Sign In</h5>
-                            <form asp-action="Login" asp-controller="User" method="post">
-                                <div class="form-floating mb-3">
-                                    <input type="email" asp-for="Email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                    <label for="floatingInput">Email address</label>
-                                    <span asp-validation-for="Email" class="text-danger"></span>
-                                </div>
-                                <div class="form-floating mb-3">
-
-                                    <input asp-for="Password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                    <label for="floatingPassword">Password</label>
-                                    <span asp-validation-for="Password" class="text-danger"></span>
-                                </div>
-
-                                <div class="d-grid">
-                                    <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">
-                                        Sign
-                                        in
-                                    </button>
-                                </div>
-                               
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>                  
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-   
-    
-
-   
-</body>
-</html>
-
-
-
-   
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
