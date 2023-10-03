@@ -3,11 +3,12 @@
     ViewData["Title"] = "Index";
 }
 
-
+<div class="container" style="min-height:100vh">
+    <h1>Quản lý phòng</h1>
 <p>
     <a asp-action="Create">Tạo Phòng Mới</a>
 </p>
-<table class="table table-hover table-striped table-bordered">
+<table id="room_table" class="table table-hover table-striped table-bordered">
     <thead>
         <tr>
             <th>
@@ -46,5 +47,5 @@
         }
     </tbody>
 </table>
-
+</div>
 

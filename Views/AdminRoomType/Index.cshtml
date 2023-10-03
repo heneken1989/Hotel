@@ -4,17 +4,18 @@
 }
 
 
-
+<div class="container" style="min-height:100vh">
+    <h1>Quản lý loại phòng</h1>
 <p>
     <a asp-action="Create">Tạo Loại Phòng MỚi</a>
 </p>
-<table class="table table-hover table-striped table-bordered">
+<table id="room_type"  class="table table-hover table-striped table-bordered">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Type)
             </th>
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -33,3 +34,4 @@
         }
     </tbody>
 </table>
+</div>

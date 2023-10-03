@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dXaYGH9sTI0yI+lmqnNHWOQ1dWibPt102mgu3f5PPtw=",
+  "Hash": "3FWqAbEQO+5y3VnrduJSraH5b2qB7Fs8VQ9VqhjAc6E=",
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Hotel\\wwwroot",
       "Source": "Hotel",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Hotel.styles.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Hotel.styles.css",
       "SourceId": "Hotel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "Hotel.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Hotel.styles.css"
+      "OriginalItemSpec": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Hotel.styles.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Hotel.bundle.scp.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Hotel.bundle.scp.css",
       "SourceId": "Hotel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "Hotel.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Hotel.bundle.scp.css"
+      "OriginalItemSpec": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Hotel.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\css\\site.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\css\\site.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\favicon.ico",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\favicon.ico",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/.DS_Store",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\ajax-loader.gif",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\ajax-loader.gif",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/ajax-loader.gif",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\animate.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\animate.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/animate.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\aos.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\aos.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/aos.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\aos.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/bootstrap/.DS_Store",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\bootstrap\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap\\bootstrap-grid.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap\\bootstrap-grid.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/bootstrap/bootstrap-grid.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\bootstrap\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap\\bootstrap-reboot.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap\\bootstrap-reboot.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/bootstrap/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\bootstrap\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap-datepicker.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\bootstrap-datepicker.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/bootstrap-datepicker.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\bootstrap-datepicker.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\css\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\css\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/css/.DS_Store",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\css\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\css\\bootstrap-reboot.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\css\\mixins\\_text-hide.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\css\\mixins\\_text-hide.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/css/mixins/_text-hide.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\css\\mixins\\_text-hide.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\flaticon.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\flaticon.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/flaticon.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\flaticon.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\icomoon.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\icomoon.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/icomoon.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\icomoon.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\ionicons.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\ionicons.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/ionicons.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\ionicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\jquery.timepicker.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\jquery.timepicker.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/jquery.timepicker.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\jquery.timepicker.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\magnific-popup.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\magnific-popup.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/magnific-popup.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\magnific-popup.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\owl.carousel.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\owl.carousel.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\owl.theme.default.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\owl.theme.default.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\style.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\css\\style.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/css/style.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/.DS_Store",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/.DS_Store",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\backup.txt",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\backup.txt",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/backup.txt",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\backup.txt"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\_flaticon.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\_flaticon.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/_flaticon.scss",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\_flaticon.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\flaticon.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\flaticon.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/flaticon.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\flaticon.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.eot",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.eot",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/Flaticon.eot",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.eot"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\flaticon.html",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\flaticon.html",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/flaticon.html",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\flaticon.html"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.svg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.svg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/Flaticon.svg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.svg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.ttf",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.ttf",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/Flaticon.ttf",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.ttf"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.woff",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.woff",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/font/Flaticon.woff",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\font\\Flaticon.woff"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\license\\license.pdf",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\flaticon\\license\\license.pdf",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/flaticon/license/license.pdf",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\flaticon\\license\\license.pdf"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.eot",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.eot",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/icomoon/icomoon.eot",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.eot"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.svg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.svg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/icomoon/icomoon.svg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.svg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.ttf",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.ttf",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/icomoon/icomoon.ttf",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.ttf"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.woff",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.woff",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/icomoon/icomoon.woff",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\icomoon\\icomoon.woff"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\css\\_ionicons.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\css\\_ionicons.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/css/_ionicons.scss",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\css\\_ionicons.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\css\\ionicons.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\css\\ionicons.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/css/ionicons.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\css\\ionicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/fonts/.DS_Store",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.eot",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.eot",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/fonts/ionicons.eot",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.eot"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.svg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.svg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/fonts/ionicons.svg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.svg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.ttf",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.ttf",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/fonts/ionicons.ttf",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.ttf"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.woff",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.woff",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/fonts/ionicons.woff",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.woff"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.woff2",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.woff2",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/ionicons/fonts/ionicons.woff2",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\ionicons\\fonts\\ionicons.woff2"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.eot",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.eot",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/open-iconic/open-iconic.eot",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.otf",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.otf",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/open-iconic/open-iconic.otf",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.svg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.svg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/open-iconic/open-iconic.svg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.ttf",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.ttf",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/open-iconic/open-iconic.ttf",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.woff",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.woff",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/fonts/open-iconic/open-iconic.woff",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\fonts\\open-iconic\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/.DS_Store",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\about.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\about.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/about.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\about.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\bg_1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\bg_1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/bg_1.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\bg_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\bg_2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\bg_2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/bg_2.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\bg_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_1.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_2.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_3.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_4.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_5.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_5.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_5.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_5.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_6.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_6.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_6.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_6.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_7.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_7.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_7.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_7.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\image_8.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\image_8.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/image_8.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\image_8.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\insta-1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\insta-1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/insta-1.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\insta-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\insta-2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\insta-2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/insta-2.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\insta-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\insta-3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\insta-3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/insta-3.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\insta-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\insta-4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\insta-4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/insta-4.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\insta-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\insta-5.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\insta-5.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/insta-5.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\insta-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-1.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-2.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-3.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-4.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-5.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-5.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-5.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-6.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-6.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-6.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-7.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-7.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-7.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\menu-8.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\menu-8.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/menu-8.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\menu-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\person_1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\person_1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/person_1.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\person_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\person_2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\person_2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/person_2.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\person_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\person_3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\person_3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/person_3.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\person_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\person_4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\person_4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/person_4.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\person_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\room-1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\room-1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/room-1.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\room-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\room-2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\room-2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/room-2.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\room-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\room-3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\room-3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/room-3.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\room-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\room-4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\room-4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/room-4.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\room-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\room-5.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\room-5.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/room-5.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\room-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\room-6.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\room-6.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/room-6.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\room-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\staff-1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\staff-1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/staff-1.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\staff-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\staff-2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\staff-2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/staff-2.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\staff-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\staff-3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\staff-3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/staff-3.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\staff-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\images\\staff-4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\images\\staff-4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/images/staff-4.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\images\\staff-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/.DS_Store",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\aos.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\aos.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/aos.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\aos.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\bootstrap.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\bootstrap.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\bootstrap-datepicker.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\bootstrap-datepicker.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/bootstrap-datepicker.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\bootstrap-datepicker.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\google-map.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\google-map.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/google-map.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\google-map.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.animateNumber.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.animateNumber.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery.animateNumber.min.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery.animateNumber.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.easing.1.3.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.easing.1.3.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery.easing.1.3.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery.easing.1.3.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.magnific-popup.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.magnific-popup.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery.magnific-popup.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.stellar.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.stellar.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery.stellar.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery.stellar.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.waypoints.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery.waypoints.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery.waypoints.min.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery.waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery-3.2.1.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery-3.2.1.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery-3.2.1.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery-3.2.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\jquery-migrate-3.0.1.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\jquery-migrate-3.0.1.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/jquery-migrate-3.0.1.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\jquery-migrate-3.0.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\main.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\main.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/main.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\owl.carousel.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\owl.carousel.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\popper.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\popper.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/popper.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\range.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\range.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/range.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\range.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\js\\scrollax.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\js\\scrollax.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/js/scrollax.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\js\\scrollax.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\.DS_Store",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\.DS_Store",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/.DS_Store",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_alert.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_alert.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_alert.scss",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_alert.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_badge.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_badge.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_badge.scss",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_badge.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_breadcrumb.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_breadcrumb.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_breadcrumb.scss",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_button-group.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_button-group.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_button-group.scss",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_button-group.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_buttons.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_buttons.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_buttons.scss",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_card.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_card.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_card.scss",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_card.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_carousel.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_carousel.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_carousel.scss",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_carousel.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_close.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_close.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_close.scss",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_close.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_code.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_code.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_code.scss",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_code.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_custom-forms.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_custom-forms.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_custom-forms.scss",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_custom-forms.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_dropdown.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_dropdown.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_dropdown.scss",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_dropdown.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_forms.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_forms.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_forms.scss",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_functions.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_functions.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_functions.scss",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_functions.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_grid.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_grid.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_grid.scss",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_images.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_images.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_images.scss",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_images.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_input-group.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_input-group.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_input-group.scss",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_input-group.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_jumbotron.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_jumbotron.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_jumbotron.scss",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_jumbotron.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_list-group.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_list-group.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_list-group.scss",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_media.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_media.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_media.scss",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_media.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_mixins.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_mixins.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_mixins.scss",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_modal.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_modal.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_modal.scss",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_modal.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_nav.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_nav.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_nav.scss",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_nav.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_navbar.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_navbar.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_navbar.scss",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_navbar.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_pagination.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_pagination.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_pagination.scss",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_popover.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_popover.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_popover.scss",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_popover.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_print.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_print.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_print.scss",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_print.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_progress.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_progress.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_progress.scss",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_progress.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_reboot.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_reboot.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_reboot.scss",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_reboot.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_root.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_root.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_root.scss",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_root.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_tables.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_tables.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_tables.scss",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_tables.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_tooltip.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_tooltip.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_tooltip.scss",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_tooltip.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_transitions.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_transitions.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_transitions.scss",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_transitions.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_type.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_type.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_type.scss",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_type.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_utilities.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_utilities.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_utilities.scss",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_utilities.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_variables.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\_variables.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/_variables.scss",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/bootstrap.scss",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap-grid.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap-grid.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/bootstrap-grid.scss",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap-reboot.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/bootstrap-reboot.scss",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_alert.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_alert.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_alert.scss",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_background-variant.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_background-variant.scss",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_background-variant.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_badge.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_badge.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_badge.scss",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_badge.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_border-radius.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_border-radius.scss",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_box-shadow.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_box-shadow.scss",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_breakpoints.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_breakpoints.scss",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_buttons.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_buttons.scss",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_caret.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_caret.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_caret.scss",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_clearfix.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_clearfix.scss",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_float.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_float.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_float.scss",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_float.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_forms.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_forms.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_forms.scss",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_gradients.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_gradients.scss",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_grid.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_grid.scss",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_grid-framework.scss",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_grid-framework.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_hover.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_hover.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_hover.scss",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_hover.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_image.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_image.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_image.scss",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_list-group.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_list-group.scss",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_lists.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_lists.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_lists.scss",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_nav-divider.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_nav-divider.scss",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_nav-divider.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_pagination.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_pagination.scss",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_reset-text.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_reset-text.scss",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_resize.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_resize.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_resize.scss",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_screen-reader.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_screen-reader.scss",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_screen-reader.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_size.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_size.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_size.scss",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_size.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_table-row.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_table-row.scss",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_table-row.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_text-emphasis.scss",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-hide.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_text-hide.scss",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-hide.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-truncate.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_text-truncate.scss",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_transition.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_transition.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_transition.scss",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_visibility.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/mixins/_visibility.scss",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\mixins\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_align.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_align.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_align.scss",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_align.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_background.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_background.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_background.scss",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_background.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_borders.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_borders.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_borders.scss",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_borders.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_clearfix.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_clearfix.scss",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_clearfix.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_display.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_display.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_display.scss",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_display.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_embed.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_embed.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_embed.scss",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_embed.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_flex.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_flex.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_flex.scss",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_flex.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_float.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_float.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_float.scss",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_float.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_position.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_position.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_position.scss",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_position.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_screenreaders.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_screenreaders.scss",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_screenreaders.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_shadows.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_shadows.scss",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_shadows.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_sizing.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_sizing.scss",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_sizing.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_spacing.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_spacing.scss",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_spacing.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_text.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_text.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_text.scss",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_text.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_visibility.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/bootstrap/utilities/_visibility.scss",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\bootstrap\\utilities\\_visibility.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\scss\\style.scss",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\ForntEnd\\scss\\style.scss",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "ForntEnd/scss/style.scss",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\ForntEnd\\scss\\style.scss"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\apri2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\apri2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/apri2.jpg",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\images\\apri2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\apri3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\apri3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/apri3.jpg",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\apri3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\buck1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/buck1.jpg",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\images\\buck1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\buck2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/buck2.jpg",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\images\\buck2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\buck3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/buck3.jpg",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\images\\buck3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\buck4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/buck4.jpg",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\images\\buck4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\bucknutri.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\bucknutri.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/bucknutri.jpg",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bucknutri.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\check3.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\check3.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/check3.jpg",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\images\\check3.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\chianutri.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\chianutri.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/chianutri.jpg",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chianutri.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\chuoisay.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\chuoisay.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/chuoisay.jpg",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chuoisay.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\chuoisay4.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\chuoisay4.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/chuoisay4.jpg",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chuoisay4.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dates1.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\dates1.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/dates1.jpg",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dates1.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dates2.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\dates2.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/dates2.jpg",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\images\\dates2.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\nhokho.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\nhokho.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/nhokho.jpg",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nhokho.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\nut.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\nut.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/nut.jpg",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nut.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\nuts.png",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\nuts.png",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/nuts.png",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nuts.png"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\oat.jpg",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\oat.jpg",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "images/oat.jpg",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\images\\oat.jpg"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\js\\site.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\js\\site.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3740,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3757,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3774,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3791,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3808,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3825,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3842,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -3859,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3876,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3893,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3910,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3927,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3944,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3961,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3978,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3995,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -4012,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -4029,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -4046,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -4063,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -4080,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -4097,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -4114,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -4131,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -4148,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -4165,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -4182,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -4199,10 +4199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -4216,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -4233,10 +4233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -4250,10 +4250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -4267,10 +4267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -4284,10 +4284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -4301,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -4318,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -4335,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -4352,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4369,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -4386,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4403,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4420,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4437,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4454,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -4471,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4488,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4505,10 +4505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4522,10 +4522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4539,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4556,10 +4556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4573,10 +4573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4590,10 +4590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Hotel",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
       "BasePath": "_content/Hotel",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

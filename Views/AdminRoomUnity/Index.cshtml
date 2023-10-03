@@ -3,18 +3,18 @@
     ViewData["Title"] = "Index Unity";
 }
 
-
-
+<div class="container" style="min-height:100vh">
+    <h1>Quản lý tiện ích phòng</h1>
 <p>
     <a asp-action="Create">Create New Unity</a>
 </p>
-<table class="table table-hover table-striped table-bordered">
+<table id="table_unity" class="table table-hover table-striped table-bordered">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -32,3 +32,4 @@
         }
     </tbody>
 </table>
+</div>

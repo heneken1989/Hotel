@@ -30,6 +30,8 @@
 
 
     <link rel="stylesheet" href="~/ForntEnd/css/style.css">
+    <link rel="stylesheet" href="cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
 
   
     @* link font end *@
@@ -64,6 +66,22 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="~/ForntEnd/js/google-map.js"></script>
     <script src="~/ForntEnd/js/main.js"></script>
+    <script>
+
+ 
+        $(document).ready(function () {
+            $('#room_table').DataTable();
+            $('#room_type').DataTable();
+            $('#table_property').DataTable();
+            $('#table_unity').DataTable();
+           
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+
     @*  FontENd JS *@
 
     @await RenderSectionAsync("Scripts", required: false)
