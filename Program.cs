@@ -28,10 +28,6 @@ builder.Services.AddMvc(options =>
     options.Filters.Add(new AuthorizeFilter());
 });
 
-
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,10 +41,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseAuthentication();
-
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();
