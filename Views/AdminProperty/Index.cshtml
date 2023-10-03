@@ -1,35 +1,40 @@
-﻿@model IEnumerable<RoomType>
+﻿@model IEnumerable<RoomProperty>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Room Property Index";
 }
 
 
-
 <p>
-    <a asp-action="Create">Tạo Loại Phòng MỚi</a>
+    <a asp-action="Create">Tạo Property</a>
 </p>
 <table class="table table-hover table-striped table-bordered">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Type)
+                Id
             </th>
-            <th></th>
+            <th>Tên</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
+                <td>@Html.DisplayFor(a=>item.Id)</td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Type)
+                    @Html.DisplayFor(a=>item.Name)
                 </td>
+        
+
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-              
+
                     <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
+

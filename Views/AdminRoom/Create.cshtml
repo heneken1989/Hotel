@@ -5,7 +5,7 @@
 
 @model Room
 
-<form asp-action="Create" method="post">
+<form asp-action="Create" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label class="control-label">Loại Phòng</label>
         <select asp-for="RoomTypeID" class="form-control" asp-items="ViewBag.RoomTypeId"></select>
@@ -19,6 +19,9 @@
             <label class="form-check-label">@unity.Name</label>
         </div>
     }
+
+    <label class="control-label">Hinh Anh</label>
+    <input type="file" id="ImageFile" name="ImageFile" class="form-control-file" multiple />
 
     <button type="submit" class="btn btn-primary">Create Room</button>
 </form>

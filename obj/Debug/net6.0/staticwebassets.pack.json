@@ -777,6 +777,54 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\apri3.jpg",
+      "PackagePath": "staticwebassets\\images\\apri3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck1.jpg",
+      "PackagePath": "staticwebassets\\images\\buck1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck2.jpg",
+      "PackagePath": "staticwebassets\\images\\buck2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck3.jpg",
+      "PackagePath": "staticwebassets\\images\\buck3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\buck4.jpg",
+      "PackagePath": "staticwebassets\\images\\buck4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\check3.jpg",
+      "PackagePath": "staticwebassets\\images\\check3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dates1.jpg",
+      "PackagePath": "staticwebassets\\images\\dates1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dates2.jpg",
+      "PackagePath": "staticwebassets\\images\\dates2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\nhokho.jpg",
+      "PackagePath": "staticwebassets\\images\\nhokho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\nut.jpg",
+      "PackagePath": "staticwebassets\\images\\nut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\nuts.png",
+      "PackagePath": "staticwebassets\\images\\nuts.png"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\oat.jpg",
+      "PackagePath": "staticwebassets\\images\\oat.jpg"
+    },
+    {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

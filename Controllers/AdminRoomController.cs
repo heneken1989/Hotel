@@ -11,11 +11,13 @@ namespace Hotel.Controllers
     [AllowAnonymous]
     public class AdminRoomController : Controller
     {
+        IWebHostEnvironment env;
         HotelDbContext ctx;
 
-        public AdminRoomController(HotelDbContext ctx)
+        public AdminRoomController(HotelDbContext ctx, IWebHostEnvironment env)
         {
             this.ctx = ctx;
+            this.env = env;
         }
         public async Task<IActionResult> Index()
         {
@@ -32,24 +34,58 @@ namespace Hotel.Controllers
             {
                 Unities = ctx.RoomUnities
                     .Where(a=>a.RoomId== null)
-                    .ToList()
+                    .ToList(),
+
+           
             };
-
-
             ViewBag.RoomTypeId = new SelectList(ctx.RoomTypes, "Id", "Type");
 
             return View(room);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Room ro,List<int> Unities)
+        public async Task<IActionResult> Create(Room ro,List<int> Unities, List<IFormFile> ImageFile)
         {
-            if(ModelState.IsValid) 
+      
+            if (ModelState.IsValid) 
             {
                 // add new room
                 ctx.Rooms.Add(ro);
                 await ctx.SaveChangesAsync();
 
+                string filename = string.Empty;
+                // kiem tra xem hinh co duoc upload len hay khong
+                foreach(var imgfile in ImageFile) 
+                
+                {
+
+                    if (imgfile != null)
+                    {
+                        filename = imgfile.FileName;
+                        var imagesFolder = Path.Combine(env.WebRootPath, "images");
+                        // kiem tra xem thu muc wwwroot/images da co hay chua
+                        if (!Directory.Exists(imagesFolder))
+                        {
+                            // neu chua co tao moi
+                            Directory.CreateDirectory(imagesFolder);
+                        }
+                        var filepath = Path.Combine(imagesFolder, filename);
+
+                        using (var stream = new FileStream(filepath, FileMode.Create))
+                        {
+                            await imgfile.CopyToAsync(stream);
+                        }
+
+                        var newImage = new Image
+                        {
+                            Url = filename,
+                            RoomId = ro.Id
+                        };
+                        ctx.Images.Add(newImage);
+                        await ctx.SaveChangesAsync();
+                    }
+                }
+              
                 //LIst danh sach Unity Selected
                 var selectedUnity = await ctx.RoomUnities
                      .Where(u=>Unities.Contains(u.Id))
