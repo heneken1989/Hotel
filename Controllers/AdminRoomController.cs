@@ -1,5 +1,6 @@
 ﻿using Hotel.Data;
 using Hotel.Models;
+using Hotel.Models.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -11,13 +12,12 @@ namespace Hotel.Controllers
     [AllowAnonymous]
     public class AdminRoomController : Controller
     {
-        IWebHostEnvironment env;
+       
         HotelDbContext ctx;
 
-        public AdminRoomController(HotelDbContext ctx, IWebHostEnvironment env)
+        public AdminRoomController(HotelDbContext ctx)
         {
             this.ctx = ctx;
-            this.env = env;
         }
         public async Task<IActionResult> Index()
         {
@@ -77,28 +77,22 @@ namespace Hotel.Controllers
 
                     if (imgfile != null)
                     {
-                        filename = imgfile.FileName;
-                        var imagesFolder = Path.Combine(env.WebRootPath, "images");
-                        // kiem tra xem thu muc wwwroot/images da co hay chua
-                        if (!Directory.Exists(imagesFolder))
+                        var FileName =await CommonMethod.uploadImage(imgfile);
+                        if (FileName != "false")
                         {
-                            // neu chua co tao moi
-                            Directory.CreateDirectory(imagesFolder);
+                            var newImage = new Image
+                            {
+                                Url = filename,
+                                RoomId = ro.Id
+                            };
+                            ctx.Images.Add(newImage);
+                            await ctx.SaveChangesAsync();
                         }
-                        var filepath = Path.Combine(imagesFolder, filename);
-
-                        using (var stream = new FileStream(filepath, FileMode.Create))
+                        else
                         {
-                            await imgfile.CopyToAsync(stream);
+
+                            return View();
                         }
-
-                        var newImage = new Image
-                        {
-                            Url = filename,
-                            RoomId = ro.Id
-                        };
-                        ctx.Images.Add(newImage);
-                        await ctx.SaveChangesAsync();
                     }
                 }
               

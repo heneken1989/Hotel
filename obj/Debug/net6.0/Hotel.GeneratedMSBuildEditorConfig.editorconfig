@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\CODE\dotnet2\New folder\Hotel
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/CODE/dotnet2/New folder/Hotel/Views/AdminBanner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CYW5uZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/CODE/dotnet2/New folder/Hotel/Views/AdminBanner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CYW5uZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/CODE/dotnet2/New folder/Hotel/Views/AdminPropertyDetail/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9wZXJ0eURldGFpbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

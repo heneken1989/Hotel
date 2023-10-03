@@ -777,6 +777,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\169634167614809533.jpg",
+      "PackagePath": "staticwebassets\\images\\169634167614809533.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16963416761733517794.jpg",
+      "PackagePath": "staticwebassets\\images\\16963416761733517794.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16963473362068371391.jpg",
+      "PackagePath": "staticwebassets\\images\\16963473362068371391.jpg"
+    },
+    {
       "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\apri2.jpg",
       "PackagePath": "staticwebassets\\images\\apri2.jpg"
     },

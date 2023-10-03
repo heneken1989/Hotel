@@ -4,10 +4,10 @@
 }
 
 <div class="container" style="min-height:100vh">
-    <h1>Quản lý phòng</h1>
-<p>
-    <a asp-action="Create">Tạo Phòng Mới</a>
-</p>
+    <h1 class="mb-3">Quản lý phòng</h1>
+
+    <a asp-action="Create" asp-controller="AdminRoom">Tạo Phòng Mới</a>
+
 <table id="room_table" class="table table-hover table-striped table-bordered">
     <thead>
         <tr>
@@ -37,6 +37,7 @@
                     }
 
                 </td>
+                <td></td>
         
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
