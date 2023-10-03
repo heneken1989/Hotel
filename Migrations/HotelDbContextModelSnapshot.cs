@@ -142,6 +142,9 @@ namespace Hotel.Migrations
                     b.Property<string>("Detail")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
                     b.Property<int>("RoomPropertyId")
                         .HasColumnType("int");
 

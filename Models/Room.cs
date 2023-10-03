@@ -20,6 +20,8 @@ namespace Hotel.Models
         public ICollection<Image>? Images { get; set; }
         public ICollection<RoomUnity>? Unities { get; set; }
 
+        public ICollection<RoomPropertyDetail>? Details { get; set; }
+
 
 
 

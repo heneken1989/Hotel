@@ -1,18 +1,20 @@
 ﻿
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar  bg bg-warning ftco-navbar-light" id="ftco-navbar">
 	<div class="container">
-		<a class="navbar-brand" href="index.html">Deluxe</a>
+		<a class="navbar-brand" href="/">Deluxe</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menu
 		</button>
 
 		<div class="collapse navbar-collapse" id="ftco-nav">
 			<ul class="navbar-nav ml-auto">
+<<<<<<< HEAD
 				<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+=======
+				<li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+>>>>>>> a4711a05f2ba81bc9dbb2cd0e7a6ffa19305ccee
 				<li class="nav-item"><a asp-action="Index" asp-controller="Room" class="nav-link">Rooms</a></li>
-				<li class="nav-item"><a href="restaurant.html" class="nav-link">Restaurant</a></li>
 				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 
 	
@@ -20,13 +22,21 @@
 					<li class="nav-item">
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Manage
+								Quản Lý(StaffOnly)
 							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<<<<<<< HEAD
 								<a class="dropdown-item" href="/admin/RoomType/Index">Manage RoomType</a>
 								<a class="dropdown-item" href="/admin/RoomUnity/Index">Manage RoomUnity</a>
 								<a class="dropdown-item" href="/admin/Room/Create">Manage Room</a>
 							<a class="dropdown-item" asp-controller="User" asp-action="ChangePassword">Thay đổi mật khẩu</a>
+=======
+								<a class="dropdown-item" href="/admin/RoomType/Index">Quản Lý Loại Phòng</a>
+								<a class="dropdown-item" href="/admin/RoomUnity/Index">Quản Lý Tiện Ích</a>
+								<a class="dropdown-item" href="/admin/Room/Index">Quản Lý Phòng</a>
+							    <a class="dropdown-item" href="/admin/RoomProperty/Index">Quản Lý Property</a>
+						     	<a class="dropdown-item" href="/admin/RoomPropertyDetail/Index">Quản Lý PropertyDetail</a>
+>>>>>>> a4711a05f2ba81bc9dbb2cd0e7a6ffa19305ccee
 							</div>
 						</div>
 					</li>
