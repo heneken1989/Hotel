@@ -6,6 +6,19 @@
 @model Room
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+    <h4>Property</h4>
+    @foreach (var pro in Model.roomProperties!)
+    {
+        <div class="form-control">
+            <label class="form-check-label">@pro.Name</label>
+            <input type="text" name="Property" >
+        
+        </div>
+    }
+
+
+
     <div class="form-group">
         <label class="control-label">Loại Phòng</label>
         <select asp-for="RoomTypeID" class="form-control" asp-items="ViewBag.RoomTypeId"></select>

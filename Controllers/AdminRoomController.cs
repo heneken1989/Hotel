@@ -36,10 +36,11 @@ namespace Hotel.Controllers
                     .Where(a=>a.RoomId== null)
                     .ToList(),
 
-           
+                roomProperties = ctx.RoomProperties.ToList()
+          
             };
             ViewBag.RoomTypeId = new SelectList(ctx.RoomTypes, "Id", "Type");
-
+      
             return View(room);
         }
 
