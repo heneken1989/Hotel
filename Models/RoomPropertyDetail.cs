@@ -7,6 +7,12 @@ namespace Hotel.Models
     {
         [ForeignKey("RoomProperty")]
         public int RoomPropertyId { get; set; }
+
+        [ForeignKey("Room")]
+        public int RoomId { get; set; }
+
+
+
         public string? Detail { get; set; }  
     }
 }

@@ -8,16 +8,15 @@
 <form asp-action="Create" method="post" enctype="multipart/form-data">
 
     <h4>Property</h4>
-    @foreach (var pro in Model.roomProperties!)
+    @for (int i = 0; i < Model.roomProperties!.Count; i++)
     {
+        var propertyList = Model.roomProperties.ToList();
         <div class="form-control">
-            <label class="form-check-label">@pro.Name</label>
-            <input type="text" name="Property" >
-        
+            <label class="form-check-label">@propertyList[i].Name</label>
+            <input hidden  name="PropertyId[@i]" value="@propertyList[i].Id">
+            <input type="text" name="PropertyDetail[@i]">
         </div>
     }
-
-
 
     <div class="form-group">
         <label class="control-label">Loại Phòng</label>

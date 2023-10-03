@@ -45,13 +45,28 @@ namespace Hotel.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Room ro,List<int> Unities, List<IFormFile> ImageFile)
+        public async Task<IActionResult> Create(Room ro,List<int> Unities, List<IFormFile> ImageFile,List<string> PropertyDetail ,List<int> PropertyId)
         {
-      
+       
             if (ModelState.IsValid) 
             {
                 // add new room
                 ctx.Rooms.Add(ro);
+                await ctx.SaveChangesAsync();
+
+
+
+                for (int i = 0; i < PropertyDetail.Count; i++)
+                {
+                    var newPropertyDetail = new RoomPropertyDetail
+                    {
+                        RoomPropertyId = PropertyId[i],
+                        Detail = PropertyDetail[i],
+                        RoomId = ro.Id
+                    };
+                    ctx.RoomPropertyDetails.Add(newPropertyDetail);
+                   
+                }
                 await ctx.SaveChangesAsync();
 
                 string filename = string.Empty;
