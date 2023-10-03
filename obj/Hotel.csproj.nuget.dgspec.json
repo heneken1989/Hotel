@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj": {}
+    "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj": {
+    "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj",
+        "projectUniqueName": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
         "projectName": "Hotel",
-        "projectPath": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj",
-        "packagesPath": "C:\\Users\\huyhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\",
+        "projectPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\huyhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -57,6 +61,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
             }
           },
           "imports": [

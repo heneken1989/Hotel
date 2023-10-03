@@ -1,5 +1,10 @@
 ﻿@model Hotel.Dtos.LoginDto
 <h1>Login</h1>
+@if (ViewData.ContainsKey("ChangePassSuccessed"))
+{
+    <p class="alert alert-warning" role="alert">@ViewData["ChangePassSuccessed"]</p>
+}
+
 @if (ViewData.ContainsKey("Error"))
 {
     <p class="alert alert-warning" role="alert">@ViewData["Error"]</p>

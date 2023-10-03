@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using Microsoft.CodeAnalysis.Scripting;
+using Org.BouncyCastle.Crypto.Generators;
 
 namespace Hotel.Controllers
 {
@@ -21,6 +23,12 @@ namespace Hotel.Controllers
 		[AllowAnonymous]
 		public IActionResult Login()
 		{
+			string message = TempData["passchange"] as string;
+			if(message != null)
+			{
+                ViewData["ChangePassSuccessed"] = message;
+            }
+		
 			return View("Login");
 		}
 
@@ -33,7 +41,7 @@ namespace Hotel.Controllers
 			{
 
 				var check = await _context.Users
-					.Where(u => u.Username == data.Email && u.Password == data.Password)
+                    .Where(u => u.Username == data.Email)
 					.FirstOrDefaultAsync();
 
 				if (check == null)
@@ -44,10 +52,18 @@ namespace Hotel.Controllers
 				}
 				else
 				{
-					var claims = new List<Claim>()
+				
+					if (!BCrypt.Net.BCrypt.Verify(data.Password, check.Password))
+					{
+                        ViewData["Error"] = "Tên đăng nhập hoặc mật khẩu không đúng vui lòng kiểm tra lại";
+                        return View("Login");
+                    }
+
+                    var claims = new List<Claim>()
 					{
 
-						new Claim(ClaimTypes.NameIdentifier,check.Username)
+						new Claim(ClaimTypes.NameIdentifier,check.Username),
+						 new Claim("id", check.Id.ToString())
 					};
 					var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 					var properties = new AuthenticationProperties()
@@ -72,6 +88,58 @@ namespace Hotel.Controllers
 			return RedirectToAction("Index", "Home");
 
 		}
+
+		[Route("changePassword")]
+		[HttpGet]
+
+		public IActionResult ChangePassword()
+		{
+			return View("ChangePassword");
+		}
+
+		[Route("changePassword")]
+		[HttpPost]
+		public async Task<IActionResult> ChangePassword(PassDto data)
+		{
+			if (ModelState.IsValid)
+			{
+				var userIdClaim = User.FindFirst("id");
+				if (userIdClaim != null)
+				{
+					string userId = userIdClaim.Value;
+					var check = await _context.Users.FindAsync(int.Parse(userId));
+					if (check == null)
+					{
+						ViewData["Error"] = "Tài khoản hiện tại không tồn tại";
+						return View();
+					}
+					else
+					{
+						if (!BCrypt.Net.BCrypt.Verify(data.CurrentPassword, check.Password))
+						{
+							ViewData["Error"] = "Mật khẩu hiện tại sai, vui lòng kiểm tra lại";
+							return View();
+						}
+						else
+						{
+							var newPassword = BCrypt.Net.BCrypt.HashPassword(data.NewPassword);
+							check.Password = newPassword;
+							await _context.SaveChangesAsync();
+							await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+							TempData["passchange"] = "Mật khẩu đã thay đổi thành công, vui đăng nhập lại";
+							return RedirectToAction("Login");
+						}
+					}
+
+				}
+				return View("ChangePassword");
+			}
+            return View("ChangePassword");
+        }
+
+
+
+
 
 		[Route("unauthozied")]
 		public IActionResult UnAuthorize()
