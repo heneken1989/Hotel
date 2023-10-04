@@ -45,7 +45,11 @@
                                     @property.Name :       
                                     @foreach (var detail in property.Details)
                                     {
-                                        @detail.Detail
+                                        if (detail.RoomId == item.Id)
+                                        {
+                                            @detail.Detail
+                                        }
+                                       
                                     }
                                 </li>
                             }

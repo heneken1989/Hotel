@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GbWizH3X1+vsdSghb6XfsvbBVfU9USC7S898LlXN3Dg=",
+  "Hash": "GSQrrtSMk7UvBKwCPO7n0fY048MeJ/E40vNiibhYTMo=",
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
@@ -3398,6 +3398,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\16964007841358463498.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16964101061463566783.png",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/16964101061463566783.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\16964101061463566783.png"
     },
     {
       "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\apri2.jpg",
