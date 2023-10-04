@@ -1,8 +1,6 @@
-﻿using Hotel.Data;
-using Hotel.Models;
+﻿using Hotel.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace Hotel.Controllers
@@ -11,18 +9,15 @@ namespace Hotel.Controllers
 	public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly HotelDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger, HotelDbContext context)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _context = context;
         }
       
-        public async  Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var banner =await _context.Banners.ToListAsync();
-            return View(banner);
+            return View();
         }
 
         public IActionResult Privacy()

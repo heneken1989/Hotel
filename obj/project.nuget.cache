@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LRwbl9eJWuxjqizbIQxCG3CO3tVHo/EEbkegfO6CYHebxDI5guGKLICSdnGe2/VMxd93iC5IB30ONetbFVU57w==",
+  "dgSpecHash": "d1NCnUG/kp1UKyWPEAWrhUwmj6w17udzV84WxhTrkHzZ8Qg1yZaWYJPP+cw11O8eBgKig/xDNdNSBcCG3LUtiQ==",
   "success": true,
-  "projectFilePath": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\Hotel.csproj",
+  "projectFilePath": "E:\\CODE\\dotnet2\\New folder (2)\\New folder (2)\\Hotel\\Hotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

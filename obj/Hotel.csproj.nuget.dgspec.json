@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\Hotel.csproj": {}
+    "E:\\CODE\\dotnet2\\New folder (2)\\New folder (2)\\Hotel\\Hotel.csproj": {}
   },
   "projects": {
-    "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\Hotel.csproj": {
+    "E:\\CODE\\dotnet2\\New folder (2)\\New folder (2)\\Hotel\\Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\Hotel.csproj",
+        "projectUniqueName": "E:\\CODE\\dotnet2\\New folder (2)\\New folder (2)\\Hotel\\Hotel.csproj",
         "projectName": "Hotel",
-        "projectPath": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\Hotel.csproj",
+        "projectPath": "E:\\CODE\\dotnet2\\New folder (2)\\New folder (2)\\Hotel\\Hotel.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\obj\\",
+        "outputPath": "E:\\CODE\\dotnet2\\New folder (2)\\New folder (2)\\Hotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

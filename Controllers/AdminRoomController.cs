@@ -124,31 +124,5 @@ namespace Hotel.Controllers
         }
 
 
-        public async Task<IActionResult> Edit(int id)
-        {
-            var room = await ctx.Rooms
-                .Include(a => a.Unities)
-                .Include(b => b.RoomType)
-                .SingleOrDefaultAsync(a => a.Id == id);
-
-            var roomProperties = await ctx.RoomProperties
-             .Include(a => a.Details)
-             .ToListAsync();
-          
-            ViewBag.RoomPropertyList = new SelectList(roomProperties, "Id", "Name");
-
-            var propertyDetails = await ctx.RoomPropertyDetails
-                   .Where(d => d.RoomId == id)
-                   .ToListAsync();
-
-            ViewBag.PropertyDetails = propertyDetails;
-            ViewBag.RoomTypeList= new SelectList(ctx.RoomTypes.ToList(), "Id", "Type");
-            ViewBag.RoomUnitiesList = new SelectList(ctx.RoomUnities.Where(a=>a.RoomId == null).ToList(), "Id", "Name");
-            return View(room);
-        }
-
-
-
-
     }
 }

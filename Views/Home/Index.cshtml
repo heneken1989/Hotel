@@ -3,13 +3,8 @@
 @if (Model != null)
 {
     <section class="home-slider owl-carousel" style="height:100vh">
-<<<<<<< HEAD
         @foreach (var b in Model)
         {
-=======
-    @foreach(var b in Model)
-    {
->>>>>>> 75442dd37cd46b2acd255157a7b8cf23c3ee4505
             var img = $"~/images/{b.Image}";
             <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:contain">
                 <div class="overlay"></div>
@@ -24,23 +19,12 @@
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
         }
 
     </section>
 
 }
 
-=======
-    }
-
-    </section>
-    
-}
-
-
-
->>>>>>> 75442dd37cd46b2acd255157a7b8cf23c3ee4505
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
