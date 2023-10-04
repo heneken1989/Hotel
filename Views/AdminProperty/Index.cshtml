@@ -4,7 +4,14 @@
 }
 
 <<div class="container" style="min-height:100vh">
-<h1>Trang bị phòng</h1>
+    @if (TempData.ContainsKey("ErrorMessage"))
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+<h1>Mô Tả Phòng</h1>
 <p>
     <a asp-action="Create">Tạo Property</a>
 </p>

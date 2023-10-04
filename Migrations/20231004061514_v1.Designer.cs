@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hotel.Migrations
 {
     [DbContext(typeof(HotelDbContext))]
-    [Migration("20231004040211_v1")]
+    [Migration("20231004061514_v1")]
     partial class v1
     {
         /// <inheritdoc />
@@ -193,6 +193,8 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomId");
 
+                    b.HasIndex("RoomPropertyId");
+
                     b.ToTable("RoomPropertyDetails");
                 });
 
@@ -306,6 +308,12 @@ namespace Hotel.Migrations
                         .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Hotel.Models.RoomProperty", null)
+                        .WithMany("Details")
+                        .HasForeignKey("RoomPropertyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomUnity", b =>
@@ -324,6 +332,11 @@ namespace Hotel.Migrations
                     b.Navigation("Unities");
 
                     b.Navigation("roomProperties");
+                });
+
+            modelBuilder.Entity("Hotel.Models.RoomProperty", b =>
+                {
+                    b.Navigation("Details");
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomType", b =>

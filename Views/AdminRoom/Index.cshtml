@@ -16,7 +16,7 @@
             </th>
             <th>Loại Phòng</th>
             <th>Tiện Ích</th>
-            <th>Property</th>
+            <th>Mô Tả Phòng</th>
             <th>Action</th>
         </tr>
     </thead>
@@ -37,7 +37,20 @@
                     }
 
                 </td>
-                <td></td>
+                <td>
+                        <ul>
+                            @foreach (var property in ViewBag.RoomPropertyList.Items)
+                            {
+                                <li>
+                                    @property.Name :       
+                                    @foreach (var detail in property.Details)
+                                    {
+                                        @detail.Detail
+                                    }
+                                </li>
+                            }
+                        </ul>
+                </td>
         
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

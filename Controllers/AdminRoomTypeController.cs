@@ -63,7 +63,7 @@ namespace Hotel.Controllers
             }
             else
             {
-                TempData["ErrorMessage"] = "Không thể xóa vì có tồn tại phòng trong Loại Phòng này";
+                TempData["ErrorMessage"] = "Không thể xóa vì có tồn tại phòng trong Loại Phòng này!";
                 return RedirectToAction("Index");
             }
           

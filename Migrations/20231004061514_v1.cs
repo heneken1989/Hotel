@@ -141,29 +141,6 @@ namespace Hotel.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "RoomPropertyDetails",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    RoomPropertyId = table.Column<int>(type: "int", nullable: false),
-                    RoomId = table.Column<int>(type: "int", nullable: false),
-                    Detail = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_RoomPropertyDetails", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_RoomPropertyDetails_Rooms_RoomId",
-                        column: x => x.RoomId,
-                        principalTable: "Rooms",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "RoomUnities",
                 columns: table => new
                 {
@@ -184,6 +161,35 @@ namespace Hotel.Migrations
                         principalColumn: "Id");
                 });
 
+            migrationBuilder.CreateTable(
+                name: "RoomPropertyDetails",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RoomPropertyId = table.Column<int>(type: "int", nullable: false),
+                    RoomId = table.Column<int>(type: "int", nullable: false),
+                    Detail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdatedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RoomPropertyDetails", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_RoomPropertyDetails_RoomProperties_RoomPropertyId",
+                        column: x => x.RoomPropertyId,
+                        principalTable: "RoomProperties",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_RoomPropertyDetails_Rooms_RoomId",
+                        column: x => x.RoomId,
+                        principalTable: "Rooms",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Images_RoomId",
                 table: "Images",
@@ -198,6 +204,11 @@ namespace Hotel.Migrations
                 name: "IX_RoomPropertyDetails_RoomId",
                 table: "RoomPropertyDetails",
                 column: "RoomId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_RoomPropertyDetails_RoomPropertyId",
+                table: "RoomPropertyDetails",
+                column: "RoomPropertyId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Rooms_RoomTypeID",
@@ -223,9 +234,6 @@ namespace Hotel.Migrations
                 name: "Orders");
 
             migrationBuilder.DropTable(
-                name: "RoomProperties");
-
-            migrationBuilder.DropTable(
                 name: "RoomPropertyDetails");
 
             migrationBuilder.DropTable(
@@ -233,6 +241,9 @@ namespace Hotel.Migrations
 
             migrationBuilder.DropTable(
                 name: "Users");
+
+            migrationBuilder.DropTable(
+                name: "RoomProperties");
 
             migrationBuilder.DropTable(
                 name: "Rooms");
