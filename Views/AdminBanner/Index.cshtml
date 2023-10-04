@@ -3,6 +3,15 @@
     ViewData["Title"] = "Index";
 }
 
+@if (ViewData.ContainsKey("Error"))
+{
+    <p class="alert alert-danger" role="alert">@ViewData["Error"]</p>
+}
+@if (ViewData.ContainsKey("Success"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["Success"]</p>
+}
+
 <div class="container" style="min-height:100vh">
     <h1 class="mb-3">Quản lý Banner</h1>
 
@@ -31,9 +40,9 @@
                     </td>
 
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Update" asp-controller="AdminBanner" asp-route-id="@item.Id">Edit</a> |
 
-                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a asp-action="Delete" asp-controller="AdminBanner" asp-route-id="@item.Id">Delete</a>
                     </td>
                 </tr>
             }
