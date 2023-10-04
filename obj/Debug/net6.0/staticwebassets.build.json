@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6/QvSf1MQJ8d0HiNAAWL264HkAHzwD5nELCx9ZRSEv0=",
+  "Hash": "LnqBBiFSm9qNXSdFXfaRls8t9j3jHxFq569zzBM1Qho=",
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
@@ -3364,6 +3364,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\16963416761733517794.jpg"
+    },
+    {
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16963473362068371391.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/16963473362068371391.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\16963473362068371391.jpg"
     },
     {
       "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\apri2.jpg",
