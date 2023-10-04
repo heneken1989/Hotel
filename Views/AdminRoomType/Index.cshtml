@@ -5,6 +5,13 @@
 
 
 <div class="container" style="min-height:100vh">
+    @if (TempData.ContainsKey("ErrorMessage"))
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
     <h1 class="mb-3">Quản lý loại phòng</h1>
 
     <a asp-action="Create">Tạo Loại Phòng MỚi</a>
@@ -13,7 +20,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Type)
+               Loại Phòng
             </th>
             <th>Action</th>
         </tr>
@@ -26,9 +33,9 @@
                     @Html.DisplayFor(modelItem => item.Type)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Edit" asp-route-id="@item.Id">Chỉnh Sửa</a> |
               
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Bạn chắc chắn muốn xóa?')" >Xóa</a>
                 </td>
             </tr>
         }

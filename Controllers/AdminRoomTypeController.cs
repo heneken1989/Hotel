@@ -48,5 +48,40 @@ namespace Hotel.Controllers
             }
         }
 
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var type = await ctx.RoomTypes.SingleOrDefaultAsync(a => a.Id == id);
+            var room = await ctx.Rooms
+                .Where(r=>r.RoomType.Id == id)
+                .ToListAsync();
+            if(room.Count==0)
+            {
+                ctx.Entry(type!).State = EntityState.Deleted;
+                await ctx.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Không thể xóa vì có tồn tại phòng trong Loại Phòng này";
+                return RedirectToAction("Index");
+            }
+          
+        }
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var type = await ctx.RoomTypes.SingleOrDefaultAsync(a => a.Id == id);
+            return View(type);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(RoomType Rtype)
+        {
+            ctx.Entry(Rtype).State = EntityState.Modified;
+            await ctx.SaveChangesAsync();
+            return Redirect("Index");
+        }
+
     }
 }
