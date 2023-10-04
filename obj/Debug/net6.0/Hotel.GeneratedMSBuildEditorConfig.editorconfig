@@ -24,11 +24,19 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CYW5uZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [E:/CODE/dotnet2/New folder (2)/Hotel/Views/AdminBanner/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CYW5uZXJcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/CODE/dotnet2/New folder (2)/Hotel/Views/AdminPropertyDetail/Create.cshtml]
+=======
+[C:/Users/huyhi/Desktop/Hotel/Hotel/Views/AdminBanner/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5CYW5uZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/huyhi/Desktop/Hotel/Hotel/Views/AdminPropertyDetail/Create.cshtml]
+>>>>>>> 75442dd37cd46b2acd255157a7b8cf23c3ee4505
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9wZXJ0eURldGFpbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -76,7 +84,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [E:/CODE/dotnet2/New folder (2)/Hotel/Views/AdminRoom/Index.cshtml]
+=======
+[C:/Users/huyhi/Desktop/Hotel/Hotel/Views/AdminRoom/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/huyhi/Desktop/Hotel/Hotel/Views/AdminRoom/Index.cshtml]
+>>>>>>> 75442dd37cd46b2acd255157a7b8cf23c3ee4505
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 

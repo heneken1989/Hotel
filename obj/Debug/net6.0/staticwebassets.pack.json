@@ -789,7 +789,34 @@
       "PackagePath": "staticwebassets\\images\\16963473362068371391.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\wwwroot\\images\\16964007841358463498.jpg",
+=======
+<<<<<<< HEAD
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16964133591576489406.jpg",
+      "PackagePath": "staticwebassets\\images\\16964133591576489406.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\1696417972218776341.jpg",
+      "PackagePath": "staticwebassets\\images\\1696417972218776341.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16964180331955888497.jpg",
+      "PackagePath": "staticwebassets\\images\\16964180331955888497.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\1696418184255015573.jpg",
+      "PackagePath": "staticwebassets\\images\\1696418184255015573.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16964188011636144386.jpg",
+      "PackagePath": "staticwebassets\\images\\16964188011636144386.jpg"
+    },
+    {
+      "Id": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\apri2.jpg",
+=======
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16964007841358463498.jpg",
+>>>>>>> 75442dd37cd46b2acd255157a7b8cf23c3ee4505
       "PackagePath": "staticwebassets\\images\\16964007841358463498.jpg"
     },
     {
@@ -797,11 +824,28 @@
       "PackagePath": "staticwebassets\\images\\16964101061463566783.png"
     },
     {
+<<<<<<< HEAD
       "Id": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\wwwroot\\images\\16964114001591932057.jpg",
       "PackagePath": "staticwebassets\\images\\16964114001591932057.jpg"
     },
     {
       "Id": "E:\\CODE\\dotnet2\\New folder (2)\\Hotel\\wwwroot\\images\\apri2.jpg",
+=======
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16964114001591932057.jpg",
+      "PackagePath": "staticwebassets\\images\\16964114001591932057.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16964115561949707407.jpg",
+      "PackagePath": "staticwebassets\\images\\16964115561949707407.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\1696423223437906294.jpg",
+      "PackagePath": "staticwebassets\\images\\1696423223437906294.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\apri2.jpg",
+>>>>>>> e0715e52bd4560dc5169c7553a133907e8519278
+>>>>>>> 75442dd37cd46b2acd255157a7b8cf23c3ee4505
       "PackagePath": "staticwebassets\\images\\apri2.jpg"
     },
     {

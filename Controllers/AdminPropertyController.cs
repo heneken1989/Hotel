@@ -33,6 +33,19 @@ namespace Hotel.Controllers
             {
 				ctx.Entry(pro).State = EntityState.Added;
 				await ctx.SaveChangesAsync();
+                var rooms = await ctx.Rooms.ToListAsync();
+            
+                foreach(var a in rooms)
+                {
+                    var prodetail = new RoomPropertyDetail
+                    {
+                        Detail = "",
+                        RoomPropertyId = pro.Id,
+                        RoomId = a.Id   
+                    };
+                    ctx.Entry(prodetail).State = EntityState.Added;
+                    await ctx.SaveChangesAsync();
+                }
 				return RedirectToAction("Index");
 			}
             return View(pro);   
