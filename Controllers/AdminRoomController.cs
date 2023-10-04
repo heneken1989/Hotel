@@ -22,10 +22,17 @@ namespace Hotel.Controllers
         public async Task<IActionResult> Index()
         {
             var rooms = await ctx.Rooms
-                .Include(r=>r.Unities)
-                .Include(r=>r.RoomType)
+                .Include(r => r.Unities)
+                .Include(r => r.RoomType)
                 .ToListAsync();
-         
+
+
+            var roomProperties = await ctx.RoomProperties
+                .Include(a => a.Details)
+                .ToListAsync();
+
+            ViewBag.RoomPropertyList = new SelectList(roomProperties, "Id", "Name");
+
             return View(rooms);
         }
         public async Task<IActionResult> Create() 

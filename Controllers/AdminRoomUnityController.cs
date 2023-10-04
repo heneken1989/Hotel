@@ -40,8 +40,29 @@ namespace Hotel.Controllers
 			else
 			{
 				return View("Create", unity);
-
 			}
+		}
+
+		public async Task<IActionResult> Delete(int id)
+		{
+			var uni = await ctx.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
+			ctx.Entry(uni!).State = EntityState.Deleted;
+			await ctx.SaveChangesAsync();	
+			return RedirectToAction("Index");
+		}
+
+		public async Task<IActionResult> Edit(int id)
+		{
+			var uni = await ctx.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
+			return View(uni);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Edit(RoomUnity unity)
+		{
+			ctx.Entry(unity).State = EntityState.Modified;	
+			await ctx.SaveChangesAsync();	
+			return Redirect("Index");
 		}
 	}
 }

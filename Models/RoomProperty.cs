@@ -7,6 +7,8 @@ namespace Hotel.Models
     {
         [Required]
         public string? Name { get; set; }
+
+        public ICollection<RoomPropertyDetail>? Details { get; set; }
       
     }
 }
