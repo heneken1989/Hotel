@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "CqX9E6fSPS/ieB/v6ygMl7FyXLsm7xnIYTzF0hbJ/OA=",
+=======
+<<<<<<< HEAD
+  "Hash": "O/9Cg6ZNxBzCfnj0usE9X+pdBzwTeZurEu38WB7LA6s=",
+=======
+  "Hash": "GSQrrtSMk7UvBKwCPO7n0fY048MeJ/E40vNiibhYTMo=",
+>>>>>>> e0715e52bd4560dc5169c7553a133907e8519278
+>>>>>>> eeedd61428bd74795eb33ce4a477fa467dd1493b
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
@@ -3383,7 +3391,96 @@
       "OriginalItemSpec": "wwwroot\\images\\16963473362068371391.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16964133591576489406.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/16964133591576489406.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\16964133591576489406.jpg"
+    },
+    {
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\1696417972218776341.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/1696417972218776341.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1696417972218776341.jpg"
+    },
+    {
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16964180331955888497.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/16964180331955888497.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\16964180331955888497.jpg"
+    },
+    {
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\1696418184255015573.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/1696418184255015573.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1696418184255015573.jpg"
+    },
+    {
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\16964188011636144386.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/16964188011636144386.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\16964188011636144386.jpg"
+    },
+    {
+      "Identity": "E:\\CODE\\dotnet2\\New folder\\Hotel\\wwwroot\\images\\apri2.jpg",
+=======
       "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16964007841358463498.jpg",
+>>>>>>> e0715e52bd4560dc5169c7553a133907e8519278
       "SourceId": "Hotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",

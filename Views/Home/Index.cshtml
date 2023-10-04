@@ -1,33 +1,32 @@
-﻿<section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url('@Url.Content("~/ForntEnd/images/bg_1.jpg")');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center">
-                <div class="col-md-12 ftco-animate text-center">
-                    <div class="text mb-5 pb-3">
-                        <h1 class="mb-3">Welcome To Deluxe</h1>
-                        <h2>Hotels &amp; Resorts</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+﻿@model IEnumerable<Banner>
 
-    <div class="slider-item" style="background-image: url('@Url.Content("~/ForntEnd/images/bg_2.jpg")');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center">
-                <div class="col-md-12 ftco-animate text-center">
-                    <div class="text mb-5 pb-3">
-                        <h1 class="mb-3">Enjoy A Luxury Experience</h1>
-                        <h2>Join With Us</h2>
+@if (Model != null)
+{
+    <section class="home-slider owl-carousel" style="height:100vh">
+    @foreach(var b in Model)
+    {
+            var img = $"~/images/{b.Image}";
+            <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:contain">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text align-items-center justify-content-center">
+                        <div class="col-md-12 ftco-animate text-center">
+                            <div class="text mb-5 pb-3">
+                                <h1 class="mb-3">@Html.DisplayFor(i=>b.Title)</h1>
+                                <h2>@Html.DisplayFor(i=>b.Content)</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
- 
-</section>
+    }
+
+    </section>
+    
+}
+
+
+
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
