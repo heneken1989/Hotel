@@ -62,7 +62,7 @@ namespace Hotel.Controllers
                 await ctx.SaveChangesAsync();
 
 
-
+                // add Property Detail
                 for (int i = 0; i < PropertyDetail.Count; i++)
                 {
                     var newPropertyDetail = new RoomPropertyDetail
@@ -97,7 +97,6 @@ namespace Hotel.Controllers
                         }
                         else
                         {
-
                             return View();
                         }
                     }
@@ -145,6 +144,96 @@ namespace Hotel.Controllers
             ViewBag.RoomTypeList = new SelectList(ctx.RoomTypes.ToList(), "Id", "Type");
             ViewBag.RoomUnitiesList = new SelectList(ctx.RoomUnities.Where(a => a.RoomId == null).ToList(), "Id", "Name");
             return View(room);
+        }
+
+        [HttpPost]
+
+        public async Task<IActionResult> Edit(Room ro, List<int> Unities, List<IFormFile> ImageFile, List<string> PropertyDetail, List<int> PropertyId)
+        
+        {
+            if(ModelState.IsValid)
+            {
+                //adit
+                ctx.Entry(ro).State = EntityState.Modified; 
+                await ctx.SaveChangesAsync();
+
+
+                // Edit Property Detail
+                for (int i = 0; i < PropertyDetail.Count; i++)
+                {
+                    var Prodetail = await ctx.RoomPropertyDetails
+                        .Where(a => a.RoomId == ro.Id)
+                        .Where(a => a.RoomPropertyId == PropertyId[i])
+                        .SingleOrDefaultAsync();
+
+                    Prodetail.Detail = PropertyDetail[i];
+                
+                    Console.WriteLine($"idddddddddddddddddd:{Prodetail.RoomId}");
+                    ctx.Entry(Prodetail).State = EntityState.Modified;
+                    await ctx.SaveChangesAsync();
+                }
+
+
+                // Edit Images
+
+                string filename = string.Empty;
+                foreach (var imgfile in ImageFile)
+                {
+
+                    if (imgfile != null)
+                    {
+                        var FileName = await CommonMethod.uploadImage(imgfile);
+                        if (FileName != "false")
+                        {
+                            var newImage = new Image
+                            {
+                                Url = filename,
+                                RoomId = ro.Id
+                            };
+                            ctx.Images.Add(newImage);
+                            await ctx.SaveChangesAsync();
+                        }
+                        else
+                        {
+                            return View();
+                        }
+                    }
+                }
+
+                var oldUnity = await ctx.RoomUnities
+                   .Where(a => a.RoomId == ro.Id)
+                   .ToListAsync();
+
+                for(int i=0;i<oldUnity.Count;i++)
+                {
+                    ctx.Entry(oldUnity[i]).State = EntityState.Deleted;
+                    await ctx.SaveChangesAsync();
+
+                }
+            
+                // Edit Unity
+                //LIst danh sach Unity Selected
+                var selectedUnity = await ctx.RoomUnities
+                     .Where(u => Unities.Contains(u.Id))
+                     .ToListAsync();
+                // Tao New Unity have RoomID = Created Room (ro)
+                foreach (var u in selectedUnity)
+                {
+           
+
+                    var newUnity = new RoomUnity
+                    {
+                        Name = u.Name,
+                        RoomId = ro.Id
+                    };
+                    ctx.Entry(newUnity).State = EntityState.Added;   
+                }
+                await ctx.SaveChangesAsync();
+                return RedirectToAction("Index");
+            }
+
+            return View(ro);
+
         }
 
 
