@@ -149,12 +149,27 @@ namespace Hotel.Controllers
         [HttpPost]
 
         public async Task<IActionResult> Edit(Room ro, List<int> Unities, List<IFormFile> ImageFile, List<string> PropertyDetail, List<int> PropertyId)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
 
         {
             if (ModelState.IsValid)
             {
                 //adit
                 ctx.Entry(ro).State = EntityState.Modified;
+<<<<<<< HEAD
+=======
+=======
+        
+        {
+            if(ModelState.IsValid)
+            {
+                //adit
+                ctx.Entry(ro).State = EntityState.Modified; 
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
                 await ctx.SaveChangesAsync();
 
 
@@ -167,7 +182,15 @@ namespace Hotel.Controllers
                         .SingleOrDefaultAsync();
 
                     Prodetail.Detail = PropertyDetail[i];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+                
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
                     Console.WriteLine($"idddddddddddddddddd:{Prodetail.RoomId}");
                     ctx.Entry(Prodetail).State = EntityState.Modified;
                     await ctx.SaveChangesAsync();
@@ -204,13 +227,29 @@ namespace Hotel.Controllers
                    .Where(a => a.RoomId == ro.Id)
                    .ToListAsync();
 
+<<<<<<< HEAD
                 for (int i = 0; i < oldUnity.Count; i++)
+=======
+<<<<<<< HEAD
+                for (int i = 0; i < oldUnity.Count; i++)
+=======
+                for(int i=0;i<oldUnity.Count;i++)
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
                 {
                     ctx.Entry(oldUnity[i]).State = EntityState.Deleted;
                     await ctx.SaveChangesAsync();
 
                 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
                 // Edit Unity
                 //LIst danh sach Unity Selected
                 var selectedUnity = await ctx.RoomUnities
@@ -219,14 +258,30 @@ namespace Hotel.Controllers
                 // Tao New Unity have RoomID = Created Room (ro)
                 foreach (var u in selectedUnity)
                 {
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+           
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
 
                     var newUnity = new RoomUnity
                     {
                         Name = u.Name,
                         RoomId = ro.Id
                     };
+<<<<<<< HEAD
                     ctx.Entry(newUnity).State = EntityState.Added;
+=======
+<<<<<<< HEAD
+                    ctx.Entry(newUnity).State = EntityState.Added;
+=======
+                    ctx.Entry(newUnity).State = EntityState.Added;   
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
+>>>>>>> 08290b26c108c0631db74c2cd4be3145b4a3974d
                 }
                 await ctx.SaveChangesAsync();
                 return RedirectToAction("Index");
