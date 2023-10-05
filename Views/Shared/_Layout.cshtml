@@ -38,8 +38,8 @@
 </head>
 <body>
       @Html.Partial("Header")
-    <div >
-        <main role="main" class="">
+    <div style="background-color:#f2f2f2">
+        <main role="main" class="" id="check-admin-margin-layout" style="background-color:white">
             @RenderBody()
         </main>
     </div>
@@ -66,6 +66,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="~/ForntEnd/js/google-map.js"></script>
     <script src="~/ForntEnd/js/main.js"></script>
+
     <script>
 
  
@@ -86,5 +87,6 @@
     @*  FontENd JS *@
 
     @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/ForntEnd/js/modal_delete.js"></script>
 </body>
 </html>

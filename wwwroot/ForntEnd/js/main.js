@@ -157,44 +157,62 @@
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});
+	let admin = window.location.pathname.split("/")[1];
+	const contentArry = ['admin','changePassword','login'];
 
+/*	$('#check-admin-margin-layout').attr("style", "margin-top:80px;background-color:#f2f2f2")*/
 	// scroll
-	var scrollWindow = function() {
-		$(window).scroll(function(){
-			var $w = $(this),
+	var scrollWindow = function () {
+		if (contentArry.includes(admin)) {
+			$('#ftco-navbar').attr("style", "top:0;background-color:black !important")
+			$('#check-admin-margin-layout').attr("style", "margin-top:80px;")
+
+			$(window).scroll(function () {
+				var $w = $(this),
 					st = $w.scrollTop(),
 					navbar = $('.ftco_navbar'),
 					sd = $('.js-scroll-wrap');
 
-			if (st > 150) {
-				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');	
-				}
-			} 
-			if (st < 150) {
-				if ( navbar.hasClass('scrolled') ) {
-					navbar.removeClass('scrolled sleep');
-				}
-			} 
-			if ( st > 350 ) {
-				if ( !navbar.hasClass('awake') ) {
-					navbar.addClass('awake');	
-				}
 				
-				if(sd.length > 0) {
-					sd.addClass('sleep');
+			});
+		} else {
+			$(window).scroll(function () {
+				var $w = $(this),
+					st = $w.scrollTop(),
+					navbar = $('.ftco_navbar'),
+					sd = $('.js-scroll-wrap');
+
+				if (st > 150) {
+					if (!navbar.hasClass('scrolled')) {
+						navbar.addClass('scrolled');
+					}
 				}
-			}
-			if ( st < 350 ) {
-				if ( navbar.hasClass('awake') ) {
-					navbar.removeClass('awake');
-					navbar.addClass('sleep');
+				if (st < 150) {
+					if (navbar.hasClass('scrolled')) {
+						navbar.removeClass('scrolled sleep');
+					}
 				}
-				if(sd.length > 0) {
-					sd.removeClass('sleep');
+				if (st > 350) {
+					if (!navbar.hasClass('awake')) {
+						navbar.addClass('awake');
+					}
+
+					if (sd.length > 0) {
+						sd.addClass('sleep');
+					}
 				}
-			}
-		});
+				if (st < 350) {
+					if (navbar.hasClass('awake')) {
+						navbar.removeClass('awake');
+						navbar.addClass('sleep');
+					}
+					if (sd.length > 0) {
+						sd.removeClass('sleep');
+					}
+				}
+			});
+		}
+		
 	};
 	scrollWindow();
 

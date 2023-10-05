@@ -3,6 +3,7 @@
 }
 
 @model Room
+<div class="container" style="min-height:100vh;background-color:white;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding:1rem;padding-bottom:1rem">
 
 <form asp-action="Edit" method="post" enctype="multipart/form-data">
 
@@ -31,7 +32,7 @@
         <select asp-for="RoomTypeID" class="form-control" asp-items="ViewBag.RoomTypeList"></select>
     </div>
 
-    <h4>Tiện Ích</h4>
+    <label>Tiện Ích</label>
     @foreach (var unity in @ViewBag.RoomUnitiesList.Items)
     {
         var isChecked = Model.Unities != null && Model.Unities.Any(u => u.Name == unity.Name);
@@ -44,5 +45,7 @@
     <label class="control-label">Hinh Anh</label>
     <input type="file" id="ImageFile" name="ImageFile" class="form-control-file" multiple />
 
-    <button type="submit" class="btn btn-primary">Create Room</button>
+    <button type="submit" class="btn btn-primary mt-2">Xong</button>
 </form>
+
+</div>

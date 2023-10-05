@@ -1985,3 +1985,4 @@ E:\CODE\dotnet2\fix\Hotel\obj\Debug\net6.0\refint\Hotel.dll
 E:\CODE\dotnet2\fix\Hotel\obj\Debug\net6.0\Hotel.pdb
 E:\CODE\dotnet2\fix\Hotel\obj\Debug\net6.0\Hotel.genruntimeconfig.cache
 E:\CODE\dotnet2\fix\Hotel\obj\Debug\net6.0\ref\Hotel.dll
+C:\Users\pc\Hotel\bin\Debug\net6.0\BCrypt.Net-Next.dll

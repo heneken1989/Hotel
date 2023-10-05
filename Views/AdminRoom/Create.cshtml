@@ -4,10 +4,10 @@
 }
 
 @model Room
-
+<div class="container" style="min-height:100vh;min-height:40vh;background-color:white;padding:2rem">
+    <h1 >Tạo phòng mới </h1>
 <form asp-action="Create" method="post" enctype="multipart/form-data">
 
-    <h4>Property</h4>
     @for (int i = 0; i < Model.roomProperties!.Count; i++)
     {
         var propertyList = Model.roomProperties.ToList();
@@ -23,7 +23,7 @@
         <select asp-for="RoomTypeID" class="form-control" asp-items="ViewBag.RoomTypeId"></select>
     </div>
 
-    <h4>Tiện Ích</h4>
+    <label>Tiện Ích</label>
     @foreach (var unity in Model.Unities!)
     {
         <div class="form-check">
@@ -32,8 +32,10 @@
         </div>
     }
 
-    <label class="control-label">Hinh Anh</label>
+    <label class="control-label mt-3">Hinh Anh</label>
     <input type="file" id="ImageFile" name="ImageFile" class="form-control-file" multiple />
 
-    <button type="submit" class="btn btn-primary">Create Room</button>
+    <button type="submit" class="btn btn-primary mt-5">Create Room</button>
 </form>
+
+</div>

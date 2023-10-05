@@ -3,8 +3,31 @@
     ViewData["Title"] = "Index";
 }
 
+<!-- Button trigger modal -->
 
-<div class="container" style="min-height:100vh">
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cảnh báo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                bạn có chắc muốn xóa không ?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Không xóa</button>
+                <a role="button" class="btn btn-danger" id="a-link-delete-room-type"> Xóa </a>
+            </div>
+        </div>
+    </div>
+</div>
+    <h1 class="mb-3" style="text-align:center">Quản lý loại phòng</h1>
+<div class="container" style="min-height:100vh;background-color:white;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding:1rem;padding-bottom:1rem">
     @if (TempData.ContainsKey("ErrorMessage"))
     {
         <div class="alert alert-danger">
@@ -12,30 +35,29 @@
         </div>
     }
 
-    <h1 class="mb-3">Quản lý loại phòng</h1>
 
-    <a asp-action="Create">Tạo Loại Phòng MỚi</a>
+    <a asp-action="Create" role="button" class="btn btn-warning mb-2" >Tạo Loại Phòng MỚi</a>
 
 <table id="room_type"  class="table table-hover table-striped table-bordered">
-    <thead>
+    <thead class="thead-dark">
         <tr>
-            <th>
+                <th class="text-center">
                Loại Phòng
             </th>
-            <th>Action</th>
+            <th class="text-center">Action</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>
+                    <td class="text-center">
                     @Html.DisplayFor(modelItem => item.Type)
                 </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Chỉnh Sửa</a> |
-              
-                    <a asp-action="Delete" asp-route-id="@item.Id" onclick="return confirm('Bạn chắc chắn muốn xóa?')" >Xóa</a>
+                    <td class="text-center">
+                    <a asp-action="Edit" asp-route-id="@item.Id" role="button" class="btn btn-info">Chỉnh Sửa</a> |
+
+                        <button class="btn btn-danger" id="btn-delete-room-type" data-toggle="modal" data-target="#exampleModal" data-id="@item.Id">Xóa</button>
                 </td>
             </tr>
         }
