@@ -81,9 +81,6 @@ namespace Hotel.Controllers
             return View("Login");
         }
 
-
-
-
         [Route("logout")]
         public async Task<IActionResult> Logout()
         {
@@ -115,10 +112,7 @@ namespace Hotel.Controllers
         {
             var data = new User()
             {
-
-
                 Username = name,
-
                 Password = BCrypt.Net.BCrypt.HashPassword(pass)
             };
             await _context.AddAsync(data);
