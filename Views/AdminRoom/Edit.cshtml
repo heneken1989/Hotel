@@ -8,7 +8,11 @@
 
     <h4>Property</h4>
     <input hidden asp-for="Id" />
+<<<<<<< HEAD
     @for (int i = 0; i < @ViewBag.RoomPropertyList.Items.Count; i++)
+=======
+    @for (int i = 0; i <@ViewBag.RoomPropertyList.Items.Count; i++)
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
     {
         var propertyList = @ViewBag.RoomPropertyList.Items;
         var propertyDetails = ViewBag.PropertyDetails;
@@ -36,7 +40,11 @@
     {
         var isChecked = Model.Unities != null && Model.Unities.Any(u => u.Name == unity.Name);
         <div class="form-check">
+<<<<<<< HEAD
             <input type="checkbox" class="form-check-input" name="Unities" value="@unity.Id" @(isChecked ? "checked" : "")>
+=======
+            <input  type="checkbox" class="form-check-input" name="Unities" value="@unity.Id" @(isChecked ? "checked" : "")>
+>>>>>>> 452dde47dc47efcdc9f68a082bd9b26c03263b3c
             <label class="form-check-label">@unity.Name</label>
         </div>
     }
