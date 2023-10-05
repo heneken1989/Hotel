@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.CodeAnalysis.Scripting;
-
+using Hotel.Models;
 
 namespace Hotel.Controllers
 {
@@ -95,6 +95,30 @@ namespace Hotel.Controllers
         public IActionResult ChangePassword()
         {
             return View("ChangePassword");
+        }
+
+
+        [Route("Register")]
+        [AllowAnonymous]
+        public IActionResult Register()
+        {
+            return View("Register");
+        }
+
+        [Route("Register")]
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Register(string name, string pass)
+        {
+            var data = new User()
+            {
+                Username = name,
+                Password = BCrypt.Net.BCrypt.HashPassword(pass)
+            };
+            await _context.AddAsync(data);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Login");
+
         }
 
         [Route("changePassword")]
