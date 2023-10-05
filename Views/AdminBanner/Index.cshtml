@@ -11,11 +11,11 @@
     <table id="banner_table" class="table table-hover table-striped table-bordered">
         <thead>
             <tr>
-                <th>Id</th>
-                <th>Tiêu đề</th>
-                <th>Nội dung</th>
-                <th>ảnh</th>
-                <th>Action</th>
+                <th class="text-center">Id</th>
+                <th class="text-center">Tiêu đề</th>
+                <th class="text-center">Nội dung</th>
+                <th class="text-center">ảnh</th>
+                <th class="text-center">Action</th>
             </tr>
         </thead>
         <tbody>
@@ -23,15 +23,15 @@
             {
                 var img = $"~/images/{@item.Image}";
                 <tr>
-                    <td>@Html.DisplayFor(a=>item.Id)</td>
-                    <td>@Html.DisplayFor(a=>item.Title)</td>
-                    <td>@Html.DisplayFor(a=>item.Content)</td>
-                    <td scope="col">
+                    <td class="text-center">@Html.DisplayFor(a=>item.Id)</td>
+                    <td class="text-center">@Html.DisplayFor(a=>item.Title)</td>
+                    <td class="text-center">@Html.DisplayFor(a=>item.Content)</td>
+                    <td class="text-center" scope="col">
                         <img style="width:70px;height:70px" src="@Url.Content(img)" />
                     </td>
 
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <td class="text-center">
+                        <a asp-action="Update" asp-route-id="@item.Id">Edit</a> |
 
                         <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                     </td>
