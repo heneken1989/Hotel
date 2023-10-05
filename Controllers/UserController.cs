@@ -81,6 +81,30 @@ namespace Hotel.Controllers
             return View("Login");
         }
 
+        [Route("Register")]
+        [AllowAnonymous]
+        public IActionResult Register()
+        {
+            return View("Register");
+        }
+
+        [Route("Register")]
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Register(string name, string pass)
+        {
+            var data = new User()
+            {
+                Username = name,
+                Password = BCrypt.Net.BCrypt.HashPassword(pass)
+        };
+          await  _context.AddAsync(data);
+       await _context.SaveChangesAsync();
+            return RedirectToAction("Login");
+           
+        }
+
+
         [Route("logout")]
         public async Task<IActionResult> Logout()
         {
@@ -112,7 +136,11 @@ namespace Hotel.Controllers
         {
             var data = new User()
             {
+<<<<<<< HEAD
                 Username = name, 
+=======
+                Username = name,
+>>>>>>> 9bb82ec1f326c4f60f51b707828c2bf54c82ce61
                 Password = BCrypt.Net.BCrypt.HashPassword(pass)
             };
             await _context.AddAsync(data);

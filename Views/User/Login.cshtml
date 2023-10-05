@@ -32,7 +32,7 @@
                     <h5 class="card-title text-center mb-5 fw-light fs-5">Đăng nhập</h5>
                     <form asp-action="Login" asp-controller="User" method="post">
                         <div class="form-floating mb-3">
-                            <input type="email" asp-for="Email" class="form-control" id="floatingInput" placeholder="Tên đăng nhập">
+                            <input type="text" asp-for="Email" class="form-control" id="floatingInput" placeholder="Tên đăng nhập">
                             <label for="floatingInput">Tên đăng nhập</label>
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>

@@ -11159,11 +11159,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
       "projectName": "Hotel",
       "projectPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\",
+=======
+      "projectUniqueName": "E:\\CODE\\dotnet2\\fix\\Hotel\\Hotel.csproj",
+      "projectName": "Hotel",
+      "projectPath": "E:\\CODE\\dotnet2\\fix\\Hotel\\Hotel.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "E:\\CODE\\dotnet2\\fix\\Hotel\\obj\\",
+>>>>>>> 9bb82ec1f326c4f60f51b707828c2bf54c82ce61
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
