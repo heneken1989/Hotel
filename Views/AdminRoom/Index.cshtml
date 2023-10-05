@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Room>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container" style="min-height:100vh">
+    <h1 class="mb-3">Quản lý phòng</h1>
+
+    <a asp-action="Create" asp-controller="AdminRoom">Tạo Phòng Mới</a>
+
+<table id="room_table" class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>Loại Phòng</th>
+            <th>Tiện Ích</th>
+            <th>Mô Tả Phòng</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(a=>item.Id)</td>
+                <td>
+                     @Html.DisplayFor(a=>item.RoomType!.Type)
+                </td>
+                <td>
+                    @foreach(var u in item.Unities!)
+                    {
+                        @u.Name @Html.Raw("&nbsp;") @Html.Raw("&nbsp;")
+
+                        @Html.Raw("&nbsp;")
+                    }
+
+                </td>
+                <td>
+                        <ul>
+                            @foreach (var property in ViewBag.RoomPropertyList.Items)
+                            {
+                                <li>
+                                    @property.Name :       
+                                    @foreach (var detail in property.Details)
+                                    {
+                                        if (detail.RoomId == item.Id)
+                                        {
+                                            @detail.Detail
+                                        }
+                                       
+                                    }
+                                </li>
+                            }
+                        </ul>
+                </td>
+        
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+
