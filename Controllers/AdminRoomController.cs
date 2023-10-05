@@ -12,7 +12,7 @@ namespace Hotel.Controllers
     [AllowAnonymous]
     public class AdminRoomController : Controller
     {
-       
+
         HotelDbContext ctx;
 
         public AdminRoomController(HotelDbContext ctx)
@@ -35,27 +35,27 @@ namespace Hotel.Controllers
 
             return View(rooms);
         }
-        public async Task<IActionResult> Create() 
+        public async Task<IActionResult> Create()
         {
             var room = new Room
             {
                 Unities = ctx.RoomUnities
-                    .Where(a=>a.RoomId== null)
+                    .Where(a => a.RoomId == null)
                     .ToList(),
 
                 roomProperties = ctx.RoomProperties.ToList()
-          
+
             };
             ViewBag.RoomTypeId = new SelectList(ctx.RoomTypes, "Id", "Type");
-      
+
             return View(room);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Room ro,List<int> Unities, List<IFormFile> ImageFile,List<string> PropertyDetail ,List<int> PropertyId)
+        public async Task<IActionResult> Create(Room ro, List<int> Unities, List<IFormFile> ImageFile, List<string> PropertyDetail, List<int> PropertyId)
         {
-       
-            if (ModelState.IsValid) 
+
+            if (ModelState.IsValid)
             {
                 // add new room
                 ctx.Rooms.Add(ro);
@@ -72,19 +72,19 @@ namespace Hotel.Controllers
                         RoomId = ro.Id
                     };
                     ctx.RoomPropertyDetails.Add(newPropertyDetail);
-                   
+
                 }
                 await ctx.SaveChangesAsync();
 
                 string filename = string.Empty;
                 // kiem tra xem hinh co duoc upload len hay khong
-                foreach(var imgfile in ImageFile) 
-                
+                foreach (var imgfile in ImageFile)
+
                 {
 
                     if (imgfile != null)
                     {
-                        var FileName =await CommonMethod.uploadImage(imgfile);
+                        var FileName = await CommonMethod.uploadImage(imgfile);
                         if (FileName != "false")
                         {
                             var newImage = new Image
@@ -102,13 +102,13 @@ namespace Hotel.Controllers
                         }
                     }
                 }
-              
+
                 //LIst danh sach Unity Selected
                 var selectedUnity = await ctx.RoomUnities
-                     .Where(u=>Unities.Contains(u.Id))
-                     .ToListAsync();   
+                     .Where(u => Unities.Contains(u.Id))
+                     .ToListAsync();
                 // Tao New Unity have RoomID = Created Room (ro)
-                foreach(var u in selectedUnity)
+                foreach (var u in selectedUnity)
                 {
                     var newUnity = new RoomUnity
                     {
@@ -122,6 +122,32 @@ namespace Hotel.Controllers
             }
             return View(ro);
         }
+
+
+        public async Task<IActionResult> Edit(int id)
+        {
+            var room = await ctx.Rooms
+                .Include(a => a.Unities)
+                .Include(b => b.RoomType)
+                .SingleOrDefaultAsync(a => a.Id == id);
+
+            var roomProperties = await ctx.RoomProperties
+             .Include(a => a.Details)
+             .ToListAsync();
+
+            ViewBag.RoomPropertyList = new SelectList(roomProperties, "Id", "Name");
+
+            var propertyDetails = await ctx.RoomPropertyDetails
+                   .Where(d => d.RoomId == id)
+                   .ToListAsync();
+
+            ViewBag.PropertyDetails = propertyDetails;
+            ViewBag.RoomTypeList = new SelectList(ctx.RoomTypes.ToList(), "Id", "Type");
+            ViewBag.RoomUnitiesList = new SelectList(ctx.RoomUnities.Where(a => a.RoomId == null).ToList(), "Id", "Name");
+            return View(room);
+        }
+
+
 
 
     }
