@@ -84,8 +84,8 @@ namespace Hotel.Controllers
 
                     if (imgfile != null)
                     {
-                        var FileName = await CommonMethod.uploadImage(imgfile);
-                        if (FileName != "false")
+                        filename = await CommonMethod.uploadImage(imgfile);
+                        if (filename != "false")
                         {
                             var newImage = new Image
                             {
@@ -175,15 +175,27 @@ namespace Hotel.Controllers
 
 
                 // Edit Images
+                // Xoa image Cu
+                if (ImageFile.Count >0)
+                {
+                    var oldImg = await ctx.Images
+                   .Where(a => a.RoomId == ro.Id)
+                   .ToListAsync();
 
+                    foreach (var img in oldImg)
+                    {
+                        ctx.Entry(img).State = EntityState.Deleted; 
+                        await ctx.SaveChangesAsync();
+                    }
+                }
+      
                 string filename = string.Empty;
                 foreach (var imgfile in ImageFile)
                 {
-
                     if (imgfile != null)
                     {
-                        var FileName = await CommonMethod.uploadImage(imgfile);
-                        if (FileName != "false")
+                         filename = await CommonMethod.uploadImage(imgfile);
+                        if (filename != "false")
                         {
                             var newImage = new Image
                             {
