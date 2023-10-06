@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v3iKqDQ5SAQUUV1B/IB4x/u9CFRrkWTEybMHOo7nHwc=",
+  "Hash": "0C0e7GzT+sg3l0Ghyqhq47x06GkNOP5ZNh4/SyxroFA=",
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
@@ -3551,6 +3551,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\1696568807450954206.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16965692181149855034.jpg",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "images/16965692181149855034.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\16965692181149855034.jpg"
     },
     {
       "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\js\\site.js",

@@ -50,10 +50,18 @@
                         }
          
                         <div class="text p-3 text-center">
-                            <h3 class="mb-3"><a href="rooms.html">Suite Room</a></h3>
-                            <p><span class="price mr-2">$120.00</span> <span class="per">per night</span></p>
+                            <h3 class="mb-3"><a href="rooms.html">@r.RoomType.Type</a></h3>
+
+                            @foreach (var de in ViewBag.RoomPropertyList.Details)
+                            {
+                                if(de.RoomId == r.Id)
+                                {
+                                    <p><span class="price mr-2">@de.Detail</span> <span class="per"></span></p>
+                                }
+                            }
                             <hr>
-                            <p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
+
+                            <p class="pt-1"><a href="room-single.html" class="btn-custom">Xem Chi Tiết Phòng<span class="icon-long-arrow-right"></span></a></p>
                         </div>
                     </div>
                 </div>
