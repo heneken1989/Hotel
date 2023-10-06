@@ -1,8 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model Room
 <div class="hero-wrap" style="background-image: url('@Url.Content("~/ForntEnd/images/bg_1.jpg")');">
     <div class="overlay"></div>
     <div class="container">
@@ -15,7 +11,7 @@
                         <span class="mr-2"><a href="rooms.html">Room</a></span>
                         <span>Room Single</span>
                     </p>
-                    <h1 class="mb-4 bread">Room Single</h1>
+                    <h1 class="mb-4 bread">Room Singless</h1>
                 </div>
             </div>
         </div>
@@ -28,20 +24,22 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-md-12 ftco-animate">
-                        <h2 class="mb-4">Family Room</h2>
+                        <h2 class="mb-4">@Model.RoomType.Type</h2>
                         <div class="single-slider owl-carousel">
-                            <div class="item">
-                                <div class="room-img"
-                                     style="background-image: url('@Url.Content("~/ForntEnd/images/room-1.jpg")');"></div>
-                            </div>
-                            <div class="item">
-                                <div class="room-img"
-                                     style="background-image:url('@Url.Content("~/ForntEnd/images/room-2.jpg")');"></div>
-                            </div>
-                            <div class="item">
-                                <div class="room-img"
-                                     style="background-image: url('@Url.Content("~/ForntEnd/images/room-3.jpg")');"></div>
-                            </div>
+
+                            @foreach(var a in @Model.Images)
+                            {
+                                var IUrl = $"~/images/{a.Url}";
+                                <div class="item">
+                                
+                                    <div class="room-img"
+                                         style="background-image: url('@Url.Content(@IUrl)');"></div>
+                                </div>
+
+                            }
+                 
+        
+
                         </div>
                     </div>
                     <div class="col-md-12 room-single mt-4 mb-5 ftco-animate">
@@ -52,16 +50,52 @@
                             subline of her own road, the Line Lane. Pityful a rethoric
                             question ran over her cheek, then she continued her way.
                         </p>
-                        <div class="d-md-flex mt-5 mb-5">
-                            <ul class="list">
-                                <li><span>Max:</span> 3 Persons</li>
-                                <li><span>Size:</span> 45 m2</li>
-                            </ul>
+                        <div class="d-md-flex mt-5 mb-4">
+                            <h4>Chi Tiết</h4>
                             <ul class="list ml-md-5">
+                                @for (int i=0 ; i < ViewBag.RoomProperties.Items.Count;i++)
+                                {
+                                        <li>
+                                        <span>
+                                            @ViewBag.RoomProperties.Items[i].Name:    
+                                                @foreach (var de in Model.Details!)
+                                                {
+                                                    if (de.RoomPropertyId == @ViewBag.RoomProperties.Items[i].Id && de.RoomId == Model.Id)
+                                                    {
+                                                        @de.Detail
+                                                    }
+                                                }
+                                        </span>
+                                        </li>
+                                }
+                            </ul>
+
+      @*                       <ul class="list ml-md-5">
                                 <li><span>View:</span> Sea View</li>
                                 <li><span>Bed:</span> 1</li>
+                            </ul> *@
+
+
+                          </div>
+
+
+                         <div class="d-md-flex mt-5 mb-4">
+                            <h3>Tiện Ích : </h3> 
+                            <br />
+                            <ul class="list ml-md-5">
+                                @foreach (var uni in Model.Unities!)
+                                {
+                                        <li>
+                                        <span>
+                                            @uni.Name
+                                        </span>
+                                        </li>
+                                }
                             </ul>
-                        </div>
+                          </div>
+
+
+
                         <p>
                             When she reached the first hills of the Italic Mountains, she
                             had a last view back on the skyline of her hometown
@@ -74,7 +108,7 @@
                         <h3 class="mb-4">Take A Tour</h3>
                         <div class="block-16">
                             <figure style="display: flex; justify-content: center">
-                                <img src='@Url.Content("~/ForntEnd/images/room-4.jpg")'
+                              @*   <img src='@Url.Content("~/ForntEnd/images/room-4.jpg")' *@
                                      alt="Image placeholder"
                                      class="img-fluid" />
                                 <a href="https://vimeo.com/45830194"
