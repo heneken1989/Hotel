@@ -13,29 +13,45 @@ namespace Hotel.Controllers
         HotelDbContext ctx;
         public AdminPropertyController(HotelDbContext ctx)
         {
-            this.ctx = ctx; 
+            this.ctx = ctx;
         }
-        
+
         public async Task<IActionResult> Index()
         {
-            var properties =  await ctx.RoomProperties.ToListAsync();
+            var properties = await ctx.RoomProperties.ToListAsync();
 
             return View(properties);
         }
-        public  IActionResult Create()
+        public IActionResult Create()
         {
-            return View();  
+            return View();
         }
         [HttpPost]
         public async Task<IActionResult> Create(RoomProperty pro)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-				ctx.Entry(pro).State = EntityState.Added;
-				await ctx.SaveChangesAsync();
-				return RedirectToAction("Index");
-			}
-            return View(pro);   
+                ctx.Entry(pro).State = EntityState.Added;
+                await ctx.SaveChangesAsync();
+
+                var rooms = await ctx.Rooms.ToListAsync();
+                foreach (var r in rooms)
+                {
+                    var prodetail = new RoomPropertyDetail
+                    {
+                        Detail = "NO DATA",
+                        RoomPropertyId = pro.Id,
+                        RoomId = r.Id
+
+                    };
+
+                    ctx.Entry(prodetail).State = EntityState.Added;
+                    await ctx.SaveChangesAsync();
+
+                }
+                return RedirectToAction("Index");
+            }
+            return View(pro);
         }
 
         public async Task<IActionResult> Delete(int id)

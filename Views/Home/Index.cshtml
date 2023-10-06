@@ -39,15 +39,19 @@
                
                 <div class="col-sm col-md-6 col-lg-4 ftco-animate">
                     <div class="room">
+                        <a asp-action="Index" asp-controller="SingleRoom" asp-route-id="@r.Id">
+
+
                         @foreach(var i in @r.Images)
                         {
                             var rimg = $"~/images/{i.Url}";
-                            <a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url('@Url.Content(rimg)');" >
+                            <div href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url('@Url.Content(rimg)');background-size:contain" >
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <span class="icon-search2"></span>
                                 </div>
-                            </a>   
+                            </div>   
                         }
+                        </a>
          
                         <div class="text p-3 text-center">
                             <h3 class="mb-3"><a href="rooms.html">@r.RoomType.Type</a></h3>
