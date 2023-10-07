@@ -3,6 +3,12 @@
     ViewData["Title"] = "Create RoomUnity";
 }
 <body>
+        @if (!string.IsNullOrEmpty(ViewData["Err"] as string))
+    {
+        <div class="alert alert-danger">@ViewData["Err"]</div>
+    }
+
+
     <div class="container " style="min-height:40vh;background-color:white ">
         <div style="display:flex;justify-content:space-between;align-items:center ">
         <h1 class="mb-3">Tạo Tiện Ích Mới</h1>

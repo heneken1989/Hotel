@@ -9,6 +9,7 @@
     <div class="form-group">
         <label class="control-label">Tên</label>
         <input  asp-for="Name">
+         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Xong</button>
 </form>
