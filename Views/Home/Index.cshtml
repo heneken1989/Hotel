@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Banner>
+
+@if (Model != null)
+{
+    <section class="home-slider owl-carousel" style="height:100vh">
+        @foreach (var b in Model)
+        {
+            var img = $"~/images/{b.Image}";
+            <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:contain">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text align-items-center justify-content-center">
+                        <div class="col-md-12 ftco-animate text-center">
+                            <div class="text mb-5 pb-3">
+                                <h1 class="mb-3">@Html.DisplayFor(i=>b.Title)</h1>
+                                <h2>@Html.DisplayFor(i=>b.Content)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </section>
+}
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h2 class="mb-4">Our Rooms</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            @foreach(var r in ViewBag.RoomList.Items)
+            {
+               
+                <div class="col-sm col-md-6 col-lg-4 ftco-animate">
+                    <div class="room">
+                        <a asp-action="Index" asp-controller="SingleRoom" asp-route-id="@r.Id">
+
+
+                        @foreach(var i in @r.Images)
+                        {
+                            var rimg = $"~/images/{i.Url}";
+                            <div href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url('@Url.Content(rimg)');background-size:contain" >
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <span class="icon-search2"></span>
+                                </div>
+                            </div>   
+                        }
+                        </a>
+         
+                        <div class="text p-3 text-center">
+                            <h3 class="mb-3"><a href="rooms.html">@r.RoomType.Type</a></h3>
+                            @if(ViewBag.RoomPropertyList != null)
+                            {
+                                @foreach (var de in ViewBag.RoomPropertyList.Details)
+                                {
+                                    if (de.RoomId == r.Id)
+                                    {
+                                        <p><span class="price mr-2">@de.Detail</span> <span class="per"></span></p>
+                                    }
+                                }
+                            }
+                            <hr>
+                            <p class="pt-1"><a asp-action="Index" asp-controller="SingleRoom" asp-route-id="@r.Id" class="btn-custom">Xem Chi Tiết Phòng<span class="icon-long-arrow-right"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+            }
+   
+
+       
+
+
+   
+     
+     
+      
+        </div>
+    </div>
+</section>
+
+
+
