@@ -13,26 +13,31 @@ namespace Hotel.Controllers
         HotelDbContext ctx;
         public AdminPropertyController(HotelDbContext ctx)
         {
-            this.ctx = ctx; 
+            this.ctx = ctx;
         }
-        
+
         public async Task<IActionResult> Index()
         {
-            var properties =  await ctx.RoomProperties.ToListAsync();
+            var properties = await ctx.RoomProperties.ToListAsync();
 
             return View(properties);
         }
-        public  IActionResult Create()
+        public IActionResult Create()
         {
-            return View();  
+            return View();
         }
         [HttpPost]
         public async Task<IActionResult> Create(RoomProperty pro)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
+<<<<<<< HEAD
 				ctx.Entry(pro).State = EntityState.Added;
 				await ctx.SaveChangesAsync();
+=======
+                ctx.Entry(pro).State = EntityState.Added;
+                await ctx.SaveChangesAsync();
+>>>>>>> bef7ed6e699de68406724aedc9376dff35975051
 
                 var rooms = await ctx.Rooms.ToListAsync();
                 foreach (var r in rooms)
@@ -50,8 +55,13 @@ namespace Hotel.Controllers
 
                 }
                 return RedirectToAction("Index");
+<<<<<<< HEAD
 			}
             return View(pro);   
+=======
+            }
+            return View(pro);
+>>>>>>> bef7ed6e699de68406724aedc9376dff35975051
         }
 
         public async Task<IActionResult> Delete(int id)
