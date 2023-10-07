@@ -6,7 +6,7 @@
         @foreach (var b in Model)
         {
             var img = $"~/images/{b.Image}";
-            <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:contain">
+            <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:fit">
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text align-items-center justify-content-center">
