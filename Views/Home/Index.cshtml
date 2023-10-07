@@ -56,11 +56,14 @@
                         <div class="text p-3 text-center">
                             <h3 class="mb-3"><a href="rooms.html">@r.RoomType.Type</a></h3>
 
-                            @foreach (var de in ViewBag.RoomPropertyList.Details)
+                            @if (ViewBag.RoomPropertyList != null)
                             {
-                                if(de.RoomId == r.Id)
+                                @foreach (var de in ViewBag.RoomPropertyList.Details)
                                 {
-                                    <p><span class="price mr-2">@de.Detail</span> <span class="per"></span></p>
+                                    if (de.RoomId == r.Id)
+                                    {
+                                        <p><span class="price mr-2">@de.Detail</span> <span class="per"></span></p>
+                                    }
                                 }
                             }
                             <hr>

@@ -83,9 +83,24 @@ namespace Hotel.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(RoomProperty Rtype)
         {
-            ctx.Entry(Rtype).State = EntityState.Modified;
-            await ctx.SaveChangesAsync();
-            return Redirect("Index");
+            if(ModelState.IsValid) 
+            {
+                ctx.Entry(Rtype).State = EntityState.Modified;
+                await ctx.SaveChangesAsync();
+                return Redirect("Index");
+
+            }
+
+            else
+            {
+                var U = await ctx.RoomProperties.AsNoTracking().SingleOrDefaultAsync(a => a.Id == Rtype.Id);
+                if (Rtype.Name == U.Name)
+                {
+                    return Redirect("Index");
+
+                }
+                return View(Rtype);
+            }
         }
 
 

@@ -53,6 +53,7 @@ namespace Hotel.Controllers
 
 		public async Task<IActionResult> Edit(int id)
 		{
+
 			var uni = await ctx.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
 			return View(uni);
 		}
@@ -60,9 +61,26 @@ namespace Hotel.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Edit(RoomUnity unity)
 		{
-			ctx.Entry(unity).State = EntityState.Modified;	
-			await ctx.SaveChangesAsync();	
-			return Redirect("Index");
+			if (ModelState.IsValid)
+            {
+                ctx.Entry(unity).State = EntityState.Modified;
+                await ctx.SaveChangesAsync();
+                return Redirect("Index");
+
+            }
+			else
+			{
+				var U = await ctx.RoomUnities.AsNoTracking().SingleOrDefaultAsync(a => a.Id == unity.Id);
+				if (unity.Name == U.Name)
+				{
+					return Redirect("Index");
+
+				}
+				return View(unity);
+			}
+
+
+
 		}
 	}
 }
