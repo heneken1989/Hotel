@@ -23,7 +23,8 @@ namespace Hotel.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
-            string message = TempData["passchange"] as string;
+            string? message = TempData["passchange"] as string;
+         
             if (message != null)
             {
                 ViewData["ChangePassSuccessed"] = message;

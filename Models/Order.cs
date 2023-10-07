@@ -1,5 +1,7 @@
-﻿using Hotel.Models.Shared;
+﻿using Hotel.Dtos;
+using Hotel.Models.Shared;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Hotel.Models
 {
@@ -9,7 +11,23 @@ namespace Hotel.Models
         public string? Name { get; set; }
         [Required]
         public string? Phone {  get; set; }
-        
-         public int RoomId { get; set; }   
+        [ForeignKey("Room")]
+         public int RoomId { get; set; }
+        public Room? Room { get; set; }
+        public String? Message {  get; set; }
+        public bool IsViewed { get; set; }
+
+        public Order()
+        {
+            IsViewed = false;
+        }
+
+        public Order (OrderDto data)
+        {
+            Name = data.Name;
+            Phone = data.Phone;
+            Message= data.Message;
+            RoomId = data.RoomId;
+        }
     }
 }
