@@ -1,4 +1,4 @@
-﻿@model Room
+﻿@model Hotel.Dtos.RoomDto
 <div class="hero-wrap" style="background-size:fit;background-position:botton; background-image: url('@Url.Content("~/images/HP.png")');">
     <div class="overlay"></div>
     <div class="container">
@@ -11,12 +11,26 @@
                         <span class="mr-2"><a href="/Room">Room</a></span>
                         <span>Room Single</span>
                     </p>
+<<<<<<< HEAD
                     <h1 class="mb-4 bread">@Model.RoomType!.Type</h1>
+=======
+                   
+                    <h1 class="mb-4 bread">@Model.Room.RoomType.Type</h1> 
+>>>>>>> 49fa0ea2bde77758023a9fd727c69a5dc01f2852
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@if (ViewData.ContainsKey("success"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["success"]</p>
+}
+@if (ViewData.ContainsKey("error"))
+{
+    <p class="alert alert-danger" role="alert">@ViewData["error"]</p>
+}
 
 <section class="ftco-section col-lg-12">
     <div class="container">
@@ -29,7 +43,11 @@
 
                         <div class="col-lg-8 single-slider owl-carousel">
 
+<<<<<<< HEAD
                             @foreach(var a in @Model.Images!)
+=======
+                            @foreach(var a in @Model.Room.Images)
+>>>>>>> 49fa0ea2bde77758023a9fd727c69a5dc01f2852
                             {
                                 var IUrl = $"~/images/{a.Url}";
                                 <div class="item" >
@@ -43,21 +61,26 @@
                         <div class="col-lg-4 sidebar ftco-animate">
 
                                 <div class="sidebar-box ftco-animate" style="border:0.1rem solid #ccc;box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;">
-                                    <form >
+                                    <form asp-action="HandleAddOrder"  method="post">
                                        
-                                        <input hidden asp-for="Id"  />
+                                        <input asp-for="@Model.Order.RoomId" hidden value="@Model.Room.Id"  />
+                                        <input hidden name="id" value="@Model.Room.Id"/>
                                         <div class="form-group">
                                             <label  class="control-label">Tên</label>
-                                            <input  class="form-control" />
+                                            <input asp-for="@Model.Order.Name" class="form-control" />
+                                            <span asp-validation-for="@Model.Order.Name" class="text-danger"></span>
                                             
+
                                         </div> 
+                                        
                                         <div class="form-group">
                                             <label  class="control-label">Số điện thoại</label>
-                                            <input  class="form-control" />
+                                            <input asp-for="@Model.Order.Phone" class="form-control" />
+                                            <span asp-validation-for="@Model.Order.Phone" class="text-danger"></span>
                                             
                                         </div>  <div class="form-group">
                                             <label  class="control-label">Ghi chú</label>
-                                            <input  class="form-control" />
+                                            <input asp-for="@Model.Order.Message" class="form-control" />
                                             
                                         </div>
                                         <div class="form-group">
@@ -89,9 +112,9 @@
                                         <li style="list-style:circle">
                                         <span>
                                             @ViewBag.RoomProperties.Items[i].Name:    
-                                                @foreach (var de in Model.Details!)
+                                                @foreach (var de in Model.Room.Details!)
                                                 {
-                                                    if (de.RoomPropertyId == @ViewBag.RoomProperties.Items[i].Id && de.RoomId == Model.Id)
+                                                    if (de.RoomPropertyId == @ViewBag.RoomProperties.Items[i].Id && de.RoomId == Model.Room.Id)
                                                     {
                                                         @de.Detail
                                                     }
@@ -108,7 +131,7 @@
                         <div class="d-md-flex mt-2 mb-4" style="border-top:0.2rem solid #ccc;padding:1rem">
                             <br />
                             <ul class="list ml-md-5">
-                                @foreach (var uni in Model.Unities!)
+                                @foreach (var uni in Model.Room.Unities!)
                                 {
                                     <li style="list-style:circle">
                                         <span>
