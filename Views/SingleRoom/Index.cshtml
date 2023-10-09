@@ -11,8 +11,7 @@
                         <span class="mr-2"><a href="/Room">Room</a></span>
                         <span>Room Single</span>
                     </p>
-                   
-                    <h1 class="mb-4 bread">@Model.RoomType.Type</h1>
+                    <h1 class="mb-4 bread">@Model.RoomType!.Type</h1>
                 </div>
             </div>
         </div>
@@ -30,7 +29,7 @@
 
                         <div class="col-lg-8 single-slider owl-carousel">
 
-                            @foreach(var a in @Model.Images)
+                            @foreach(var a in @Model.Images!)
                             {
                                 var IUrl = $"~/images/{a.Url}";
                                 <div class="item" >
