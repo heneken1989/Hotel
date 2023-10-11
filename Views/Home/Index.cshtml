@@ -1,8 +1,241 @@
 ﻿@model IEnumerable<Banner>
 
+
+@* intro *@
+<link rel='stylesheet' id='flatsome-main-css'  href='https://miahotelvungtau.com/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.13.0' type='text/css' media='all' />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js" integrity="sha512-KvlmAB+wx0zLQRe7hCFzBwyaU/AvbwPoJgxfBZ6g+ZF9MBMY4YAo3+BycXH2Rc+fDPbZ0fJsi3AfOTmQYZEn9A==" crossorigin="anonymous"></script>
+<style id="custom-css" type="text/css">
+    :root {
+        --primary-color: #003f5c;
+    }
+
+    .full-width .ubermenu-nav, .container, .row {
+        max-width: 1270px
+    }
+
+        .row.row-collapse {
+            max-width: 1240px
+        }
+
+        .row.row-small {
+            max-width: 1262.5px
+        }
+
+        .row.row-large {
+            max-width: 1300px
+        }
+    .section-intro .item-contact a {
+        transition: all .5s;
+    }
+
+    .btn2:hover, .section-intro .item-contact a:hover {
+        box-shadow: 8px 8px #C5A46D;
+        transition: .3s;
+        color: rgb(255 255 255 / 80%);
+        background: #efb75b;
+    }
+
+    .section-gioithieu .col-item:first-child .row {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .section-gioithieu {
+        padding-bottom: 80px !important;
+    }
+
+    .term-phong .card-img-overlay h2, .term-room .card-img-overlay h2 {
+        margin-bottom: 20px !important;
+    }
+
+    .term-phong .card-img-overlay p, .term-room .card-img-overlay h2 {
+        font-size: 16px !important;
+    }
+
+    body .row-desc {
+        margin: 50px auto !important
+    }
+
+    .section-intro
+    .section-intro .banner::after {
+        left: -1rem !important
+    }
+
+    .box-intro {
+        margin-top: 40px !important;
+    }
+
+    .section-intro {
+        padding: 40px 0 !important
+    }
+
+        .section-intro .row-gioithieu {
+            width: 96% !important
+        }
+
+        .section-intro .row-gioithieu {
+            padding: 10px 5px !important;
+        }
+
+        .section-intro .content p {
+            font-size: 17px !important;
+        }
+
+
+    .header-main .section-intro .item-contact a div:last-child {
+        font-size: 23px !important;
+    }
+
+    .section-intro .item-contact a div {
+        font-size: 16px !important;
+    }
+
+    .section-intro .item-contact a {
+        width: 150px !important;
+        height: 80px !important;
+        margin-right: 0 !important
+    }
+</style>
+<style type="text/css" id="wp-custom-css">
+    body, h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a, .nav > li > a {
+        font-family: 'Sarabun', sans-serif !important;
+    }
+
+    body {
+        background: white;
+    }
+
+    .section-gioithieu .col-img {
+        margin-left: -40px;
+    }
+
+
+
+    .section-intro .row-gioithieu {
+        padding: 80px 50px;
+        border: 10px solid rgba(134, 112, 80, 0.24)
+    }
+
+    .section-intro .box-title .title h2 {
+        font-size: 50px;
+        color: #003f5c
+    }
+
+    .box-title .sub-title h3 {
+        color: #c19b76
+    }
+
+
+    .section-intro .banner::after {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        border-style: solid;
+        border-width: 1px;
+        top: 2rem;
+        right: 2rem;
+        bottom: -2rem;
+        left: -2rem;
+        border-color: #dadada;
+    }
+
+    .section-intro .banner::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        border-style: solid;
+        border-width: 1px;
+        top: -2rem;
+        right: -2rem;
+        bottom: 2rem;
+        left: 2rem;
+        border-color: #dadada;
+    }
+
+
+    .section-intro .banner .bg:before {
+        content: "";
+        display: block;
+        border-style: solid;
+        border-width: 0;
+        position: absolute;
+        z-index: 1;
+        border-top-width: 1px;
+        top: 2rem;
+        border-right-width: 1px;
+        right: 2rem;
+        bottom: 0;
+        left: 0;
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .section-intro .item-contact p {
+        display: none;
+    }
+
+    .section-intro .item-contact a {
+        display: inline-flex;
+        flex-direction: column;
+        width: 180px;
+        height: 120px;
+        background: #003f5c;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        margin-right: -148px;
+    }
+
+        .section-intro .item-contact a div {
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+            .section-intro .item-contact a div:last-child {
+                font-size: 30px;
+            }
+
+    .section-intro .col-hinhanh .col-inner::before {
+        right: 0;
+        opacity: 0.7;
+        top: 0;
+    }
+
+    .section-intro .col-hinhanh .col-inner::after {
+        bottom: 0;
+        opacity: 0.7;
+        left: 0;
+    }
+
+    .section-intro .col-hinhanh .col-inner::before, .section-intro .col-hinhanh .col-inner::after {
+        content: "";
+        background: #fff;
+        height: 0;
+        width: 0;
+        z-index: 1;
+        position: absolute;
+        -webkit-transition-duration: 1.3s !important;
+        -o-transition-duration: 1.3s;
+        transition-duration: 1.3s !important;
+    }
+
+    .section-intro .col-hinhanh .col-inner:hover::after, .section-intro .col-hinhanh .col-inner:hover::before {
+        height: 100%;
+        opacity: 0;
+        width: 100%;
+    }
+</style>
+
+
+
 @if (Model != null)
 {
     <section class="home-slider owl-carousel" style="height:100vh">
+  
         @foreach (var b in Model)
         {
             var img = $"~/images/{b.Image}";
@@ -20,16 +253,128 @@
                 </div>
             </div>
         }
-
     </section>
-
 }
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<section class="section section-intro" id="section_894630452">
+    <div class="bg section-bg fill bg-fill  bg-loaded">
+    </div>
+
+    <div class="section-content relative">
+
+        <div class="row row-large row-gioithieu" id="row-1158504080">
+
+            <div id="col-1909256363" class="col col-hinhanh pb-0 medium-6 small-12 large-6">
+                <div class="col-inner">
+
+
+
+                    <div class="banner has-hover" id="banner-126835757">
+                        <div class="banner-inner fill">
+                            <div class="banner-bg fill">
+                                <div class="bg fill bg-fill "></div>
+                                <img src="~/images/view.jpg" />
+                            </div>
+                            <div class="banner-layers container">
+                                <div class="fill banner-link"></div>
+                                <div id="text-box-988802694" class="text-box banner-layer x100 md-x100 lg-x100 y100 md-y100 lg-y100 res-text">
+                                    <div class="text dark">
+
+                                        <div class="text-inner text-center">
+
+                                            <div class="item-contact">
+                                                <a href="tel:02854338868">
+                                                    </p>
+                                                    <div>Hotline</div>
+                                                    <div>24/7</div>
+                                                    <p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <style>
+                                        #text-box-988802694 {
+                                            width: 50%;
+                                        }
+
+                                            #text-box-988802694 .text {
+                                                font-size: 100%;
+                                            }
+                                    </style>
+                                </div>
+
+                            </div>
+                        </div>
+            
+                        <div class="height-fix is-invisible"><img width="1348" height="1034" src="https://unsplash.com/photos/e616t35Vbeg" class="attachment-original size-original" alt="" loading="lazy" srcset="https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1.jpg 1348w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-521x400.jpg 521w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-1043x800.jpg 1043w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-768x589.jpg 768w" sizes="(max-width: 1348px) 100vw, 1348px" /></div>
+
+                        <style>
+                            #banner-126835757 .bg.bg-loaded {
+                             
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="col-1990368549" class="col pb-0 medium-6 small-12 large-6">
+                <div class="col-inner">
+
+
+                    <div class="box-intro">
+                        <div class="group-title">
+                            <div class="box-title">
+                                <div class="sub-title">
+                                    <h3>Chào Mừng Quý Khách Đến  Với</h3>
+                                </div>
+                                <div class="title">
+                                    <h2>HÙNG PHÁT Hotel </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p><strong>KHÁCH SẠN TỌA LẠC TRÊN CUNG ĐƯỜNG SẦM UẤT NHẤT CỦA THÀNH PHỐ MANG TÊN BÁC </strong></p>
+                           
+                            <p><strong>HÙNG PHÁT Hotel </strong> mang đến không gian sống và nghỉ dưỡng thanh bình, nơi bạn và gia đình cùng nhau đón ánh bình minh rực rỡ mỗi sớm mai và tận hưởng cuộc sống hạnh phúc giữa lòng thành phố nhộn nhịp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <style>
+        #section_894630452 {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    </style>
+</section>
+
+
+
+
+
 
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
                 <h2 class="mb-4">Our Rooms</h2>
+
             </div>
         </div>
         <div class="row">
@@ -45,7 +390,7 @@
                         @foreach(var i in @r.Images)
                         {
                             var rimg = $"~/images/{i.Url}";
-                            <div href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url('@Url.Content(rimg)');background-size:contain" >
+                            <div href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url('@Url.Content(rimg)');background-size:fit" >
                                 <div class="icon d-flex justify-content-center align-items-center">
                                     <span class="icon-search2"></span>
                                 </div>
@@ -73,18 +418,24 @@
                     </div>
                 </div>
             }
-   
-
-       
-
-
-   
-     
-     
-      
+    
         </div>
     </div>
+
+  
+
 </section>
+
+<script type='text/javascript' id='flatsome-js-js-extra'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/miahotelvungtau.com\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false},"i18n":{"mainMenu":"Main Menu"},"options":{"cookie_notice_version":"1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://miahotelvungtau.com/wp-content/themes/flatsome/assets/js/flatsome.js?ver=3.13.0' id='flatsome-js-js'></script>
+
+
+
+
 
 
 

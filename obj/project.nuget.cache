@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "va67OVeCoSY4D9ZMBPjEJWptgGHS0c2xVqfH+vkR4QyizcMMb7DeF3YxtPWdhSrzKub6NPrh+arRdaWFM2u5iQ==",
+=======
+  "dgSpecHash": "cqxTYj8Ez5BRD1FSnh2FXbscNFkkNo81tpUQSNQ57aBAj+z/hxYvNzH1HZYrf77vgRVmkJhrkigg+azCExfQbg==",
+>>>>>>> 8a859d111414a407606b9e567afce15218d4b2cf
   "success": true,
   "projectFilePath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
   "expectedPackageFiles": [

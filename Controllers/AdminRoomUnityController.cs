@@ -33,7 +33,7 @@ namespace Hotel.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				ctx.Entry<RoomUnity>(unity).State = EntityState.Added;
+				ctx.Entry(unity).State = EntityState.Added;
 				await ctx.SaveChangesAsync();
 				return RedirectToAction("Index");
 			}
@@ -46,8 +46,10 @@ namespace Hotel.Controllers
 		public async Task<IActionResult> Delete(int id)
 		{
 			var uni = await ctx.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
-			ctx.Entry(uni!).State = EntityState.Deleted;
-			await ctx.SaveChangesAsync();	
+
+			Console.WriteLine($"Uniiiiiiiiiiiiiiiiiiiiii:{uni}");
+			ctx.Entry(uni).State = EntityState.Deleted;
+			await ctx.SaveChangesAsync();
 			return RedirectToAction("Index");
 		}
 
