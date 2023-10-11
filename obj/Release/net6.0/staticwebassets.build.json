@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZyTefoUyylnelFtcSURptuIhbLHONwhcMWhohBHnmCc=",
+  "Hash": "0QUThvePODwJHAqHko0BEp7UzVIur9NHIwSrQJoRJJc=",
   "Source": "Hotel",
   "BasePath": "_content/Hotel",
   "Mode": "Default",
@@ -236,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\call.css",
+      "SourceId": "Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel",
+      "RelativePath": "ForntEnd/css/call.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ForntEnd\\css\\call.css"
     },
     {
       "Identity": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\css\\.DS_Store",

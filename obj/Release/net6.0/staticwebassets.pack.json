@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\ForntEnd\\css\\bootstrap\\bootstrap-reboot.css"
     },
     {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\call.css",
+      "PackagePath": "staticwebassets\\ForntEnd\\css\\call.css"
+    },
+    {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\css\\.DS_Store",
       "PackagePath": "staticwebassets\\ForntEnd\\css\\css\\.DS_Store"
     },
