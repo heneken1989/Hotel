@@ -16,6 +16,7 @@ namespace Hotel.Models
         public Room? Room { get; set; }
         public String? Message {  get; set; }
         public bool IsViewed { get; set; }
+        public DateTime DayCheckin { get; set; }
 
         public Order()
         {
@@ -28,6 +29,7 @@ namespace Hotel.Models
             Phone = data.Phone;
             Message= data.Message;
             RoomId = data.RoomId;
+            DayCheckin = data.Date;
         }
     }
 }

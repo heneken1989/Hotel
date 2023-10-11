@@ -11,5 +11,6 @@ namespace Hotel.Dtos
         public string? Phone { get; set; }
         public int RoomId { get; set; }
         public String? Message { get; set; }
+        public DateTime Date {  get; set; }
     }
 }
