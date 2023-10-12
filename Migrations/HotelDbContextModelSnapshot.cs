@@ -50,7 +50,7 @@ namespace Hotel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Banners");
+                    b.ToTable("Banners", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.Image", b =>
@@ -77,7 +77,7 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomId");
 
-                    b.ToTable("Images");
+                    b.ToTable("Images", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.Order", b =>
@@ -118,7 +118,7 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.Room", b =>
@@ -142,7 +142,7 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomTypeID");
 
-                    b.ToTable("Rooms");
+                    b.ToTable("Rooms", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomProperty", b =>
@@ -170,7 +170,7 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomId");
 
-                    b.ToTable("RoomProperties");
+                    b.ToTable("RoomProperties", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomPropertyDetail", b =>
@@ -203,7 +203,7 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomPropertyId");
 
-                    b.ToTable("RoomPropertyDetails");
+                    b.ToTable("RoomPropertyDetails", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomType", b =>
@@ -226,7 +226,7 @@ namespace Hotel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RoomTypes");
+                    b.ToTable("RoomTypes", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomUnity", b =>
@@ -254,7 +254,7 @@ namespace Hotel.Migrations
 
                     b.HasIndex("RoomId");
 
-                    b.ToTable("RoomUnities");
+                    b.ToTable("RoomUnities", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.User", b =>
@@ -279,7 +279,7 @@ namespace Hotel.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("Hotel.Models.Image", b =>

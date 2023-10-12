@@ -11154,19 +11154,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\huyhi\\.nuget\\packages\\": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\edit_Hotel\\Hotel.csproj",
       "projectName": "Hotel",
-      "projectPath": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\Hotel.csproj",
-      "packagesPath": "C:\\Users\\huyhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\obj\\",
+      "projectPath": "C:\\Users\\pc\\edit_Hotel\\Hotel.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pc\\edit_Hotel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\huyhi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
