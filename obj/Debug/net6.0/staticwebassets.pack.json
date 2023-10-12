@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\ForntEnd\\css\\flaticon.css"
     },
     {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\footer.css",
+      "PackagePath": "staticwebassets\\ForntEnd\\css\\footer.css"
+    },
+    {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\icomoon.css",
       "PackagePath": "staticwebassets\\ForntEnd\\css\\icomoon.css"
     },
@@ -75,6 +79,18 @@
     {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\ForntEnd\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\mia.css",
+      "PackagePath": "staticwebassets\\ForntEnd\\css\\mia.css"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\mia1.css",
+      "PackagePath": "staticwebassets\\ForntEnd\\css\\mia1.css"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\mia2.css",
+      "PackagePath": "staticwebassets\\ForntEnd\\css\\mia2.css"
     },
     {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\ForntEnd\\css\\open-iconic-bootstrap.min.css",
