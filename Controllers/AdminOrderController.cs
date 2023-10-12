@@ -16,12 +16,27 @@ namespace Hotel.Controllers
         public AdminOrderController(HotelDbContext context) { 
         _context=context;
         }
-        public async Task <IActionResult> Index()
+        public  IActionResult Index()
         {
-            var data= await  _context.Orders
-                .OrderByDescending(o=>o.CreatedDate)
-                .ToListAsync();
-            return View(data);
+            var data = from o in _context.Orders
+                       join r in _context.Rooms
+                       on o.RoomId equals r.Id into result
+                       from r in result.DefaultIfEmpty()
+                       select new OrderViewDto
+                       {
+                           Name = o.Name,
+                           Phone = o.Phone,
+                           RoomType = r.RoomType!.Type,
+                           Message = o.Message,
+                           Date = o.CreatedDate,
+                           CheckInDate=o.DayCheckin,
+                           OrderId=o.Id,
+                           Isviewed=o.IsViewed
+                       };
+              
+      
+            return View(data.OrderByDescending(o => o.Date));
+            
         }
         [HttpPost]
         public async Task Update(int id)
@@ -30,6 +45,7 @@ namespace Hotel.Controllers
             data.IsViewed=true;
            await _context.SaveChangesAsync();         
         }
+
         public async Task<bool> Add(OrderDto data)
         {
             try
@@ -43,6 +59,13 @@ namespace Hotel.Controllers
                 return false;
             }
            }
+
+        public async Task<IActionResult> CountOrder()
+        {
+            var Number =await _context.Orders.CountAsync();
+            return Ok(Number);
+        }
+
         }
     }
 

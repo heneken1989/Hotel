@@ -28,26 +28,37 @@
 
 	
 
+				
+				@if (User.Identity.IsAuthenticated)
+				{
 					<li class="nav-item" style="display:flex;justify-content:center;align-items:center">
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Quản Lý(StaffOnly)
 							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item" asp-controller="User" asp-action="ChangePassword">Thay đổi mật khẩu</a>
+								<a class="dropdown-item" asp-controller="User" asp-action="ChangePassword">Thay đổi mật khẩu</a>
 								<a class="dropdown-item" href="/admin/RoomType/Index">Quản Lý Loại Phòng</a>
 								<a class="dropdown-item" href="/admin/RoomUnity/Index">Quản Lý Tiện Ích</a>
 								<a class="dropdown-item" href="/admin/Room/Index">Quản Lý Phòng</a>
-							    <a class="dropdown-item" href="/admin/RoomProperty/Index">Quản Lý Property</a>
-						     	<a class="dropdown-item" href="/admin/RoomPropertyDetail/Index">Quản Lý PropertyDetail</a>
-							<a class="dropdown-item" asp-controller="AdminBanner" asp-action="Index">Quản Lý Banner</a>
+								<a class="dropdown-item" href="/admin/RoomProperty/Index">Quản Lý Property</a>
+								<a class="dropdown-item" href="/admin/RoomPropertyDetail/Index">Quản Lý PropertyDetail</a>
+								<a class="dropdown-item" asp-controller="AdminBanner" asp-action="Index">Quản Lý Banner</a>
+								<a class="dropdown-item" asp-controller="AdminOrder" asp-action="Index">Quản Lý Order</a>
 							</div>
 						</div>
-				@if (User.Identity.IsAuthenticated)
-				{
-						<span style="margin-left:10px" class="btn btn-warning "> <a asp-controller="user" class="text-dark" asp-action="Logout">Logout</a></span>
-				}
 					</li>
+					<li class="nav-item">
+						<span class="nav-link notice_newOrder " style="cursor: pointer">
+							<i class="fa-regular fa-bell" style="font-size:25px"></i>
+
+						</span>
+					</li>
+					<li style="margin-left:10px" class=" text-dark nav-item "> <a asp-controller="user" class="nav-link text-dark h6" asp-action="Logout">Logout</a></li>
+				}
+					
+
+			
 					
 			</ul>
 		</div>

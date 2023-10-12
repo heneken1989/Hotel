@@ -91,6 +91,9 @@ namespace Hotel.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("DayCheckin")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("IsViewed")
                         .HasColumnType("bit");
 

@@ -59,7 +59,7 @@
                                         <input hidden name="id" value="@Model.Room.Id"/>
                                         <div class="form-group">
                                             <label  class="control-label">Tên</label>
-                                            <input asp-for="@Model.Order.Name" class="form-control" />
+                                            <input required asp-for="@Model.Order.Name" class="form-control" />
                                             <span asp-validation-for="@Model.Order.Name" class="text-danger"></span>
                                             
 
@@ -67,10 +67,17 @@
                                         
                                         <div class="form-group">
                                             <label  class="control-label">Số điện thoại</label>
-                                            <input asp-for="@Model.Order.Phone" class="form-control" />
+                                            <input type="number" required asp-for="@Model.Order.Phone" class="form-control" />
                                             <span asp-validation-for="@Model.Order.Phone" class="text-danger"></span>
                                             
-                                        </div>  <div class="form-group">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Ngày Check in</label>
+                                            <input id="dateInput" type="date" required asp-for="@Model.Order.Date" class="form-control" />
+                                            <span asp-validation-for="@Model.Order.Date" class="text-danger"></span>
+
+                                        </div>
+                                        <div class="form-group">
                                             <label  class="control-label">Ghi chú</label>
                                             <input asp-for="@Model.Order.Message" class="form-control" />
                                             
@@ -158,3 +165,13 @@
         </div>
     </div>
 </section>
+
+<script>
+    const dateInput = document.getElementById('dateInput');
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed.
+    const day = String(today.getDate()).padStart(2, '0');
+    const todayFormatted = `${year}-${month}-${day}`;
+    dateInput.setAttribute('min', todayFormatted);
+</script>

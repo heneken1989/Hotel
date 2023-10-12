@@ -777,36 +777,16 @@
       "PackagePath": "staticwebassets\\ForntEnd\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\audio\\notice.wav",
+      "PackagePath": "staticwebassets\\audio\\notice.wav"
+    },
+    {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16965667601042272953.jpg",
-      "PackagePath": "staticwebassets\\images\\16965667601042272953.jpg"
-    },
-    {
-      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16965667601758201311.jpg",
-      "PackagePath": "staticwebassets\\images\\16965667601758201311.jpg"
-    },
-    {
-      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16965667601786105775.jpg",
-      "PackagePath": "staticwebassets\\images\\16965667601786105775.jpg"
-    },
-    {
-      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\169656827425049596.jpg",
-      "PackagePath": "staticwebassets\\images\\169656827425049596.jpg"
-    },
-    {
-      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\1696568274417648269.jpg",
-      "PackagePath": "staticwebassets\\images\\1696568274417648269.jpg"
-    },
-    {
-      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\1696568274810181873.jpg",
-      "PackagePath": "staticwebassets\\images\\1696568274810181873.jpg"
     },
     {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\1696568712114875295.jpg",
@@ -1257,12 +1237,36 @@
       "PackagePath": "staticwebassets\\images\\16969423391699962578.jpg"
     },
     {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\16970228611345335120.jpg",
+      "PackagePath": "staticwebassets\\images\\16970228611345335120.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\1697022898804738966.jpg",
+      "PackagePath": "staticwebassets\\images\\1697022898804738966.jpg"
+    },
+    {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\HP.png",
       "PackagePath": "staticwebassets\\images\\HP.png"
     },
     {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\Logo.png",
       "PackagePath": "staticwebassets\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dichvu1.jpg",
+      "PackagePath": "staticwebassets\\images\\dichvu1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dichvu2.jpg",
+      "PackagePath": "staticwebassets\\images\\dichvu2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dichvu3.jpg",
+      "PackagePath": "staticwebassets\\images\\dichvu3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\dichvu4.jpg",
+      "PackagePath": "staticwebassets\\images\\dichvu4.jpg"
     },
     {
       "Id": "C:\\Users\\huyhi\\Desktop\\Hotel\\Hotel\\wwwroot\\images\\view.jpg",
