@@ -2678,15 +2678,15 @@ span.widget-title{
 
 @if (Model != null)
 {
-    <section class="home-slider owl-carousel" style="height:100vh">
+    <section class="home-slider owl-carousel" style="height:50vh">
   
         @foreach (var b in Model)
         {
             var img = $"~/images/{b.Image}";
-            <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:fit">
+            <div class="slider-item" style="background-image: url('@Url.Content(img)');height:70vh ">
                 <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
+                <div class="container" style="height:70vh">
+                    <div class="row no-gutters slider-text align-items-center justify-content-center" style="height:70vh">
                         <div class="col-md-12 ftco-animate text-center">
                             <div class="text mb-5 pb-3">
                                 <h1 class="mb-3">@Html.DisplayFor(i=>b.Title)</h1>
@@ -2708,7 +2708,7 @@ span.widget-title{
 <br />
 <br />
 <section class="section section-intro" id="section_894630452">
-    <div class="bg section-bg fill bg-fill  bg-loaded">
+    <div class="bg section-bg fill bg-fill  bg-loaded" >
     </div>
 
     <div class="section-content relative">
