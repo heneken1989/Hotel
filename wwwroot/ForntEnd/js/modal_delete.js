@@ -14,76 +14,45 @@ $(document).ready(() => {
 })
 
 
-//play audio
 
-const playAudio = () => {
-    // Create an AudioContext
-    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
-    // Create an AudioBufferSourceNode
-    const source = audioContext.createBufferSource();
+const convert = (data) => {
+    var parts = data.split(" ");
+    var datePart = parts[0];
+    var timePart = parts[1];
 
-    // Construct the URL to the MP3 file in the wwwroot folder
-    const audioFileUrl = '/audio/notice.wav'; // Replace with the actual path
+    // Split the date into day, month, and year
+    var dateParts = datePart.split("/");
+    var month = dateParts[0];
+    var day = dateParts[1];
+    var year = dateParts[2];
 
-    // Fetch the MP3 file
-    fetch(audioFileUrl)
-        .then(response => response.arrayBuffer())
-        .then(data => audioContext.decodeAudioData(data))
-        .then(buffer => {
-            // Set the buffer as the source's audio buffer
-            source.buffer = buffer;
+    // Reformat the date string in dd/mm/yyyy format
+    var formattedDate = `ngày ${day}/${month}/${year}`;
+    return formattedDate
+}
+const showDetail = (id, name, phone, days) => {
 
-            // Connect the source to the audio context's destination (speakers)
-            source.connect(audioContext.destination);
 
-            // Play the audio
-            source.start(0);
-        })
-        .catch(error => {
-            console.error('Error loading audio file: ' + error);
-        });
+    $(".cs_de-phone").text(phone)
+    $(".cs_de-name").text(name)
+    $(".cs_de-day").text(convert(days))
 
+    $(".btn_update-order").attr("data-id", id)
 }
 
+const updateOrder = () => {
+    let id = $(".btn_update-order").attr("data-id")
 
-
-const getOrder = () => {
-    $.get('/admin/order/CountOrder',
-        (data) => {
-
-            
-
-
-           
-            localStorage.setItem('tempTimes', data)
-            let check = localStorage.getItem("orderTimes");
-            if (check) {
-                if (Number(check) < Number(data)) {
-                 playAudio()
-                    if (!$('.notice_newOrder').find('div').length>0) {
-                        $('.notice_newOrder').append(`<div class="bg bg-danger" style="width:10px;height:10px;border-radius:50%; position:relative;bottom:40px;left:20px"></div>`)
-                    }
-                    
-                }
-            } else {
-                localStorage.setItem('orderTimes', data)
-            }
-
+    $.post(
+        `/admin/order/update?id=${id}`,
+        { id: id }, () => {
+            $(document).ready(function () {
+                let tem = localStorage.getItem('tempTimes')
+                localStorage.setItem('orderTimes', tem)
+                location.reload(true);
+            });
         }
-            )
-      
+
+    );
 }
-const recallData = setInterval(() => {
-    getOrder();
-},30000)
-
-
-$(document).ready(() => { recallData})
-
-
-$('.notice_newOrder').click(() => {
-    location.href='/admin/order/index'
-})
-
-
