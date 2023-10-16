@@ -38,12 +38,24 @@ namespace Hotel.Controllers
                 .Include(d => d.Details)
                 .Include(e => e.RoomType)
                 .SingleOrDefaultAsync(x => x.Id == id);
-            var roomProperties = await ctx.RoomProperties.ToListAsync(); 
-           ViewBag.RoomProperties = new SelectList(roomProperties, "Id", "Name");
+
+            var policies = await ctx.RoomPolicies.ToListAsync();
+
+            
+            
+                foreach (var detail in room.Details)
+                {
+                    var s = await ctx.RoomProperties.FindAsync(detail.RoomPropertyId);
+                    detail.Name = s.Name;
+                }
+            
+
 
             return View(new RoomDto()
             {
-                Room=room
+                Room=room,
+                Policies=policies
+
             });
         }
 

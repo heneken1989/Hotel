@@ -9,7 +9,6 @@ namespace Hotel.Models
         [Required(ErrorMessage = "Cần Nhập Tên Property")]
         [UniqueName(ErrorMessage = "Tên Property đã tồn tại.")]
         public string? Name { get; set; }
-
         public ICollection<RoomPropertyDetail>? Details { get; set; }
       
     }

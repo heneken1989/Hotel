@@ -3,12 +3,13 @@
     ViewData["Title"] = "Room Property Index";
 }
 
+
 <h1 class="text-center">Mô Tả Phòng</h1>
 <div class="container" style="min-height:100vh;background-color:white;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding:1rem;padding-bottom:1rem">
-    @if (TempData.ContainsKey("ErrorMessage"))
+    @if (TempData.ContainsKey("success"))
     {
         <div class="alert alert-danger">
-            @TempData["ErrorMessage"]
+            @TempData["success"]
         </div>
     }
 
@@ -38,7 +39,7 @@
                     <td class="text-center">
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info" role="button">Sửa</a> |
 
-                    <button asp-action="Delete" data-id="@item.Id" class="btn btn-danger">Xóa</button>
+                        <a asp-action="Delete" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger">Xóa</a>
                 </td>
             </tr>
         }

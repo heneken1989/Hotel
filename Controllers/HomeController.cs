@@ -1,9 +1,11 @@
 ﻿using Hotel.Data;
+using Hotel.Dtos;
 using Hotel.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
 using System.Diagnostics;
 
 namespace Hotel.Controllers
@@ -23,22 +25,28 @@ namespace Hotel.Controllers
         public async Task<IActionResult> Index()
         {
             var banner = await _context.Banners.ToListAsync();
-            var rooms = await _context.Rooms
 
-                .Include(a => a.RoomType)
-                .Include(a => a.Images!.Take(1))
+            var rooms = await _context.Rooms
+                .Include(r => r.RoomType)
+                .Include(r => r.Images)
+                .Include(r => r.Details)
                 .ToListAsync();
 
+            foreach (var data in rooms)
+            {
+                foreach (var detail in data.Details)
+                {
+                    var s = await _context.RoomProperties.FindAsync(detail.RoomPropertyId);
+                    detail.Name = s.Name;
+                }
+            }
 
-            var roomProperties = await _context.RoomProperties
-                 .Where(a => a.Name == "Giá Phòng")
-                 .Include(a => a.Details)
-                 .SingleOrDefaultAsync();
 
-
-            ViewBag.RoomList = new SelectList(rooms, "Id", "Name");
-            ViewBag.RoomPropertyList = roomProperties;
-            return View(banner);
+            return View(new HomeDto()
+            {
+                Banners = banner,
+                Rooms = rooms,
+            });
 
         }
 

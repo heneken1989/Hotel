@@ -7,5 +7,7 @@ namespace Hotel.Dtos
 		public Room? Room { get; set; }
 		public OrderDto? Order { get; set; }
 
+		public List<RoomPolicy>? Policies { get; set; }
+
 	}
 }

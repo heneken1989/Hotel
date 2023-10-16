@@ -18,5 +18,6 @@ namespace Hotel.Data
         public DbSet<RoomPropertyDetail> RoomPropertyDetails { get; set; }
         public DbSet<RoomType> RoomTypes { get; set; }
         public DbSet<RoomUnity> RoomUnities { get; set; }
+        public DbSet<RoomPolicy> RoomPolicies { get; set; }
     }
 }

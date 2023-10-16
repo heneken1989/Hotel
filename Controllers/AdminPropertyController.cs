@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [Route("admin/RoomProperty/{action}")]
-    [AllowAnonymous]
     public class AdminPropertyController : Controller
     {
         HotelDbContext ctx;
@@ -56,21 +55,11 @@ namespace Hotel.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            var pro = await ctx.RoomProperties.SingleOrDefaultAsync(a => a.Id == id);
-            var details = await ctx.RoomPropertyDetails
-                .Where(r => r.RoomPropertyId == id)
-                .ToListAsync();
-            if (details.Count == 0)
-            {
-                ctx.Entry(pro!).State = EntityState.Deleted;
+            var pro = await ctx.RoomProperties.FindAsync(id);
+
+            ctx.Entry(pro).State = EntityState.Deleted;
                 await ctx.SaveChangesAsync();
                 return RedirectToAction("Index");
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "Không thể xóa vì có tồn tại Detail trong Loại Property này!";
-                return RedirectToAction("Index");
-            }
 
         }
 

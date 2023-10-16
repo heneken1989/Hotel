@@ -3,7 +3,18 @@
     ViewData["Title"] = "Index";
 }
 
+
+
 <h1 class="mb-3 text-center">Quản lý phòng</h1>
+@if (ViewData.ContainsKey("success"))
+{
+    <p class="alert alert-success" role="alert">@ViewData["success"]</p>
+}
+
+@if (ViewData.ContainsKey("error"))
+{
+    <p class="alert alert-" role="alert">@ViewData["error"]</p>
+}
 <div class="container" style="min-height:100vh;background-color:white;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding:1rem;padding-bottom:1rem">
 
     <a asp-action="Create" asp-controller="AdminRoom" class="btn btn-warning mb-3" role="button" >Tạo Phòng Mới</a>
@@ -22,7 +33,9 @@
     </thead>
     <tbody>
         @foreach (var item in Model)
-        {
+               
+            {
+                string show = item.IsFulled == true ? "Còn Phòng" : "Hết Phòng";
             <tr>
                 <td class="text-center">@Html.DisplayFor(a=>item.Id)</td>
                     <td class="text-center">
@@ -54,11 +67,10 @@
                                 </li>
                             }
                         </ul>
-                </td>
-        
+                </td>     
                     <td class="text-center">
                     <a class="btn btn-info" role="button"  asp-action="Edit" asp-route-id="@item.Id" >Sửa</a> |
-                    <button class="btn btn-danger" data-id="@item.Id">Xóa</button>
+                    <a class="btn btn-danger" role="button" asp-action="SetRoomStament" asp-route-id="@item.Id">@show</a>
                 </td>
             </tr>
         }

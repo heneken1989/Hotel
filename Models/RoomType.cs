@@ -11,7 +11,7 @@ namespace Hotel.Models
         [UniqueName(ErrorMessage = "Type đã tồn tại.")]
         public string? Type { get; set; }
 
-        public ICollection<Room>? Rooms { get;}
+       
 
     }
 }

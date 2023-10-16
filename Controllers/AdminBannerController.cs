@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [Route("admin/banner/{action}")]
-    [AllowAnonymous]
     public class AdminBannerController : Controller
     {
         private readonly HotelDbContext _context;

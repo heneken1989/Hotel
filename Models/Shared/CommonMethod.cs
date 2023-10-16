@@ -26,5 +26,24 @@
 
 
         }
+
+        public static string CheckIcon(string data)
+        {
+            switch(data)
+            {
+                case "Giá Phòng":
+                    return "fa-solid fa-money-bill-wave";
+                case "view":
+                    return "fa-solid fa-camera-retro";
+                case "size":
+                    return "fa-solid fa-maximize";
+                case "Số người":
+                    return "fa-solid fa-user";
+                case "giường":
+                    return "fa-solid fa-bed";
+                default:
+                    return "fa-solid fa-star";
+            }
+        }
     }
 }

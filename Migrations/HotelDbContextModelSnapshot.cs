@@ -132,6 +132,9 @@ namespace Hotel.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsFulled")
+                        .HasColumnType("bit");
+
                     b.Property<int>("RoomTypeID")
                         .HasColumnType("int");
 
@@ -257,6 +260,28 @@ namespace Hotel.Migrations
                     b.ToTable("RoomUnities");
                 });
 
+            modelBuilder.Entity("Hotel.Models.Shared.RoomPolicy", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RoomPolicies");
+                });
+
             modelBuilder.Entity("Hotel.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -305,7 +330,7 @@ namespace Hotel.Migrations
             modelBuilder.Entity("Hotel.Models.Room", b =>
                 {
                     b.HasOne("Hotel.Models.RoomType", "RoomType")
-                        .WithMany("Rooms")
+                        .WithMany()
                         .HasForeignKey("RoomTypeID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -356,11 +381,6 @@ namespace Hotel.Migrations
             modelBuilder.Entity("Hotel.Models.RoomProperty", b =>
                 {
                     b.Navigation("Details");
-                });
-
-            modelBuilder.Entity("Hotel.Models.RoomType", b =>
-                {
-                    b.Navigation("Rooms");
                 });
 #pragma warning restore 612, 618
         }
