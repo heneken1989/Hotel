@@ -53,6 +53,28 @@ namespace Hotel.Migrations
                     b.ToTable("Banners");
                 });
 
+            modelBuilder.Entity("Hotel.Models.Gallery", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Galleries");
+                });
+
             modelBuilder.Entity("Hotel.Models.Image", b =>
                 {
                     b.Property<int>("Id")
@@ -146,6 +168,29 @@ namespace Hotel.Migrations
                     b.HasIndex("RoomTypeID");
 
                     b.ToTable("Rooms");
+                });
+
+            modelBuilder.Entity("Hotel.Models.RoomPolicy", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RoomPolicies");
                 });
 
             modelBuilder.Entity("Hotel.Models.RoomProperty", b =>
@@ -258,28 +303,6 @@ namespace Hotel.Migrations
                     b.HasIndex("RoomId");
 
                     b.ToTable("RoomUnities");
-                });
-
-            modelBuilder.Entity("Hotel.Models.Shared.RoomPolicy", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Content")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("RoomPolicies");
                 });
 
             modelBuilder.Entity("Hotel.Models.User", b =>

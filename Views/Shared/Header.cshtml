@@ -1,30 +1,19 @@
 ﻿
-
-
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar mb-5 ftco-navbar-light" id="ftco-navbar" style="top:0">
 	<div class="container">
-		<a class="navbar-brand" href="/"><img  src="~/images/Logo.png" style="width:100px" /></a>
+		<a class="navbar-brand" href="/"><img  src="~/images/Logo.png" style="width:80px" /></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menu
 		</button>
 
 		<div class="collapse navbar-collapse" id="ftco-nav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-				<li class="nav-item"><a asp-action="Index" asp-controller="Room" class="nav-link">Rooms</a></li>
-				<li class="nav-item"><a asp-action="Index" asp-controller="About" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="#footer_contact" class="nav-link">Contact</a></li>
+			<ul class="navbar-nav ml-auto d-flex align-items-center">
+				<li class="nav-item active"><a href="/" class="nav-link">Trang chủ</a></li>
+				<li class="nav-item"><a asp-action="Index" asp-controller="Room" class="nav-link h4">Phòng</a></li>
+				<li class="nav-item"><a asp-action="Index" asp-controller="About" class="nav-link h4">Thông tin</a></li>
+				<li class="nav-item"><a href="#footer_contact" class="nav-link h4">Liên hệ</a></li>
 
-				<li class="nav-item">
-
-
-					<a href="tel:/02854338868">
-						<button class="call-button">
-							<i class="fas fa-phone"></i> <span class="phone-number"></span>
-						</button>
-					</a>
-
-				</li>
+				
 
 	
 
@@ -45,6 +34,7 @@
 								<a class="dropdown-item" href="/admin/RoomPropertyDetail/Index">Quản Lý PropertyDetail</a>
 								<a class="dropdown-item" asp-controller="AdminBanner" asp-action="Index">Quản Lý Banner</a>
 								<a class="dropdown-item" asp-controller="AdminPolicy" asp-action="Index">Quản Lý Policy</a>
+								<a class="dropdown-item" asp-controller="AdminGalery" asp-action="Index">Quản Lý Ảnh About</a>
 								<a class="dropdown-item" asp-controller="AdminOrder" asp-action="Index">Quản Lý Order</a>
 							</div>
 						</div>
@@ -57,10 +47,16 @@
 					</li>
 					<li style="margin-left:10px" class=" text-dark nav-item "> <a asp-controller="user" class="nav-link text-dark h6" asp-action="Logout">Logout</a></li>
 				}
-					
+				else
+				{
+					<li class="nav-item">
+						<a role="button" class="btn btn-primary nav-link" style="padding:10px" href="tel:/02854338868">
+							<i class="fas fa-phone"></i>
+							<span class="phone-number text-dark">02854338868</span>
+						</a>
 
-			
-					
+					</li>
+				}	
 			</ul>
 		</div>
 	</div>

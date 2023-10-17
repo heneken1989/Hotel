@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+
+@model Hotel.Dtos.BannerDto
+
+<div class="container" style="min-height:50vh">
+    <h1 class="mb-3">Thêm ảnh mới trang About</h1>
+
+    <form asp-action="Create"  method="post" enctype="multipart/form-data">
+
+       
+
+       
+
+        <div class="form-group">
+            <label class="control-label"> Chọn hình ảnh</label>
+            <input type="file" required name="image" multiple>
+          
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Thêm ảnh</button>
+    </form>
+</div>

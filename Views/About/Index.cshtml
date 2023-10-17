@@ -1,15 +1,11 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model IEnumerable<Gallery>
 <div class="hero-wrap" style="background-image: url('@Url.Content("~/images/hung phat 5.jpg")');">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
 			<div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
 				<div class="text">
-					<p class="breadcrumbs mb-2"><span class="mr-2"><a href="/">Home</a></span> <span>About</span></p>
+					
 					<h1 class="mb-4 bread">About Us</h1>
 				</div>
 			</div>
@@ -17,7 +13,8 @@
 	</div>
 </div>
 
-<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url('@Url.Content("~/ForntEnd/images/bg_2.jpg")');">
+
+@* <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url('@Url.Content("~/ForntEnd/images/bg_2.jpg")');">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-10">
@@ -56,10 +53,10 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> *@
 
 <section class="ftco-section ftc-no-pb ftc-no-pt">
-	<div class="container">
+	<div style="padding: 20px 40px">
 		<div class="row">
             <div class="col-md-5 p-md-5 img img-2 img-3 d-flex justify-content-center align-items-center" style="background-image: url('@Url.Content("~/images/hung phat p.jpg")');">
 				<a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
@@ -105,185 +102,33 @@
 		</div>
 	</div>
 </section>
+
 <section class="ftco-section">
-    <div class="container">
+    <div style="padding: 20px">
         <div class="row">
             <div class="col-md-12 text-center heading-section ftco-animate">
                 <h2 class="mb-4">Thư viện Hình ảnh</h2>
             </div>
         </div>
         <div class="row">
-            <!-- Hình ảnh 1 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 1.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 1.jpg" alt="Image 1" class="img-fluid">
-                </a>
-            </div>
+          
+			@if (Model != null)
+			{
+				foreach (var img in Model)
+				{
+					var link = $"~/images/{img.Url}";
+					<div class="col-md-3 mb-4">
+						<a href="@Url.Content(link)" class="gallery image-popup img ftco-animate">
+							<img src="@Url.Content(link)" alt="Image 1" class="img-fluid">
+						</a>
+					</div>
+				}
+			}
+          
 
-            <!-- Hình ảnh 2 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 2.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 2.jpg" alt="Image 2" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 3 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 3.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 3.jpg" alt="Image 3" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 4 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 4.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 4.jpg" alt="Image 4" class="img-fluid">
-                </a>
-                <br>
-            </div>
-            <!-- Hình ảnh 5 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 5.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 5.jpg" alt="Image 5" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 6 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 6.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 6.jpg" alt="Image 6" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 7 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 7.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 7.jpg" alt="Image 7" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 8 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 8.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 8.jpg" alt="Image 8" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 9 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 9.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 9.jpg" alt="Image 9" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 10 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 10.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 10.jpg" alt="Image 10" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 11 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 11.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 11.jpg" alt="Image 11" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 12 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 12.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 12.jpg" alt="Image 12" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 13 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 13.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 13.jpg" alt="Image 13" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 14 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 14.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 14.jpg" alt="Image 14" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 15 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 15.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 15.jpg" alt="Image 15" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 16 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 16.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 16.jpg" alt="Image 16" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 17 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 17.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 17.jpg" alt="Image 17" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 18 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 18.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 18.jpg" alt="Image 18" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 19 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 19.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 19.jpg" alt="Image 19" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 20 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 20.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 20.jpg" alt="Image 20" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 21 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 21.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 21.jpg" alt="Image 21" class="img-fluid">
-                </a>
-            </div>
-            <!-- Hình ảnh 22 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 22.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 22.jpg" alt="Image 22" class="img-fluid equal-size-image">
-                </a>
-            </div>
-            <!-- Hình ảnh 23 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 23.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 23.jpg" alt="Image 23" class="img-fluid equal-size-image">
-                </a>
-            </div>
-            <!-- Hình ảnh 24 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 24.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 24.jpg" alt="Image 24" class="img-fluid equal-size-image">
-                </a>
-            </div>
-            
-            <!-- Hình ảnh 26 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 26.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 26.jpg" alt="Image 26" class="img-fluid equal-size-image">
-                </a>
-            </div>
-            <!-- Hình ảnh 27 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 27.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 27.jpg" alt="Image 27" class="img-fluid equal-size-image">
-                </a>
-            </div>
-            <!-- Hình ảnh 28 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 28.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 28.jpg" alt="Image 28" class="img-fluid equal-size-image">
-                </a>
-            </div>
-            <!-- Hình ảnh 29 -->
-            <div class="col-md-3">
-                <a href="~/images/hung phat 29.jpg" class="gallery image-popup img ftco-animate">
-                    <img src="~/images/hung phat 29.jpg" alt="Image 29" class="img-fluid equal-size-image">
-                </a>
-            </div>
+           
+       
+           
         </div>
     </div>
 </section>

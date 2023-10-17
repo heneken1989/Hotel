@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "va67OVeCoSY4D9ZMBPjEJWptgGHS0c2xVqfH+vkR4QyizcMMb7DeF3YxtPWdhSrzKub6NPrh+arRdaWFM2u5iQ==",
+  "dgSpecHash": "3RW0K9bAzJbXMq6iMVI/Fi1gysezd9+YzHtD1bZqJ5SV7jTvoVPJOqwxcLaAVzCLbgsYih/3SWEDMeS4+pobiw==",
   "success": true,
   "projectFilePath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
   "expectedPackageFiles": [
@@ -228,7 +228,11 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.23\\microsoft.windowsdesktop.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.23\\microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.23\\microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.23\\microsoft.netcore.app.host.win-x64.6.0.23.nupkg.sha512"
   ],
   "logs": []
 }

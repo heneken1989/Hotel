@@ -5,23 +5,7 @@
     var disableColor = Model.Room.IsFulled ? "btn-secondary" : "btn-primary";
 }
 <div class="hero-wrap" style="background-size:fit;background-position:botton; background-image: url('@Url.Content("~/images/HP.png")');">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
-            <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
-                <div class="text">
-                    <p class="breadcrumbs mb-2"
-                       data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                        <span class="mr-2"><a href="/">Home</a></span>
-                        <span class="mr-2"><a href="/Room">Room</a></span>
-                        <span>Room Single</span>
-                    </p>
 
-                    <h1 class="mb-4 bread">@Model.Room.RoomType.Type</h1>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 @if (ViewData.ContainsKey("success"))
@@ -43,7 +27,6 @@
 
 
                             <div class="col-lg-8 single-slider owl-carousel">
-
                                 @foreach (var a in @Model.Room.Images)
                                 {
                                     var IUrl = $"~/images/{a.Url}";
@@ -53,7 +36,6 @@
                                     </div>
 
                                 }
-
                             </div>
                             <div class="col-lg-4 sidebar ftco-animate">
 
@@ -144,7 +126,6 @@
 
                             @foreach (var uni in Model.Policies)
                             {
-
                                 <div class="d-flex align-items-center justify-content-start mb-2  " style="width: 40%">
                                     <i class="fa-solid fa-rectangle-list" style=" font-size:20px;margin-right:20px"></i>
                                     <span style="font-size:18px; ">
