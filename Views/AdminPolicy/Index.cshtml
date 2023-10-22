@@ -5,19 +5,17 @@
 
 <div class="container" style="min-height:100vh">
     <h1 class="mb-3">Quản lý chính sách phòng</h1>
-    @if (TempData.ContainsKey("success"))
+
+    @if (ViewData.ContainsKey("error"))
     {
-        <div class="alert alert-success">
-            @TempData["success"]
-        </div>
+        <p class="alert alert-warning" role="alert">@ViewData["error"]</p>
+    }
+   
+    @if (ViewData.ContainsKey("success"))
+    {
+        <p class="alert alert-success" role="alert">@ViewData["success"]</p>
     }
 
-    @if (TempData.ContainsKey("error"))
-    {
-        <div class="alert alert-danger">
-            @TempData["error"]
-        </div>
-    }
     <a asp-action="Create" asp-controller="AdminPolicy">Tạo chính sách mới</a>
 
     <table id="banner_table" class="table table-hover table-striped table-bordered">

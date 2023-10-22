@@ -8,9 +8,11 @@ namespace Hotel.Models
  
         public string? Url { get; set; }
         [NotMapped]
-        public IFormFile? ImageFile { get; set; }
+        public List<IFormFile>? ImageFile { get; set; }
 
         [ForeignKey("Room")]
-        public int RoomId { get; set; } 
+        public int RoomId { get; set; }
+        [NotMapped]
+        public string? RoomType { get; set; }
     }
 }

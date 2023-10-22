@@ -9,24 +9,22 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [AllowAnonymous]
-    public class RoomController : Controller
+    public class RoomController : MyBaseController
     {
-        HotelDbContext ctx;
-        public RoomController(HotelDbContext ctx)
-        {
-            this.ctx = ctx;
-        }
+		public RoomController(HotelDbContext context) : base(context)
+		{
+		}
 
-        public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index()
         {
 
-            var rooms = await ctx.Rooms
+            var rooms = await _context.Rooms
                 .Include(a => a.RoomType)
                 .Include(a => a.Images!.Take(1))
                 .ToListAsync();
 
 
-            var RoomPro = await ctx.RoomProperties
+            var RoomPro = await _context.RoomProperties
                  .Include(a => a.Details)
                  .ToListAsync();
 

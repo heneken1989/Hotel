@@ -10,6 +10,7 @@
 		public DateTime Date { get; set; }
 		public DateTime CheckInDate { get; set; }
 		public int OrderId { get; set; }
+		public string Type {  get; set; }
 		public bool Isviewed { get; set; }
 
 		public OrderViewDto()

@@ -1,4 +1,6 @@
-﻿namespace Hotel.Models.Shared
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Hotel.Models.Shared
 {
     public class CommonMethod
     {
@@ -31,9 +33,13 @@
         {
             switch(data)
             {
-                case "Giá Phòng":
-                    return "fa-solid fa-money-bill-wave";
-                case "view":
+                case "giá theo giờ":
+                    return "fa-solid fa-clock";
+				case "giá theo ngày":
+					return "fa-solid fa-sun";
+				case "giá qua đêm":
+					return "fa-solid fa-moon";
+				case "view":
                     return "fa-solid fa-camera-retro";
                 case "size":
                     return "fa-solid fa-maximize";

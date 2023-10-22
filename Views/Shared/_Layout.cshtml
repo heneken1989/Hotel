@@ -10,6 +10,7 @@
    
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
 
     <link rel="stylesheet" href="~/ForntEnd/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="~/ForntEnd/css/animate.css">
@@ -34,6 +35,7 @@
     <link rel="stylesheet" href="~/ForntEnd/css/style.css">
     <link rel="stylesheet" href="cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 
 
   
@@ -46,9 +48,13 @@
             @RenderBody()
         </main>
 
-        <a  class="bg bg-primary text-center d-flex align-items-center justify-content-center" style="position:fixed;bottom:100px;right:100px; width:50px;height:50px; border-radius:10px" href="tel:/02854338868">
-                <i class="fas fa-phone text-dark" style="font-size:25px"></i>
-            </a>
+        <a role="button"  style="width:fit-content; position:fixed;bottom:100px;right:100px; width:50px;height:50px; border-radius:10px" href="tel:/02854338868" " href="tel:/02854338868">
+            <div class="btn btn-primary nav-link p-2" style="width:fit-content;">
+                <i class="fas fa-phone"></i>
+                <span class="phone-number text-dark">02854338868</span>
+            </div>
+           
+        </a>
        
         
     </div>
@@ -75,6 +81,7 @@
     <script src="~/ForntEnd/js/scrollax.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="~/ForntEnd/js/google-map.js"></script>
+    
     <script src="~/ForntEnd/js/main.js"></script>
 
     <script>

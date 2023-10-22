@@ -10,14 +10,13 @@ namespace Hotel.Controllers
 {
     [Route("SingleRoom/{action}")]
     [AllowAnonymous]
-    public class SingleRoomController : Controller
+    public class SingleRoomController : MyBaseController
     {
-        HotelDbContext ctx;
-        public SingleRoomController(HotelDbContext ctx)
-        {
-            this.ctx = ctx; 
-        }
-        public async Task<IActionResult> Index(int id)
+		public SingleRoomController(HotelDbContext context) : base(context)
+		{
+		}
+
+		public async Task<IActionResult> Index(int id)
         {
             string? message = TempData["success"] as string;
             if (message != null)
@@ -26,12 +25,17 @@ namespace Hotel.Controllers
             }
 
 
+
+
             string? error = TempData["error"] as string;
             if (error != null)
             {
                 ViewData["error"] = error;
             }
-            var room = await ctx.Rooms
+
+            var comments = await _context.Comments.Where(c => c.RoomId == id).ToListAsync();
+
+            var room = await _context.Rooms
                 .Include(a => a.Unities)
                 .Include(b => b.roomProperties)
                 .Include(c => c.Images)
@@ -39,13 +43,13 @@ namespace Hotel.Controllers
                 .Include(e => e.RoomType)
                 .SingleOrDefaultAsync(x => x.Id == id);
 
-            var policies = await ctx.RoomPolicies.ToListAsync();
+            var policies = await _context.RoomPolicies.ToListAsync();
 
             
             
                 foreach (var detail in room.Details)
                 {
-                    var s = await ctx.RoomProperties.FindAsync(detail.RoomPropertyId);
+                    var s = await _context.RoomProperties.FindAsync(detail.RoomPropertyId);
                     detail.Name = s.Name;
                 }
             
@@ -54,7 +58,8 @@ namespace Hotel.Controllers
             return View(new RoomDto()
             {
                 Room=room,
-                Policies=policies
+                Policies=policies,
+                Comments=comments
 
             });
         }
@@ -65,7 +70,7 @@ namespace Hotel.Controllers
           
             if (ModelState.IsValid)
             {
-                AdminOrderController action = new AdminOrderController(ctx);
+                AdminOrderController action = new AdminOrderController(_context);
                 var result =await action.Add(data.Order);
                 if (result == true)
                 {

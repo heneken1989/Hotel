@@ -8,24 +8,24 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [Route("admin/RoomPropertyDetail/{action}")]
-    [AllowAnonymous]
-    public class AdminPropertyDetailController : Controller
+    [Authorize(Policy = "AdminOnly")]
+    
+    public class AdminPropertyDetailController : MyBaseController
     {
-        HotelDbContext ctx;
-        public AdminPropertyDetailController(HotelDbContext ctx)
+		public AdminPropertyDetailController(HotelDbContext context) : base(context)
+		{
+		}
+
+		public async Task<IActionResult> Index()
         {
-            this.ctx = ctx;
-        }
-        public async Task<IActionResult> Index()
-        {
-            var prodetail = await ctx.RoomPropertyDetails.ToListAsync();
+            var prodetail = await _context.RoomPropertyDetails.ToListAsync();
 
             return View(prodetail);
         }
 
         public async Task<IActionResult> Create()
         {
-            ViewBag.RoomPropertyDetail = new SelectList(ctx.RoomProperties, "Id", "Name");
+            ViewBag.RoomPropertyDetail = new SelectList(_context.RoomProperties, "Id", "Name");
             return View();
         }
 
@@ -34,8 +34,8 @@ namespace Hotel.Controllers
         {
             if(ModelState.IsValid) 
             {
-                ctx.Entry(Prodetail).State = EntityState.Added;
-                await ctx.SaveChangesAsync();   
+                _context.Entry(Prodetail).State = EntityState.Added;
+                await _context.SaveChangesAsync();   
                 return RedirectToAction("Index");   
             }
             return View(Prodetail);    

@@ -151,21 +151,64 @@
 			// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
 			$this.find('.dropdown-menu').removeClass('show');
 		// }, 100);
-	});
+	}); text - primary
+	//check active
+	let removeClassActive = () => {
+		$('.home-c').removeClass("active")
+		$('.about-c').removeClass("active")
+		$('.price-c').removeClass("active")
+
+	}
+	let checkActive = () => {
+		let admin = window.location.pathname.split("/")[1];
+		switch (admin.toLowerCase()) {
+			case "":
+				removeClassActive()
+				$('.home-c').addClass("active")
+				$('.home-cl').removeClass("text-white")
+				$('.home-cl').addClass("text-warning")
+
+
+				break;
+			case "about":
+				removeClassActive()
+				$('.about-c').addClass("active")
+				$('.about-cl').removeClass("text-white")
+				$('.about-cl').addClass("text-warning")
+				break;
+			case "room":
+				removeClassActive()
+				$('.room-c').addClass("active")
+				$('.room-cl').removeClass("text-white")
+				$('.room-cl').addClass("text-warning")
+
+				break;
+			case "price":
+				removeClassActive()
+				$('.price-c').addClass("active")
+				$('.price-cl').removeClass("text-white")
+				$('.price-cl').addClass("text-warning")
+				break;
+			default:
+				break;
+
+		}
+	}
+	checkActive()
 
 
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});
 	let admin = window.location.pathname.split("/")[1];
-	const contentArry = ['admin','changePassword','login'];
+	const contentArry = ['admin', 'changePassword', 'login','Register'];
 
-/*	$('#check-admin-margin-layout').attr("style", "margin-top:80px;background-color:#f2f2f2")*/
+/*	$('#check-admin-margin-layout').attr("style", "margin-top:100px;background-color:#f2f2f2")*/
 	// scroll
 	var scrollWindow = function () {
 		if (contentArry.includes(admin)) {
-			$('#ftco-navbar').attr("style", "top:0;background-color:black !important")
-			$('#check-admin-margin-layout').attr("style", "margin-top:80px;")
+			$('#ftco-navbar').attr("style", "top:0;background-color:gray!important")
+			$('#check-admin-margin-layout').attr("style", "margin-top:100px;")
 
 			$(window).scroll(function () {
 				var $w = $(this),

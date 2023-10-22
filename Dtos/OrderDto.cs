@@ -11,6 +11,8 @@ namespace Hotel.Dtos
         public string? Phone { get; set; }
         public int RoomId { get; set; }
         public String? Message { get; set; }
+        [Required(ErrorMessage = " không được để trống")]
+        public string? Type { get; set; }
         public DateTime Date {  get; set; }
     }
 }

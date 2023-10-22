@@ -1,10 +1,11 @@
-﻿@model IEnumerable<Gallery>
+﻿@model IEnumerable<Image>
 @{
     ViewData["Title"] = "Index";
 }
+<h1 class="mb-3">Quản lý ảnh About</h1>
+<div class="container" style="min-height:100vh;background-color:white;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding:1rem;padding-bottom:1rem">
 
-<div class="container" style="min-height:100vh">
-    <h1 class="mb-3">Quản lý ảnh About</h1>
+
 
     @if (TempData.ContainsKey("success"))
     {
@@ -27,6 +28,7 @@
             <tr>
                 <th>Id</th>
                 <th>ảnh</th>
+                <th>Room</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -39,6 +41,7 @@
                     <td scope="col">
                         <img style="width:70px;height:70px" src="@Url.Content(img)" />
                     </td>
+                    <td>@Html.DisplayFor(a=>item.RoomType)</td>
 
                     <td>
 

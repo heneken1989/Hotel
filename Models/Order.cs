@@ -10,7 +10,10 @@ namespace Hotel.Models
         [Required]
         public string? Name { get; set; }
         [Required]
+
         public string? Phone {  get; set; }
+        [Required]
+        public string Type { get; set; }
         [ForeignKey("Room")]
          public int RoomId { get; set; }
         public Room? Room { get; set; }
@@ -30,6 +33,7 @@ namespace Hotel.Models
             Message= data.Message;
             RoomId = data.RoomId;
             DayCheckin = data.Date;
+            Type = data.Type;
         }
     }
 }

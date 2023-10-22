@@ -6,17 +6,45 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [AllowAnonymous]
-    public class AboutController : Controller
+    public class AboutController : MyBaseController
     {
-        private readonly HotelDbContext _context;
+		public AboutController(HotelDbContext context) : base(context)
+		{
+		}
 
-        public AboutController(HotelDbContext context) {
-        _context=context;
-        }
-        public async  Task<IActionResult> Index()
+	
+		public async  Task<IActionResult> Index(string type)
         {
-            var data =await _context.Galleries.ToListAsync();
+            var data = await _context.Rooms
+                .Include(r => r.RoomType)
+                .Include(r => r.Images)
+                .Where(r => r.RoomType.Type.ToLower() == type.ToLower())
+                .FirstOrDefaultAsync();
+
             return View(data);
         }
-    }
+        [Route("price")]
+        public  async Task<IActionResult> Price()
+        {
+            var data = await _context.Rooms
+                .Include(r => r.RoomType)
+                .Include(r => r.roomProperties)
+                .Include(r=>r.Details)
+                .ToListAsync();
+
+            foreach(var i in data)
+            {
+              foreach(var n in i.Details)
+                {
+                    var m= _context.RoomProperties.Find(n.RoomPropertyId);
+                    n.Name = m.Name;
+                }
+            }
+          
+
+            return View("Price",data);
+        }
+
+		
+	}
 }

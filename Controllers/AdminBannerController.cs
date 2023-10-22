@@ -8,15 +8,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Hotel.Controllers
 {
+    [Authorize(Policy = "AdminOnly")]
     [Route("admin/banner/{action}")]
-    public class AdminBannerController : Controller
+    public class AdminBannerController : MyBaseController
     {
-        private readonly HotelDbContext _context;
+		public AdminBannerController(HotelDbContext context) : base(context)
+		{
+		}
 
-        public AdminBannerController(HotelDbContext context) { 
-        _context=context;
-        }
-        public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index()
         {
             var data =await _context.Banners.ToListAsync();
             string messageSuccess = TempData["Success"] as string;

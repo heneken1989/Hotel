@@ -1,32 +1,33 @@
 ﻿using Hotel.Data;
 using Hotel.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hotel.Controllers
 {
     [Route("admin/policy/{action}")]
-    public class AdminPolicyController : Controller
+    [Authorize(Policy = "AdminOnly")]
+    public class AdminPolicyController : MyBaseController
     {
-        private readonly HotelDbContext _context;
+		public AdminPolicyController(HotelDbContext context) : base(context)
+		{
+		}
 
-        public AdminPolicyController(HotelDbContext context) {
-        _context=context;
-        }
-        public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index()
         {
             string? success = TempData["success"] as string;
 
             if (success != null)
             {
-                ViewData["ChangePassSuccessed"] = success;
+                ViewData["success"] = success;
             }
 
             string? error = TempData["error"] as string;
 
             if (error != null)
             {
-                ViewData["ChangePassSuccessed"] = error;
+                ViewData["error"] = error;
             }
             var data = await _context.RoomPolicies.ToListAsync();
 

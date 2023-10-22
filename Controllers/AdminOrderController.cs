@@ -9,13 +9,14 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
 	[Route("admin/order/{action}")]
-	public class AdminOrderController : Controller
-    {
-        private readonly HotelDbContext _context;
-        public AdminOrderController(HotelDbContext context) { 
-        _context=context;
-        }
-        public  IActionResult Index()
+	public class AdminOrderController : MyBaseController
+	{
+		public AdminOrderController(HotelDbContext context) : base(context)
+		{
+		}
+	
+
+	public  IActionResult Index()
         {
             var data = from o in _context.Orders
                        join r in _context.Rooms
@@ -25,12 +26,14 @@ namespace Hotel.Controllers
                        {
                            Name = o.Name,
                            Phone = o.Phone,
-                           RoomType = r.RoomType!.Type,
+                           RoomType = r.RoomType!.Type, 
                            Message = o.Message,
                            Date = o.CreatedDate,
                            CheckInDate=o.DayCheckin,
                            OrderId=o.Id,
-                           Isviewed=o.IsViewed
+                           Isviewed=o.IsViewed,
+                           Type=o.Type
+                           
                        };
               
       

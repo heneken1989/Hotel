@@ -8,8 +8,10 @@ namespace Hotel.Models
     {
 
         [Required(ErrorMessage = "Cần Nhập Type")]
-        [UniqueName(ErrorMessage = "Type đã tồn tại.")]
+    
         public string? Type { get; set; }
+		[Required(ErrorMessage = "Cần Nhập Type")]
+		public string? Description { get; set; }
 
        
 

@@ -7,17 +7,16 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [Route("admin/RoomProperty/{action}")]
-    public class AdminPropertyController : Controller
+    [Authorize(Policy = "AdminOnly")]
+    public class AdminPropertyController : MyBaseController
     {
-        HotelDbContext ctx;
-        public AdminPropertyController(HotelDbContext ctx)
-        {
-            this.ctx = ctx;
-        }
+		public AdminPropertyController(HotelDbContext context) : base(context)
+		{
+		}
 
-        public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index()
         {
-            var properties = await ctx.RoomProperties.ToListAsync();
+            var properties = await _context.RoomProperties.ToListAsync();
 
             return View(properties);
         }
@@ -30,10 +29,10 @@ namespace Hotel.Controllers
         {
             if (ModelState.IsValid)
             {
-                ctx.Entry(pro).State = EntityState.Added;
-                await ctx.SaveChangesAsync();
+                _context.Entry(pro).State = EntityState.Added;
+                await _context.SaveChangesAsync();
 
-                var rooms = await ctx.Rooms.ToListAsync();
+                var rooms = await _context.Rooms.ToListAsync();
                 foreach (var r in rooms)
                 {
                     var prodetail = new RoomPropertyDetail
@@ -44,8 +43,8 @@ namespace Hotel.Controllers
 
                     };
 
-                    ctx.Entry(prodetail).State = EntityState.Added;
-                    await ctx.SaveChangesAsync();
+                    _context.Entry(prodetail).State = EntityState.Added;
+                    await _context.SaveChangesAsync();
 
                 }
                 return RedirectToAction("Index");
@@ -55,17 +54,17 @@ namespace Hotel.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            var pro = await ctx.RoomProperties.FindAsync(id);
+            var pro = await _context.RoomProperties.FindAsync(id);
 
-            ctx.Entry(pro).State = EntityState.Deleted;
-                await ctx.SaveChangesAsync();
+            _context.Entry(pro).State = EntityState.Deleted;
+                await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
 
         }
 
         public async Task<IActionResult> Edit(int id)
         {
-            var type = await ctx.RoomProperties.SingleOrDefaultAsync(a => a.Id == id);
+            var type = await _context.RoomProperties.SingleOrDefaultAsync(a => a.Id == id);
             return View(type);
         }
 
@@ -74,15 +73,15 @@ namespace Hotel.Controllers
         {
             if(ModelState.IsValid) 
             {
-                ctx.Entry(Rtype).State = EntityState.Modified;
-                await ctx.SaveChangesAsync();
+                _context.Entry(Rtype).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
                 return Redirect("Index");
 
             }
 
             else
             {
-                var U = await ctx.RoomProperties.AsNoTracking().SingleOrDefaultAsync(a => a.Id == Rtype.Id);
+                var U = await _context.RoomProperties.AsNoTracking().SingleOrDefaultAsync(a => a.Id == Rtype.Id);
                 if (Rtype.Name == U.Name)
                 {
                     return Redirect("Index");

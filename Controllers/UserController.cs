@@ -8,27 +8,35 @@ using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.CodeAnalysis.Scripting;
 using Hotel.Models;
+using System.Runtime.CompilerServices;
 
 namespace Hotel.Controllers
 {
-    public class UserController : Controller
+  
+    public class UserController : MyBaseController
     {
-        private readonly HotelDbContext _context;
+		public UserController(HotelDbContext context) : base(context)
+		{
+		}
 
-        public UserController(HotelDbContext context)
-        {
-            _context = context;
-        }
-        [Route("login")]
+		[Route("login")]
         [AllowAnonymous]
         public IActionResult Login()
         {
             string? message = TempData["passchange"] as string;
-         
+
             if (message != null)
             {
                 ViewData["ChangePassSuccessed"] = message;
             }
+
+            string? success = TempData["success"] as string;
+
+            if (message != null)
+            {
+                ViewData["success"] = success;
+            }
+
 
             return View("Login");
         }
@@ -62,9 +70,10 @@ namespace Hotel.Controllers
 
                     var claims = new List<Claim>()
                     {
-
                         new Claim(ClaimTypes.NameIdentifier,check.Username),
-                         new Claim("id", check.Id.ToString())
+                         new Claim("id", check.Id.ToString()),
+                         new Claim(ClaimTypes.Role,check.Role)
+
                     };
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     var properties = new AuthenticationProperties()
@@ -78,11 +87,11 @@ namespace Hotel.Controllers
                 }
 
             }
-
             return View("Login");
         }
-
+        
         [Route("logout")]
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
@@ -92,38 +101,46 @@ namespace Hotel.Controllers
 
         [Route("changePassword")]
         [HttpGet]
-
         public IActionResult ChangePassword()
         {
             return View("ChangePassword");
         }
 
-
+        
         [Route("Register")]
-        [AllowAnonymous]
+        [Authorize(Policy = "AdminOnly")]
         public IActionResult Register()
         {
+           
             return View("Register");
         }
-
+        
         [Route("Register")]
-        [AllowAnonymous]
+        [Authorize(Policy = "AdminOnly")]
         [HttpPost]
-        public async Task<IActionResult> Register(string name, string pass)
+        
+        public async Task<IActionResult> Register(RegisterDto info)
         {
-            var data = new User()
+            if (ModelState.IsValid)
             {
-                Username = name,
-                Password = BCrypt.Net.BCrypt.HashPassword(pass)
-            };
-            await _context.AddAsync(data);
-            await _context.SaveChangesAsync();
-            return RedirectToAction("Login");
+                var data = new User()
+                {
+                    Username = info.Name,
+                    Password = BCrypt.Net.BCrypt.HashPassword(info.Pass),
+                    Role = info.Role
+                };
 
+                await _context.AddAsync(data);
+                await _context.SaveChangesAsync();
+                TempData["success"] = "Đăng ký thành công. vui lòng đăng nhập để sử dụng";
+                return RedirectToAction("Login");
+            }
+            return View("Register");
         }
-
+      
         [Route("changePassword")]
         [HttpPost]
+
         public async Task<IActionResult> ChangePassword(PassDto data)
         {
             if (ModelState.IsValid)
@@ -161,15 +178,12 @@ namespace Hotel.Controllers
             }
             return View("ChangePassword");
         }
-
-
-
-
-
+        [AllowAnonymous]
         [Route("unauthozied")]
         public IActionResult UnAuthorize()
         {
             return View("unauthorize");
         }
+
+        }
     }
-}

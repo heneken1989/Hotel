@@ -11,18 +11,18 @@
 
 
 @* banner *@
-@if (Model != null)
+@if (Model.Banners != null)
 {
-    <section class="home-slider owl-carousel" style="height:100vh">
+    <section class="home-slider owl-carousel" style="height:fit-content;margin-top:-25px" >
 
         @foreach (var b in Model.Banners)
         {
             var img = $"~/images/{b.Image}";
-            <div class="slider-item" style="background-image: url('@Url.Content(img)'); background-position:center; background-size:fit; height:600px">
+            <div class="slider-item " style="background-image: url('@Url.Content(img)'); background-position:center; background-position:center;background-size:100%;height:70vh">
                 <div class="overlay"></div>
-                <div class="container">
-                    <div class="row no-gutters slider-text align-items-center justify-content-center">
-                        <div class="col-md-12 ftco-animate text-center">
+                <div class="container" style="height:100%">
+                    <div class="row no-gutters slider-text align-items-start justify-content-center" style="height:100%">
+                        <div class="col-md-12 ftco-animate d-flex align-items-center justify-content-center" style="height:100%">
                             <div class="text mb-5 pb-3">
                                 <h1 class="mb-3">@Html.DisplayFor(i=>b.Title)</h1>
                                 <h2>@Html.DisplayFor(i=>b.Content)</h2>
@@ -35,105 +35,102 @@
     </section>
 }
 
-<section class="section section-intro" id="section_894630452">
-    <div class="bg section-bg fill bg-fill  bg-loaded">
-    </div>
+@if (Model.hotelDatas != null)
+{
+    foreach (var item in Model.hotelDatas.Where(d => d.Type == "Lời chào"))
+    {
+        var img = $"~/images/{item.Url}";
+        @*   start hello *@
+        <section class="section section-intro" style="padding: 30px 0; padding-top:0" id="section_894630452">
+            <div class="bg section-bg fill bg-fill  bg-loaded">
+            </div>
+            <div class="section-content relative">
+                <div class="row row-large row-gioithieu" id="row-1158504080">
+                    <div id="col-1909256363" class="col col-hinhanh pb-0 medium-6 small-12 large-6">
+                        <div class="col-inner">
+                            <div class="banner has-hover" id="banner-126835757">
+                                <div class="banner-inner fill">
+                                    <div class="banner-bg fill">
+                                        <div class="bg fill bg-fill "></div>
+                                        <img src="@Url.Content(img)" />
+                                    </div>
+                                    <div class="banner-layers container">
+                                        <div class="fill banner-link"></div>
+                                        <div id="text-box-988802694" class="text-box banner-layer x100 md-x100 lg-x100 y100 md-y100 lg-y100 res-text">
+                                            <div class="text dark">
 
-    <div class="section-content relative">
+                                                <div class="text-inner text-center">
 
-        <div class="row row-large row-gioithieu" id="row-1158504080">
+                                                    <div class="item-contact">
+                                                        <a href="tel:02854338868">
 
-            <div id="col-1909256363" class="col col-hinhanh pb-0 medium-6 small-12 large-6">
-                <div class="col-inner">
-
-
-
-                    <div class="banner has-hover" id="banner-126835757">
-                        <div class="banner-inner fill">
-                            <div class="banner-bg fill">
-                                <div class="bg fill bg-fill "></div>
-                                <img src="~/images/view.jpg" />
-                            </div>
-                            <div class="banner-layers container">
-                                <div class="fill banner-link"></div>
-                                <div id="text-box-988802694" class="text-box banner-layer x100 md-x100 lg-x100 y100 md-y100 lg-y100 res-text">
-                                    <div class="text dark">
-
-                                        <div class="text-inner text-center">
-
-                                            <div class="item-contact">
-                                                <a href="tel:02854338868">
-                                                    </p>
-                                                    <div>Hotline</div>
-                                                    <div>24/7</div>
-                                                    <p>
-                                                </a>
+                                                            <div>Hotline</div>
+                                                            <div>24/7</div>
+                                                            <p>
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
+                                            <style>
+                                                #text-box-988802694 {
+                                                    width: 50%;
+                                                }
+
+                                                    #text-box-988802694 .text {
+                                                        font-size: 100%;
+                                                    }
+                                            </style>
                                         </div>
                                     </div>
-
-                                    <style>
-                                        #text-box-988802694 {
-                                            width: 50%;
-                                        }
-
-                                            #text-box-988802694 .text {
-                                                font-size: 100%;
-                                            }
-                                    </style>
                                 </div>
+                                <div class="height-fix is-invisible"><img width="1348" height="1034" src="https://unsplash.com/photos/e616t35Vbeg" class="attachment-original size-original" alt="" loading="lazy" srcset="https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1.jpg 1348w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-521x400.jpg 521w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-1043x800.jpg 1043w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-768x589.jpg 768w" sizes="(max-width: 1348px) 100vw, 1348px" /></div>
 
+                                <style>
+                                    #banner-126835757 .bg.bg-loaded {
+                                    }
+                                </style>
                             </div>
                         </div>
+                    </div>
+                    <div id="col-1990368549" class="col pb-0 medium-6 small-12 large-6">
+                        <div class="col-inner">
+                            <div class="box-intro">
+                                <div class="group-title">
+                                    <div class="box-title">
+                                        <div class="sub-title">
+                                            <h3>Chào Mừng Quý Khách Đến  Với</h3>
+                                        </div>
+                                        <div class="title">
+                                            <h2>HÙNG PHÁT Hotel </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p><strong style="text-transform:uppercase">@item.Header</strong></p>
 
-                        <div class="height-fix is-invisible"><img width="1348" height="1034" src="https://unsplash.com/photos/e616t35Vbeg" class="attachment-original size-original" alt="" loading="lazy" srcset="https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1.jpg 1348w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-521x400.jpg 521w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-1043x800.jpg 1043w, https://miahotelvungtau.com/wp-content/uploads/2022/07/DSCF3549-1-768x589.jpg 768w" sizes="(max-width: 1348px) 100vw, 1348px" /></div>
-
-                        <style>
-                            #banner-126835757 .bg.bg-loaded {
-                            }
-                        </style>
+                                    <p>@Html.Raw(item.Content)</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
 
 
-            <div id="col-1990368549" class="col pb-0 medium-6 small-12 large-6">
-                <div class="col-inner">
+
+            <style>
+                #section_894630452 {
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                }
+            </style>
+        </section>
+        @*     end hello *@
+    }
+}
 
 
-                    <div class="box-intro">
-                        <div class="group-title">
-                            <div class="box-title">
-                                <div class="sub-title">
-                                    <h3>Chào Mừng Quý Khách Đến  Với</h3>
-                                </div>
-                                <div class="title">
-                                    <h2>HÙNG PHÁT Hotel </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p><strong>KHÁCH SẠN TỌA LẠC TRÊN CUNG ĐƯỜNG SẦM UẤT NHẤT CỦA THÀNH PHỐ MANG TÊN BÁC </strong></p>
-
-                            <p><strong>HÙNG PHÁT Hotel </strong> mang đến không gian sống và nghỉ dưỡng thanh bình, nơi bạn và gia đình cùng nhau đón ánh bình minh rực rỡ mỗi sớm mai và tận hưởng cuộc sống hạnh phúc giữa lòng thành phố nhộn nhịp</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-
-    <style>
-        #section_894630452 {
-            padding-top: 60px;
-            padding-bottom: 60px;
-        }
-    </style>
-</section>
 
 
 <section class="ftco-section bg-light">
@@ -221,60 +218,52 @@
             </style>
         </div>
 
-        <div class="row service-top" id="row-322719010">
+        @if (Model.hotelDatas.Where(d => d.Type == "Tiện nghi") != null)
+        {
+            var list = Model.hotelDatas.Where(d => d.Type == "Tiện nghi").ToList();
+            for(var i=0; i<list.Count();i++ ){
+                var img = $"~/images/{list[i].Url}";
+                if (i % 2 == 0)
+                {
+                    @* start *@
+                    <div class="row service-top" id="row-322719010">
 
-            <div id="col-27298551" class="col col-dichvu hide-for-small medium-6 small-12 large-6" data-animate="fadeInLeft">
-                <div class="col-inner">
+                        <div id="col-27298551" class="col col-dichvu hide-for-small medium-6 small-12 large-6" data-animate="fadeInLeft">
+                            <div class="col-inner">
 
-
-                    <div class="image-block">
-                        <div class="img1"><img src="~/images/dichvu1.jpg" alt=""></div>
-                        <div class="img2"><img src="~/images/dichvu2.jpg" alt=""></div>
-                        <div class="text1">Phòng Karaoke</div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div id="col-311355405" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
-                <div class="col-inner">
-
-
-                    <div class="content-block">
-                        <div class="title-box">
-                            <div class="sub-title">Dịch vụ</div>
-                            <h2 class="sec-title">Phòng Karaoke giải trí tiêu chuẩn hiện đại</h2>
-                            </p>
+                                <div class="image-block">
+                                    <div class="img1"><img src="~/images/dichvu1.jpg" alt=""></div>
+                                    <div class="img2"><img src="@Url.Content(img)" alt=""></div>
+                                    <div class="text1">HÙNG PHÁT</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="content">
-                            <p>
-                                Hệ thống âm thanh ánh sáng hiện đại bậc nhất, được đầu tư để phục vụ nhu cầu giải trí, tiệc tùng của khách hàng.
-                            </p>
+                        <div id="col-311355405" class="col medium-6 small-12 large-6" data-animate="fadeInRight">
+                            <div class="col-inner">
+                                <div class="content-block">
+                                    <div class="title-box">
+                                        <div class="sub-title">Tiện nghi</div>
+                                        <h2 class="sec-title">@list[i].Header</h2>
+
+                                    </div>
+                                    <div class="content">
+                                        <p>
+                                            @Html.Raw(list[i].Content)
+                                        </p>
+
+                                        <div class="text">
+                                            <h4>Liên hệ lễ tân:<br /><a class="btn2" href="tel:02854338868"><i class="fas fa-phone-alt"></i>02854338868</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="time">Mở cửa : 7.30 am &#8211; 11.00pm</div>
 
                     </div>
-                </div>
-            </div>
-
-
-
-            <div id="col-973768590" class="col col-dichvu show-for-small medium-6 small-12 large-6" data-animate="fadeInLeft">
-                <div class="col-inner">
-
-
-                    <div class="image-block">
-                        <div class="img1"><img src="~/images/dichvu3.jpg" alt=""></div>
-                        <div class="img2"><img src="~/images/dichvu4.jpg" alt=""></div>
-                        <div class="text1">Phòng Karaoke</div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-        <div class="row service-bottom" id="row-1780575493">
+                    @* end *@
+                }else
+                {
+                  <div class="row service-bottom" id="row-1780575493">
 
             <div id="col-974914177" class="col col-dichvu pb-0 medium-5 small-12 large-5" data-animate="fadeInLeft">
                 <div class="col-inner">
@@ -282,13 +271,13 @@
 
                     <div class="content-block">
                         <div class="title-box">
-                            <div class="sub-title">bếp &#8211; phòng ăn</div>
+                            <div class="sub-title">Tiện nghi</div>
                             <h2 class="sec-title">
-                                Hệ thống bếp, phòng ăn đầy đủ tiện nghiiii
+                               @list[i].Header
                             </h2>
-                            </p>
+                            
                         </div>
-                        <div class="content">Mang lại trải nghiệm thân thuộc như chính ngôi nhà của bạn</div>
+                        <div class="content">@Html.Raw(list[i].Content)</div>
                         <div class="text">
                             <h4>Liên hệ lễ tân:<br /><a class="btn2" href="tel:02854338868"><i class="fas fa-phone-alt"></i>02854338868</a></h4>
                         </div>
@@ -311,7 +300,15 @@
             </div>
 
 
-        </div>
+        </div>   
+                }
+          
+            }
+        }
+
+
+       
+
     </div>
 
 

@@ -1,5 +1,6 @@
 ﻿using Hotel.Data;
 using Hotel.Dtos;
+using Hotel.Filters;
 using Hotel.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,26 +12,25 @@ using System.Diagnostics;
 namespace Hotel.Controllers
 {
     [AllowAnonymous]
-    public class HomeController : Controller
+   
+	
+	public class HomeController : MyBaseController
     {
-        private readonly ILogger<HomeController> _logger;
-        private readonly HotelDbContext _context;
-
-        public HomeController(ILogger<HomeController> logger, HotelDbContext context)
-        {
-            _logger = logger;
-            _context = context;
-        }
-
-        public async Task<IActionResult> Index()
+		public HomeController(HotelDbContext context) : base(context)
+		{
+		}
+       
+		public async Task<IActionResult> Index()
         {
             var banner = await _context.Banners.ToListAsync();
 
             var rooms = await _context.Rooms
                 .Include(r => r.RoomType)
                 .Include(r => r.Images)
-                .Include(r => r.Details)
+                .Include(r => r.Details).OrderBy(d=>d.UpdatedDate)
                 .ToListAsync();
+
+            var hotel= await _context.hotelDatas.ToListAsync();
 
             foreach (var data in rooms)
             {
@@ -46,6 +46,7 @@ namespace Hotel.Controllers
             {
                 Banners = banner,
                 Rooms = rooms,
+                hotelDatas= hotel
             });
 
         }

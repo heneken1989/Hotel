@@ -46,6 +46,7 @@
                 <th class="text-center">
                Loại Phòng
             </th>
+                <th class="text-center">Description</th>
             <th class="text-center">Action</th>
         </tr>
     </thead>
@@ -56,6 +57,9 @@
                     <td class="text-center">
                     @Html.DisplayFor(modelItem => item.Type)
                 </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
                     <td class="text-center">
                     <a asp-action="Edit" asp-route-id="@item.Id" role="button" class="btn btn-info">Chỉnh Sửa</a> |
 

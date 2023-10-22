@@ -7,17 +7,16 @@ using Microsoft.EntityFrameworkCore;
 namespace Hotel.Controllers
 {
     [Route("admin/RoomUnity/{action}")]
-    [AllowAnonymous]
-    public class AdminRoomUnityController : Controller
+    [Authorize(Policy = "AdminOnly")]
+    public class AdminRoomUnityController : MyBaseController
     {
-        HotelDbContext ctx;
-        public AdminRoomUnityController(HotelDbContext ctx)
-        {
-            this.ctx = ctx; 
-        }
+		public AdminRoomUnityController(HotelDbContext context) : base(context)
+		{
+		}
+
 		public async Task<IActionResult> Index()
 		{
-			var types = await ctx.RoomUnities.ToListAsync();
+			var types = await _context.RoomUnities.ToListAsync();
 
 			return View(types);
 		}
@@ -33,8 +32,8 @@ namespace Hotel.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				ctx.Entry(unity).State = EntityState.Added;
-				await ctx.SaveChangesAsync();
+				_context.Entry(unity).State = EntityState.Added;
+				await _context.SaveChangesAsync();
 				return RedirectToAction("Index");
 			}
 			else
@@ -45,18 +44,18 @@ namespace Hotel.Controllers
 
 		public async Task<IActionResult> Delete(int id)
 		{
-			var uni = await ctx.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
+			var uni = await _context.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
 
 			Console.WriteLine($"Uniiiiiiiiiiiiiiiiiiiiii:{uni}");
-			ctx.Entry(uni).State = EntityState.Deleted;
-			await ctx.SaveChangesAsync();
+			_context.Entry(uni).State = EntityState.Deleted;
+			await _context.SaveChangesAsync();
 			return RedirectToAction("Index");
 		}
 
 		public async Task<IActionResult> Edit(int id)
 		{
 
-			var uni = await ctx.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
+			var uni = await _context.RoomUnities.SingleOrDefaultAsync(a=>a.Id ==id);
 			return View(uni);
 		}
 
@@ -65,14 +64,14 @@ namespace Hotel.Controllers
 		{
 			if (ModelState.IsValid)
             {
-                ctx.Entry(unity).State = EntityState.Modified;
-                await ctx.SaveChangesAsync();
+                _context.Entry(unity).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
                 return Redirect("Index");
 
             }
 			else
 			{
-				var U = await ctx.RoomUnities.AsNoTracking().SingleOrDefaultAsync(a => a.Id == unity.Id);
+				var U = await _context.RoomUnities.AsNoTracking().SingleOrDefaultAsync(a => a.Id == unity.Id);
 				if (unity.Name == U.Name)
 				{
 					return Redirect("Index");

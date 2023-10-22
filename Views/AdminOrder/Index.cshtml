@@ -39,6 +39,7 @@
                
                 <th class="text-center">Loại phòng</th>
                 <th class="text-center">Message</th>
+                <th class="text-center">Loại Order</th>
                 <th class="text-center">Ngày Order</th>
                 <th class="text-center">Hành động</th>
 
@@ -54,6 +55,7 @@
                       
                         <td class="text-center @isView">@Html.DisplayFor(a=>item.RoomType)</td>
                         <td class="text-center @isView">@Html.DisplayFor(a=>item.Message)</td>
+                        <td class="text-center @isView">@Html.DisplayFor(a=>item.Type)</td>
                         <td class="text-center @isView">@Html.DisplayFor(a=>item.Date)</td>
                         <td onClick="showDetail('@item.OrderId','@item.Name','@item.Phone','@item.CheckInDate')"
                             class="text-center h6 @isView" data-toggle="modal" data-target="#exampleModal" style="cursor:pointer">

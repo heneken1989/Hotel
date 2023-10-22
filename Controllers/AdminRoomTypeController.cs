@@ -8,20 +8,17 @@ namespace Hotel.Controllers
 
 {
     [Route("admin/RoomType/{action}")]
-    [AllowAnonymous]
-   
-    public class AdminRoomTypeController : Controller
-    {
-        HotelDbContext ctx;
-        public AdminRoomTypeController(HotelDbContext ctx)
-        {
-            this.ctx = ctx; 
-        }
-       
+    [Authorize(Policy = "AdminOnly")]
 
-        public async Task<IActionResult> Index()
+    public class AdminRoomTypeController : MyBaseController
+    {
+		public AdminRoomTypeController(HotelDbContext context) : base(context)
+		{
+		}
+
+		public async Task<IActionResult> Index()
         {
-            var types = await ctx.RoomTypes.ToListAsync();
+            var types = await _context.RoomTypes.ToListAsync();
 
             return View(types);
         }
@@ -37,8 +34,8 @@ namespace Hotel.Controllers
         {
             if(ModelState.IsValid) 
             {
-                ctx.Entry<RoomType>(room).State = EntityState.Added;
-                await ctx.SaveChangesAsync();
+                _context.Entry<RoomType>(room).State = EntityState.Added;
+                await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             else
@@ -51,14 +48,14 @@ namespace Hotel.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            var type = await ctx.RoomTypes.SingleOrDefaultAsync(a => a.Id == id);
-            var room = await ctx.Rooms
+            var type = await _context.RoomTypes.SingleOrDefaultAsync(a => a.Id == id);
+            var room = await _context.Rooms
                 .Where(r=>r.RoomType.Id == id)
                 .ToListAsync();
             if(room.Count==0)
             {
-                ctx.Entry(type!).State = EntityState.Deleted;
-                await ctx.SaveChangesAsync();
+                _context.Entry(type!).State = EntityState.Deleted;
+                await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             else
@@ -71,31 +68,26 @@ namespace Hotel.Controllers
 
         public async Task<IActionResult> Edit(int id)
         {
-            var type = await ctx.RoomTypes.SingleOrDefaultAsync(a => a.Id == id);
+            var type = await _context.RoomTypes.SingleOrDefaultAsync(a => a.Id == id);
             return View(type);
         }
 
         [HttpPost]
         public async Task<IActionResult> Edit(RoomType Rtype)
         {
-            if(ModelState.IsValid) 
+           
+            if (ModelState.IsValid) 
             {
-                ctx.Entry(Rtype).State = EntityState.Modified;
-                await ctx.SaveChangesAsync();
+
+               var data= await _context.RoomTypes.FindAsync(Rtype.Id);
+                data.Description = Rtype.Description;
+                data.Type = Rtype.Type;
+                await _context.SaveChangesAsync();
                 return Redirect("Index");
 
             }
-   
-             else
-            {
-                var U = await ctx.RoomTypes.AsNoTracking().SingleOrDefaultAsync(a => a.Id == Rtype.Id);
-                if (Rtype.Type == U.Type)
-                {
-                    return Redirect("Index");
 
-                }
-                return View(Rtype);
-            }
+            return RedirectToAction("Edit", new { id=Rtype.Id});
 
         }
 
