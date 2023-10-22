@@ -33,8 +33,10 @@ namespace Hotel.Controllers
             }
             var data=await _context.Images.ToListAsync();
             foreach(var i in data)
+
             {
-                var check =await _context.RoomTypes.Where(r => r.Id == i.RoomId).FirstOrDefaultAsync();
+                var id=_context.Rooms.Where(r=>r.Id==i.RoomId).FirstOrDefault();
+                var check = _context.RoomTypes.Where(r => r.Id == id.RoomTypeID).FirstOrDefault();
                 i.RoomType = check.Type;
             }
             return View(data);

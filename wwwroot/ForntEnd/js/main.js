@@ -151,7 +151,7 @@
 			// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
 			$this.find('.dropdown-menu').removeClass('show');
 		// }, 100);
-	}); text - primary
+	});
 	//check active
 	let removeClassActive = () => {
 		$('.home-c').removeClass("active")
@@ -160,8 +160,8 @@
 
 	}
 	let checkActive = () => {
-		let admin = window.location.pathname.split("/")[1];
-		switch (admin.toLowerCase()) {
+		let adminCheck = window.location.pathname.split("/")[1];
+		switch (adminCheck.toLowerCase()) {
 			case "":
 				removeClassActive()
 				$('.home-c').addClass("active")

@@ -7,7 +7,7 @@
 
 <form asp-action="Edit" method="post" enctype="multipart/form-data">
 
-    <h4>Property</h4>
+    <h4>Chỉnh sửa thông tin phòng</h4>
     <input hidden asp-for="Id" />
     @for (int i = 0; i < @ViewBag.RoomPropertyList.Items.Count; i++)
     {
