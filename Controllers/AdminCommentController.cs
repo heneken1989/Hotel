@@ -41,7 +41,7 @@ namespace Hotel.Controllers
                 .ToListAsync();
             foreach(var c in data)
             {
-                var x = await _context.Rooms.Include(d => d.RoomType).FirstOrDefaultAsync();
+               var x = _context.Rooms.Include(d => d.RoomType).Where(r => r.Id == c.RoomId).FirstOrDefault();
                 c.RoomType = x.RoomType.Type;
             }
             return View(data);
@@ -76,7 +76,7 @@ namespace Hotel.Controllers
                         Content = data.Content,
                         avatar = image,
                         RoomId = data.RoomId,
-                        start = data.start
+                         start = data.start>5?5:data.start
 
                     };
                     await _context.AddAsync(item);
