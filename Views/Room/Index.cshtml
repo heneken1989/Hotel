@@ -9,7 +9,7 @@
 			<div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
 				<div class="text">
 
-					<h1 class="mb-4 bread">Rooms</h1>
+					<h1 class="mb-4 bread">Danh sách phòng</h1>
 				</div>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
                                             </div>
                                         }
 
-                                        <h2 class="mb-3"><a href="/SingleRoom" style="font-size: 35px; font-weight: bold">@r.RoomType.Type</a></h2>
+                                        <h2 class="mb-3"><a asp-controller="SingleRoom" asp-action="Index" asp-route-id="@r.Id" style="font-size: 35px; font-weight: bold">@r.RoomType.Type</a></h2>
 
                                         @* Price *@
 
@@ -53,12 +53,12 @@
                                         {
                                             foreach (var pro in Model.ListProperty)
                                             {
-                                                if (pro.Name == "Giá Phòng")
+                                                if (pro.Name.Contains("giá"))
                                                 {
                                                     foreach (var de in pro.Details)
                                                         if (@de.RoomId == r.Id)
                                                         {
-                                                            <p><span class="price mr-2">@de.Detail</span><span class="per"></span></p>
+                                                            <p style="font-size:18px"><span class=" mr-2" style="font-size:18px">@pro.Name: </span><span class="per price" style="font-size:20px"> @de.Detail</span></p>
                                                         }
                                                 }
                                             }
@@ -66,7 +66,7 @@
                                             <div class="d-flex align-items-start flex-column">
                                                 @foreach (var pro in Model.ListProperty)
                                                 {
-                                                    if (pro.Name != "Giá Phòng")
+                                                    if (!pro.Name.Contains("giá"))
                                                     {
                                                         foreach (var de in pro.Details)
                                                         {

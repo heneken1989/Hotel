@@ -2942,11 +2942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CODE\\dotnet2\\ssl\\Hotel\\Hotel\\Hotel.csproj",
+      "projectUniqueName": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
       "projectName": "Hotel",
-      "projectPath": "E:\\CODE\\dotnet2\\ssl\\Hotel\\Hotel\\Hotel.csproj",
+      "projectPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\Hotel.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "E:\\CODE\\dotnet2\\ssl\\Hotel\\Hotel\\obj\\",
+      "outputPath": "E:\\CODE\\dotnet2\\New folder\\Hotel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
