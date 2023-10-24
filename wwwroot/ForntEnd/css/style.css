@@ -5,37 +5,40 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+.owl-carousel.home-slider{
+    margin-top:-25px;
+}
 
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #78d5ef;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #78d5ef;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
 *,
 *::before,
@@ -457,12 +460,15 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
+
+
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -1520,6 +1526,11 @@ pre {
       border: 0; } }
 
 @media (max-width: 767.98px) {
+    .banner-bg-home {
+        margin-bottom:-15vh;
+        margin-top:-15vh;
+        background-color:white;
+    }
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -7567,8 +7578,13 @@ h1, h2, h3, h4, h5,
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
+      
+
+        
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
+
+         
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
         top: 0;
@@ -7674,9 +7690,16 @@ h1, h2, h3, h4, h5,
       bottom: 40px;
       width: 100%;
       text-align: center; }
+
       @media (max-width: 767.98px) {
         .owl-carousel.home-slider .owl-dots {
-          bottom: 5px; } }
+          bottom: 5px; }
+        .owl-carousel.home-slider{
+            margin-bottom:-20vh;
+            margin-top:-20vh !important;
+            background-color:white;
+        }
+      }
       .owl-carousel.home-slider .owl-dots .owl-dot {
         width: 10px;
         height: 10px;
@@ -9112,5 +9135,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
 
 

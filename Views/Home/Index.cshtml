@@ -2,6 +2,7 @@
 @model Hotel.Dtos.HomeDto
 
 
+
 @* intro *@
 <link rel="stylesheet" href="~/ForntEnd/css/mia1.css" type='text/css' media='all' rel='stylesheet' id='flatsome-main-css'>
 <link rel="stylesheet" href="~/ForntEnd/css/mia2.css" type='text/css' media='all' rel='stylesheet' id='flatsome-main-css'>
@@ -13,7 +14,10 @@
 @* banner *@
 @if (Model.Banners != null)
 {
-    <section class="home-slider owl-carousel" style="height:fit-content;margin-top:-25px" >
+
+
+
+    <section class="home-slider owl-carousel banner-bg-home" style="height:fit-content;" >
 
         @foreach (var b in Model.Banners)
         {
@@ -33,6 +37,7 @@
             </div>
         }
     </section>
+
 }
 
 @if (Model.hotelDatas != null)
